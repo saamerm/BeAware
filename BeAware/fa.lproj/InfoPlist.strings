@@ -1,0 +1,12 @@
+/*
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
+
+"NSMicrophoneUsageDescription" = "میکروفون شما برای ضبط سخنرانی شما هنگامی که دکمه «ضبط شروع» را فشار می دهید استفاده می شود.";
+"NSSpeechRecognitionUsageDescription" = "از ویژگی گفتار برای تبدیل صدا به متن استفاده کنید";
+"CFBundleName" = "آگاه بودن BeAware";
+"CFBundleDisplayName" = "آگاه بودن BeAware";

@@ -1,4 +1,11 @@
+/* 
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
 "NSMicrophoneUsageDescription" = "Your microphone will be used to record your speech when you press the 'Start Recording' button.";
 "NSSpeechRecognitionUsageDescription" = "Use the speech feature to convert voice to text";
-"CFBundleName" = "BeAware d/Deaf Assistant";
-"CFBundleDisplayName" = "BeAware The d/Deaf Assistant";
+"CFBundleName" = "Być świadomym BeAware";
+"CFBundleDisplayName" = "Być świadomym BeAware";

@@ -1,0 +1,11 @@
+/*
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
+"NSMicrophoneUsageDescription" = "Microfonul dvs. va fi folosit pentru a înregistra discursul dvs. când apăsați butonul 'Start înregistrare'.";
+"NSSpeechRecognitionUsageDescription" = "Utilizați caracteristica de vorbire pentru a converti vocea la text";
+"CFBundleName" = "Fi conștient BeAware";
+"CFBundleDisplayName" = "Fi conștient BeAware";

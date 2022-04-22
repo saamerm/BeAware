@@ -1,4 +1,4 @@
-"Be Aware" = "محطاط رہو-BeAware";
+"BeAware" = "محطاط رہو-BeAware";
 "The Deaf Assistant" = "بہرے اسسٹنٹ";
 "Use the speech feature to convert voice to text" = "آواز کو متن میں تبدیل کرنے کے لئے تقریر کی خصوصیت کا استعمال کریں";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "جب آپ 'شروع ریکارڈنگ' کے بٹن کو دبائیں تو آپ کا مائیکروفون آپ کی تقریر کو ریکارڈ کرنے کے لئے استعمال کیا جائے گا.";
@@ -10,7 +10,7 @@
 "10s" = "10s.";
 "Noise Threshold" = "شور کی حد";
 "seconds" = "سیکنڈ";
-"60db" = "60 ڈی بی";
+" db" = " ڈی بی";
 "Start Noise Alert" = "شور انتباہ شروع کرو";
 "Stop Noise Alert" = "شور انتباہ بند کرو";
 "Mark alerts as critical" = "مارک الرٹ کے طور پر اہم";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "ڈاؤن لوڈ، لطف اندوز، استعمال، اشتراک";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "ہیلو، میں نے آپ کے ایپ کو ڈاؤن لوڈ کیا اور میں مندرجہ ذیل رائے فراہم کرنا چاہتا ہوں:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "ہیلو! میں نے آئی فونز کے لئے  بہرے اسسٹنٹ کو ڈاؤن لوڈ کیا اور مجھے واقعی لگتا ہے کہ آپ اسے چیک کرنا چاہئے. یہ عوام کو ابھی تک جاری نہیں کیا گیا ہے، لہذا آپ یہاں ایک خاص مفت ورژن انسٹال کر سکتے ہیں: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "ہیلو! میں نے آئی فونز کے لئے  بہرے اسسٹنٹ کو ڈاؤن لوڈ کیا اور مجھے واقعی لگتا ہے کہ آپ اسے چیک کرنا چاہئے. یہ عوام کو ابھی تک جاری نہیں کیا گیا ہے، لہذا آپ یہاں ایک خاص مفت ورژن انسٹال کر سکتے ہیں: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "کیا آپ یہ اپلی کیشن پسند کرتے ہیں؟";
+
+"Yes" = "جی ہاں";
+"Not" = "نہیں";
+"Rate The App" = "اپلی کیشن کی شرح";
+"Noise alert notification" = "شور انتباہ کی اطلاع";
+"The noise is loud at " = "شور 60 ڈی بی پر بلند آواز ہے";
+"By tapping Continue, you agree to our privacy policy" = "جاری رکھنے کی طرف سے، آپ ہماری رازداری کی پالیسی سے اتفاق کرتے ہیں";
+"By tapping Continue, you agree to our" = "جاری رکھنے کی طرف سے، آپ ہمارے ساتھ اتفاق کرتے ہیں";
+"Privacy Policy" = "پرائیویسی پالیسی";
+"PRIVACY POLICY" = "پرائیویسی پالیسی";
+"" = "";
+"Noise Alert" = "انتباہ";
+"On" = "فعال";
+"Stopped" = "روکا";
+"Transcribing" = "ٹرانسمیشن";

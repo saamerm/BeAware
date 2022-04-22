@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
+"NSMicrophoneUsageDescription" = "[録音の開始]ボタンを押すと、マイクを使用してスピーチを記録します。";
+"NSSpeechRecognitionUsageDescription" = "音声をテキストに変換するために音声機能を使用してください";
+"CFBundleName" = "気になる BeAware";
+"CFBundleDisplayName" = "気になる BeAware";

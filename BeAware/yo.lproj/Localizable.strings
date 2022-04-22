@@ -1,4 +1,4 @@
-"Be Aware" = "Jẹ mọ-BeAware";
+"BeAware" = "Jẹ mọ-BeAware";
 "The Deaf Assistant" = "Iwe-aṣẹ Arki";
 "Use the speech feature to convert voice to text" = "Lo ẹya ọrọ-ọrọ lati ṣe iyipada ohun si ọrọ";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Gbogbogbo rẹ yoo ṣee lo lati gbasilẹ ọrọ rẹ nigbati o tẹ bọtini 'Bẹrẹ silẹ.";
@@ -10,7 +10,7 @@
 "10s" = "10s";
 "Noise Threshold" = "Ariwo alate";
 "seconds" = "Awọn aaya";
-"60db" = "60DB";
+" db" = " db";
 "Start Noise Alert" = "Bẹrẹ itaniji ariwo";
 "Stop Noise Alert" = "Da itaniji ariwo";
 "Mark alerts as critical" = "Samisi awọn itaniji bi pataki";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "Ṣe igbasilẹ, gbadun, lo, pin";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "Bawo, Mo gbasilẹ app rẹ ati pe Emi yoo fẹ lati pese esi atẹle:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Bawo! Mo ṣe igbasilẹ beach- oluranlọwọ adie fun awọn iPhones ati pe Mo ro looto o yẹ ki o ṣayẹwo. Ko ti tu silẹ si ita sibẹsibẹ, nitorinaa o le fi ẹya pataki si ẹya pataki nipasẹ nibi: HTTPS://testflight.aple.com/join/3Extejpz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Bawo! Mo ṣe igbasilẹ beach- oluranlọwọ adie fun awọn iPhones ati pe Mo ro looto o yẹ ki o ṣayẹwo. Ko ti tu silẹ si ita sibẹsibẹ, nitorinaa o le fi ẹya pataki si ẹya pataki nipasẹ nibi: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Ṣe o fẹran app yii?";
+
+"Yes" = "Bẹẹni";
+"Not" = "Kii ṣe";
+"Rate The App" = "Ṣe oṣuwọn Ohun elo naa";
+"Noise alert notification" = "Iwifunni itaniji";
+"The noise is loud at " = "Ariwo naa n pariwo ni ";
+"By tapping Continue, you agree to our privacy policy" = "Nipa titẹ sii tẹsiwaju, o gba si eto imulo ipamọ wa";
+"By tapping Continue, you agree to our" = "Nipa titẹ sii tẹsiwaju, o gba si wa";
+"Privacy Policy" = "Eto imulo ipamọ";
+"PRIVACY POLICY" = "Eto imulo ipamọ";
+
+"Noise Alert" = "Itaniji";
+"On" = "Alaapọn";
+"Stopped" = "Duro";
+"Transcribing" = "Ranctibing";

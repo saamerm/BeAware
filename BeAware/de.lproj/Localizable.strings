@@ -1,4 +1,4 @@
-"Be Aware" = "SeiVorsichtig-BeAware";
+"BeAware" = "SeiVorsichtig-BeAware";
 "The Deaf Assistant" = "Der gehörlose Assistent";
 "Use the speech feature to convert voice to text" = "Verwenden Sie die Sprachfunktion, um Stimme in Text umzuwandeln";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Ihr Mikrofon wird verwendet, um Ihre Sprache aufzunehmen, wenn Sie die Taste 'Start aufnehmen' drücken.";
@@ -10,7 +10,7 @@
 "10s" = "10s";
 "Noise Threshold" = "Geräuschschwelle";
 "seconds" = "Sekunden";
-"60db" = "60db";
+" db" = " db";
 "Start Noise Alert" = "Rauschen aufnehmen Alarm";
 "Stop Noise Alert" = "Stoppen Sie die Rauschalarmung";
 "Mark alerts as critical" = "Markieren Sie Alarme als kritisch";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "Herunterladen, genießen, nutzen, teilen";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "Hallo, ich habe Ihre App heruntergeladen und ich möchte das folgende Feedback geben:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Hallo! Ich habe Beaware heruntergeladen, der Gehörlose Assistent für iPhones und ich glaube wirklich, dass Sie es überprüfen sollten. Es wurde noch nicht der Öffentlichkeit freigegeben, sodass Sie hier eine spezielle kostenlose Version installieren können: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Hallo! Ich habe Beaware heruntergeladen, der Gehörlose Assistent für iPhones und ich glaube wirklich, dass Sie es überprüfen sollten. Es wurde noch nicht der Öffentlichkeit freigegeben, sodass Sie hier eine spezielle kostenlose Version installieren können: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Magst du diese App?";
+
+"Yes" = "Ja";
+"Not" = "Nicht";
+"Rate The App" = "Bewerten Sie die App.";
+"Noise alert notification" = "Noise Alert Benachrichtigung";
+"The noise is loud at " = "Das Rauschen ist laut 60 dB laut";
+"By tapping Continue, you agree to our privacy policy" = "Wenn Sie fortfahren, stimmen Sie unserer Datenschutzerklärung zu";
+"By tapping Continue, you agree to our" = "Wenn Sie fortfahren, stimmen Sie uns zu";
+"Privacy Policy" = "Datenschutz-Bestimmungen";
+"PRIVACY POLICY" = "DATENSCHUTZ-BESTIMMUNGEN";
+
+"Noise Alert" = "Alarm";
+"On" = "Aktiv";
+"Stopped" = "Gestoppt";
+"Transcribing" = "Transkribieren.";

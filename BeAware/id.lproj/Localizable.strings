@@ -1,4 +1,4 @@
-"Be Aware" = "Waspadalah-BeAware";
+"BeAware" = "Waspadalah-BeAware";
 "The Deaf Assistant" = "Asisten Tuli";
 "Use the speech feature to convert voice to text" = "Gunakan fitur pidato untuk mengkonversi suara ke teks";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Mikrofon Anda akan digunakan untuk merekam pidato Anda ketika Anda menekan tombol 'Mulai Rekaman'.";
@@ -10,7 +10,7 @@
 "10s" = "10s.";
 "Noise Threshold" = "Ambang kebisingan";
 "seconds" = "detik";
-"60db" = "60db.";
+" db" = "db.";
 "Start Noise Alert" = "Mulai Peringatan Kebisingan";
 "Stop Noise Alert" = "Menghentikan peringatan kebisingan";
 "Mark alerts as critical" = "Tandai peringatan sebagai kritis";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "Unduh, nikmati, manfaatkan, bagikan";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "Hai, saya mengunduh aplikasi Anda dan saya ingin memberikan umpan balik berikut:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Hai! Saya mengunduh Waspadalah-BeAware - assistant tuna rungu untuk iPhone dan saya benar-benar berpikir Anda harus memeriksanya. Belum dirilis ke publik, sehingga Anda dapat memasang versi gratis khusus melalui sini: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Hai! Saya mengunduh Waspadalah-BeAware - assistant tuna rungu untuk iPhone dan saya benar-benar berpikir Anda harus memeriksanya. Belum dirilis ke publik, sehingga Anda dapat memasang versi gratis khusus melalui sini: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Apakah Anda suka aplikasi ini?";
+
+"Yes" = "Ya";
+"Not" = "Bukan";
+"Rate The App" = "Nilai aplikasi";
+"Noise alert notification" = "Notifikasi peringatan kebisingan";
+"The noise is loud at " = "Suara itu keras pada ";
+"By tapping Continue, you agree to our privacy policy" = "Dengan mengetuk terus, Anda menyetujui kebijakan privasi kami";
+"By tapping Continue, you agree to our" = "Dengan mengetuk terus, Anda menyetujui";
+"Privacy Policy" = "Kebijakan pribadi";
+"PRIVACY POLICY" = "KEBIJAKAN PRIBADI";
+
+"Noise Alert" = "Peringatan";
+"On" = "Aktif";
+"Stopped" = "Berhenti";
+"Transcribing" = "Transkrip";

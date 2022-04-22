@@ -115,7 +115,7 @@ struct SpeechView : View {
                         print("Pressed")
                         if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                     }),
-                    secondaryButton: .destructive(Text("No"))
+                    secondaryButton: .destructive(Text("Not"))
                 )
             })
             .toolbar{

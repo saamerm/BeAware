@@ -1,4 +1,4 @@
-"Be Aware" = "Consapevole-BeAware";
+"BeAware" = "Consapevole-BeAware";
 "The Deaf Assistant" = "L'assistente sordo";
 "Use the speech feature to convert voice to text" = "Utilizzare la funzione vocale per convertire la voce in testo";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Il tuo microfono verrà utilizzato per registrare il tuo discorso quando si preme il pulsante 'Avvia registrazione'.";
@@ -10,7 +10,7 @@
 "10s" = "10s.";
 "Noise Threshold" = "Soglia di rumore";
 "seconds" = "secondi";
-"60db" = "60db.";
+" db" = "db.";
 "Start Noise Alert" = "Avviare il disturbo del rumore";
 "Stop Noise Alert" = "Interrompi il rumore di avviso";
 "Mark alerts as critical" = "Mark Avvicinamento come critico";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "Scarica, divertiti, Utilize, Condividi";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "Ciao, ho scaricato la tua app e vorrei fornire il seguente feedback:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Ciao! Ho scaricato Consapevole-BeAware, l'assistente sordo per iPhone e penso davvero che dovresti controllarlo. Non è stato ancora rilasciato al pubblico, quindi è possibile installare una versione gratuita speciale tra qui: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Ciao! Ho scaricato Consapevole-BeAware, l'assistente sordo per iPhone e penso davvero che dovresti controllarlo. Non è stato ancora rilasciato al pubblico, quindi è possibile installare una versione gratuita speciale tra qui: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Ti piace questa app?";
+
+"Yes" = "sì";
+"Not" = "Non";
+"Rate The App" = "Vota l'app.";
+"Noise alert notification" = "Notifica del disturbo del rumore";
+"The noise is loud at " = "Il rumore è rumoroso a ";
+"By tapping Continue, you agree to our privacy policy" = "Toccando continua, accetti la nostra politica sulla privacy";
+"By tapping Continue, you agree to our" = "Toccando continua, accetti il ​​nostro";
+"Privacy Policy" = "politica sulla riservatezza";
+"PRIVACY POLICY" = "POLITICA SULLA RISERVATEZZA";
+
+"Noise Alert" = "Mettere in guardia";
+"On" = "Attivo";
+"Stopped" = "Fermato";
+"Transcribing" = "Trascrizione";

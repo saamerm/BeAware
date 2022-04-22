@@ -67,9 +67,10 @@ struct IntroductionView: View {
                                     .foregroundColor(Color("SecondaryColor"))
                             }
                         }.padding()
-                        Text("By tapping Continue, you agree to our \(Text("privacy policy").underline())")
+                        Text("\(Text(NSLocalizedString("By tapping Continue, you agree to our", comment: "By tapping Continue, you agree to our"))) \(Text("Privacy Policy").underline())")
                             .font(Font.custom("Avenir", size: 18))
                             .foregroundColor(Color("SecondaryColor"))
+                            .padding(.horizontal)
                             .onTapGesture {
                                 openURL(URL(string: "https://www.deafassistant.com/privacy-policy.html")!)
                             }

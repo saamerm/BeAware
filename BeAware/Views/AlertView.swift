@@ -63,7 +63,7 @@ struct AlertView : View {
                                     .foregroundColor(Color("SecondaryColor"))
                             }
                             .padding(.horizontal)
-                            Text(String(describing: Int(noiseThreshold) + 60) + " dB")
+                            Text(String(describing: Int(noiseThreshold) + 60) + NSLocalizedString(" db", comment: " db"))
                                 .font(Font.custom("Avenir", size: 20))
                                 .fontWeight(.heavy)
                                 .foregroundColor(Color("SecondaryColor"))
@@ -166,7 +166,7 @@ struct AlertView : View {
                         print("Pressed")
                         if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                     }),
-                    secondaryButton: .destructive(Text("No"))
+                    secondaryButton: .destructive(Text("Not"))
                 )
             })
             .toolbar{
@@ -212,8 +212,8 @@ struct AlertView : View {
             
             
             let content = UNMutableNotificationContent()
-            content.title = "Noise alert notification"
-            content.body = "The noise is loud at " + String(describing: Int(peak.rounded())) + "dB"
+            content.title = NSLocalizedString("Noise alert notification", comment: "Noise alert notification")
+            content.body = NSLocalizedString("The noise is loud at ", comment: "The noise is loud at ") + String(describing: Int(peak.rounded())) + NSLocalizedString(" db", comment: " db")
             if isCritical{
                 toggleTorch(on: true)
                 content.sound = .defaultCritical

@@ -1,4 +1,4 @@
-"Be Aware" = "كن حذرا-BeAware";
+"BeAware" = "كن حذرا-BeAware";
 "The Deaf Assistant" = "مساعد الصم";
 "Use the speech feature to convert voice to text" = "استخدم ميزة الكلام لتحويل الصوت إلى النص";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "سيتم استخدام ميكروفونك لتسجيل خطابك عند الضغط على زر بدء التسجيل.";
@@ -10,7 +10,7 @@
 "10s" = "10s.";
 "Noise Threshold" = "عتبة الضجيج";
 "seconds" = "ثانية";
-"60db" = "60db.";
+" db" = "db.";
 "Start Noise Alert" = "اضغط لبدء تنبيه الضجيج";
 "Stop Noise Alert" = "اضغط لإيقاف تنبيه الضجيج";
 "Mark alerts as critical" = "وضع علامة تنبيهات";
@@ -90,5 +90,20 @@
 "Download, Enjoy, Utilise, Share" = "تحميل، استمتع، الاستفادة، مشاركة";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "مرحبا، قمت بتنزيل تطبيقك وأود تقديم ملاحظات التالية:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "أهلا! قمت بتنزيل Beaware - مساعد الصم لأجهزة iPhone وأعتقد حقا أنه يجب عليك التحقق من ذلك. لم يتم إصداره للجمهور بعد، حتى تتمكن من تثبيت نسخة مجانية خاصة من خلال هنا: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "أهلا! قمت بتنزيل Beaware - مساعد الصم لأجهزة iPhone وأعتقد حقا أنه يجب عليك التحقق من ذلك. لم يتم إصداره للجمهور بعد، حتى تتمكن من تثبيت نسخة مجانية خاصة من خلال هنا: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "هل مثل هذا التطبيق؟";
+
+"Yes" = "نعم";
+"Not" = "لا";
+"Rate The App" = "قيم التطبيق";
+"Noise alert notification" = "إشعار الضوضاء التنبيه";
+"The noise is loud at " = "الضجيج عال في ";
+"By tapping Continue, you agree to our privacy policy" = "من خلال الاستمرار، فإنك توافق على سياسة الخصوصية الخاصة بنا";
+"By tapping Continue, you agree to our" = "عن طريق النقر متابعة، أنت توافق على لدينا";
+"Privacy Policy" = "سياسة الخصوصية";
+"PRIVACY POLICY" = "سياسة خاصة";
+
+"Noise Alert" = "يُحذًِر";
+"On" = "نشيط";
+"Stopped" = "توقفت";
+"Transcribing" = "النسخ";

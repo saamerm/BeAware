@@ -1,4 +1,4 @@
-"Be Aware" = "Бережись-BeAware";
+"BeAware" = "Бережись-BeAware";
 "The Deaf Assistant" = "Глухий помічник";
 "Use the speech feature to convert voice to text" = "Використовуйте функцію мови для перетворення голосу до тексту";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Ваш мікрофон буде використовуватися для запису своєї мови під час натискання кнопки 'Почати записування'.";
@@ -10,7 +10,7 @@
 "10s" = "10c";
 "Noise Threshold" = "Порог шуму";
 "seconds" = "секунди";
-"60db" = "60db";
+" db" = " db";
 "Start Noise Alert" = "Початок шуму";
 "Stop Noise Alert" = "Зупинка шуму оповіщення";
 "Mark alerts as critical" = "Позначте сповіщення як критичні";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "Завантажити, насолоджуйтеся, використовуйте, поділитися";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "Привіт, я завантажив вашу програму, і я хотів би надати наступний відгук:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Привіт! Я завантажив Бережись-BeAware - глухий асистент для iphones, і я дійсно думаю, що ви повинні перевірити це. Вона ще не була випущена до публіки, тому ви можете встановити спеціальну безкоштовну версію тут: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Привіт! Я завантажив Бережись-BeAware - глухий асистент для iphones, і я дійсно думаю, що ви повинні перевірити це. Вона ще не була випущена до публіки, тому ви можете встановити спеціальну безкоштовну версію тут: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Вам подобається ця програма?";
+
+"Yes" = "Так";
+"Not" = "Не";
+"Rate The App" = "Оцініть додаток";
+"Noise alert notification" = "Повідомлення про сповіщення шуму";
+"The noise is loud at " = "Шум гучний при 60 дБ";
+"By tapping Continue, you agree to our privacy policy" = "Натиснувши, ви погоджуєтеся з нашою політикою конфіденційності";
+"By tapping Continue, you agree to our" = "Шляхом натискання продовження, ви погоджуєтеся з нашим";
+"Privacy Policy" = "Політика конфіденційності";
+"PRIVACY POLICY" = "ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ";
+
+"Noise Alert" = "Сповіщення";
+"On" = "Активний";
+"Stopped" = "Зупинений";
+"Transcribing" = "Перенесення";

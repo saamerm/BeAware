@@ -1,4 +1,4 @@
-"Be Aware" = "परिचित होना-BeAware";
+"BeAware" = "परिचित होना-BeAware";
 "The Deaf Assistant" = "बधिर सहायक";
 "Use the speech feature to convert voice to text" = "आवाज को पाठ में परिवर्तित करने के लिए भाषण सुविधा का उपयोग करें";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "जब आप 'स्टार्ट रिकॉर्डिंग' बटन दबाते हैं तो आपके माइक्रोफ़ोन का उपयोग आपके भाषण को रिकॉर्ड करने के लिए किया जाएगा।";
@@ -10,7 +10,7 @@
 "10s" = "10से";
 "Noise Threshold" = "शोर दहलीज";
 "seconds" = "सेकेंड";
-"60db" = "60 डीबी";
+" db" = " डीबी";
 "Start Noise Alert" = "शोर चेतावनी शुरू करें";
 "Stop Noise Alert" = "शोर अलर्ट बंद करो";
 "Mark alerts as critical" = "मार्क अलर्ट को महत्वपूर्ण के रूप में चिह्नित करें";
@@ -91,5 +91,20 @@
 "Download, Enjoy, Utilise, Share" = "डाउनलोड करें, आनंद लें, उपयोग करें, साझा करें";
 
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "हाय, मैंने आपका ऐप डाउनलोड किया और मैं निम्नलिखित प्रतिक्रिया प्रदान करना चाहता हूं:";
-"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "नमस्ते! मैंने परिचित होना-BeAware डाउनलोड किया- आईफोन के लिए बहरा सहायक और मुझे सच में लगता है कि आपको इसे देखना चाहिए। इसे अभी तक जनता को जारी नहीं किया गया है, इसलिए आप यहां एक विशेष मुफ्त संस्करण स्थापित कर सकते हैं: https://testflight.apple.com/join/3ixejpsz";
+"Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "नमस्ते! मैंने परिचित होना-BeAware डाउनलोड किया- आईफोन के लिए बहरा सहायक और मुझे सच में लगता है कि आपको इसे देखना चाहिए। इसे अभी तक जनता को जारी नहीं किया गया है, इसलिए आप यहां एक विशेष मुफ्त संस्करण स्थापित कर सकते हैं: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "क्या आपको यह ऐप पसंद है?";
+
+"Yes" = "हां";
+"Not" = "नहीं";
+"Rate The App" = "एप्लिकेशन की श्रेणी बताओ";
+"Noise alert notification" = "शोर चेतावनी अधिसूचना";
+"The noise is loud at " = "शोर 60 डीबी पर जोर से है";
+"By tapping Continue, you agree to our privacy policy" = "जारी रखकर, आप हमारी गोपनीयता नीति से सहमत हैं";
+"By tapping Continue, you agree to our" = "जारी रखकर, आप हमारे लिए सहमत हैं";
+"Privacy Policy" = "गोपनीयता नीति";
+"PRIVACY POLICY" = "गोपनीयता नीति";
+
+"Noise Alert" = "चेतावनी";
+"On" = "सक्रिय";
+"Stopped" = "रोका हुआ";
+"Transcribing" = "प्रतिलेखन";

@@ -1,5 +1,5 @@
 //Check for WHO, BeAware, d/Deaf, 2 seconds, Capitalization,
-"Be Aware" = "Be Aware";
+"BeAware" = "BeAware";
 "The Deaf Assistant" = "The Deaf Assistant";
 "Use the speech feature to convert voice to text" = "Use the speech feature to convert voice to text";
 "Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Your microphone will be used to record your speech when you press the 'Start Recording' button.";
@@ -11,7 +11,7 @@
 "10s" = "10s";
 "Noise Threshold" = "Noise Threshold";
 "seconds" = "seconds";
-"60db" = "60db";
+" db" = " db";
 "Start Noise Alert" = "Start Noise Alert";
 "Stop Noise Alert" = "Stop Noise Alert";
 "Mark alerts as critical" = "Mark alerts as critical";
@@ -93,3 +93,18 @@
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "Hi, I downloaded your app and I would like to provide the following feedback:";
 "Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Do you like this app?";
+
+"Yes" = "Yes";
+"Not" = "No";
+"Rate The App" = "Rate The App";
+"Noise alert notification" = "Noise alert notification";
+"The noise is loud at " = "The noise is loud at ";
+"By tapping Continue, you agree to our privacy policy" = "By tapping Continue, you agree to our privacy policy";
+"By tapping Continue, you agree to our" = "By tapping Continue, you agree to our";
+"Privacy Policy" = "Privacy Policy";
+"PRIVACY POLICY" = "PRIVACY POLICY";
+
+"Noise Alert" = "Noise Alert";
+"On" = "On";
+"Stopped" = "Stopped";
+"Transcribing" = "Transcribing";

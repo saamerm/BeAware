@@ -10,7 +10,7 @@
 "10s" = "10s";
 "Noise Threshold" = "Limite de ruído";
 "seconds" = "segundos";
-"60db" = "60dB";
+" db" = " db";
 "Start Noise Alert" = "Iniciar alerta de ruído";
 "Stop Noise Alert" = "Parar alerta de ruído";
 "Mark alerts as critical" = "Marcar alertas como críticos";
@@ -94,6 +94,19 @@
 "Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Oi! Baixei o EstejaCiente-BeAware- o assistente de surdos para iPhones e acho que você deveria dar uma olhada. Ainda não foi lançado ao público, então você pode instalar uma versão gratuita especial aqui: https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "Você está gostando deste aplicativo?"; //Title
 "Would you to rate us on the App Store?" = "Que tal nos avaliar na App Store";
-"Yes" = "Sim";
-"No" = "Não";
 "Later" = "Depois";
+
+"Yes" = "Sim";
+"Not" = "Não";
+"Rate The App" = "Avalie o aplicativo";
+"Noise alert notification" = "Notificação de alerta de ruído";
+"The noise is loud at " = "O barulho é alto em ";
+"By tapping Continue, you agree to our privacy policy" = "Ao tocar em Continuar, você concorda com nossa política de privacidade";
+"By tapping Continue, you agree to our" = "Ao tocar em Continuar, você concorda com nossa política de privacidade";
+"Privacy Policy" = "Política de Privacidade";
+"PRIVACY POLICY" = "POLÍTICA DE PRIVACIDADE";
+
+"Noise Alert" = "Alerta";
+"On" = "Em";
+"Stopped" = "Parado";
+"Transcribing" = "Transcrição";

@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
+"BeAware" = "Nhận thức";
+"The Deaf Assistant" = "Trợ lý điếc";
+"Use the speech feature to convert voice to text" = "Sử dụng tính năng giọng nói để chuyển đổi giọng nói thành văn bản";
+"Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Micrô của bạn sẽ được sử dụng để ghi lại bài phát biểu của bạn khi bạn nhấn nút 'Bắt ​​đầu ghi âm'.";
+
+"ALERT" = "BÁO ĐỘNG";
+"Alert" = "Báo động";
+"Alert Frequency" = "Tần số cảnh báo";
+"1s" = "1s.";
+"10s" = "10s.";
+"Noise Threshold" = "Ngưỡng âm thanh";
+"seconds" = "giây";
+" db" = " dB.";
+"Start Noise Alert" = "Bắt đầu tiếng ồn cảnh báo";
+"Stop Noise Alert" = "Dừng tiếng ồn cảnh báo";
+"Mark alerts as critical" = "Đánh dấu cảnh báo là quan trọng";
+
+"SPEECH" = "PHÁT BIỂU";
+"Speech" = "Phát biểu";
+"I can’t hear you clearly.  I use this tool to understand what people are saying. Please speak into the mic" = "Tôi không thể nghe thấy bạn rõ ràng. Tôi sử dụng công cụ này để hiểu những gì mọi người đang nói. Xin vui lòng nói vào mic";
+
+"TEXT" = "BẢN VĂN";
+"Text" = "Bản văn";
+"Tap below to start typing:" = "Nhấn vào bên dưới để bắt đầu gõ:";
+"PLAY" = "CHƠI";
+"FLIP TEXT" = "Lật văn bản.";
+"Preset Phrases:" = "Cụm từ đặt trước:";
+"Type here to add..." = "Nhập vào đây để thêm ...";
+"ADD" = "CỘNG";
+"I'm deaf or hard of hearing" = "Tôi bị điếc hoặc khó nghe";
+
+"EMOJI BOARD" = "Biểu tượng cảm xúc";
+"Emoji Board" = "Biểu tượng cảm xúc";
+"Select an emoji from the list to display above" = "Chọn một biểu tượng cảm xúc từ danh sách để hiển thị ở trên";
+"ADD IMAGE" = "Thêm hình ảnh";
+
+"INFO" = "THÔNG TIN";
+"Tutorial" = "Hướng dẫn";
+"License Agreement" = "Thỏa thuận cấp phép";
+"LICENSE AGREEMENT" = "THỎA THUẬN CẤP PHÉP";
+"About Us" = "Về chúng tôi";
+"Video" = "Video";
+"Video" = "Video";
+"Widget" = "Widget.";
+"Contact Us" = "Liên hệ chúng tôi";
+"CONTACT US" = "LIÊN HỆ CHÚNG TÔI";
+"Share" = "Đăng lại";
+"Terms Of Use" = "Điều khoản sử dụng";
+"TERMS OF USE" = "Điều khoản sử dụng";
+
+"TUTORIAL" = "Hướng dẫn";
+"Welcome to BeAware" = "Chào mừng bạn đến với Beware";
+"This app has 4 main functions:" = "Ứng dụng này có 4 chức năng chính:";
+"Continue" = "Còn nữa";
+"Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "Cảnh báo - Biến thiết bị của bạn thành một công cụ cảnh báo ưu tú với các cảnh báo có thể tùy chỉnh của âm thanh ngắn hoặc kéo dài xung quanh bạn";
+"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "Bài phát biểu - Tận dụng khả năng phát biểu với văn bản mạnh mẽ của điện thoại của bạn để phiên âm, ngay cả trong khi ứng dụng nằm trong nền";
+"Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases" = "Text - Beware là ứng dụng duy nhất có thể đọc văn bản lớn vào bạn các cuộc gọi điện thoại trực tiếp của bạn, được hỗ trợ bởi các cụm từ đặt trước có thể tùy chỉnh";
+"Emoji Board - Communicate using curated emojis or add images" = "表情符號版  - 使用精选的表情符号或添加图像进行交流";
+
+"ABOUT US" = "關於我們";
+"WHO" = "誰";
+"Who made this" = "Ai làm nó";
+"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "這個應用程序是由一群在底特律的蘋果開發者學院遇到的朋友一齊構思，設計和開發。";
+"WHY" = "為什麼";
+"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "我們建立這個應用軟件的目標是在具有包容性下改善人們的日常任務。";
+"FEEDBACK" = "回饋";
+"The app is far from perfect, so we need to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "該應用程序遠非完美，所以我們需要收到您的來信，了解優先級的改進。在hi@deafassistant.com發送電子郵件給我們";
+"CONTRIBUTE" = "貢獻";
+"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "我們正在使用最新的iOS Swift UI 框架來建構此應用程序裡的全部部分，代碼和設計都是開放資源。我們期望您的參與和代碼拉取請求。";
+
+"CRITICAL ALERTS" = "關鍵警報";
+"What are Critical Alerts?" = "什麼是關鍵警報？";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "如果您希望顯示屏即使在應用程序處於無法打擾/焦點模式時提出警報，可以將警報標記為至嚴重關鍵。";
+"How to turn on LED Flash" = "如何打開LED閃光燈";
+"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1.打開設置應用程序，點擊輔助功能，然後點擊音頻/視覺。";
+"2. Turn on LED Flash for Alerts." = "2.打開LED閃光燈作為警報。";
+"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "Để ngăn đèn LED nhấp nháy khi thiết bị của bạn ở chế độ im lặng, hãy tắt đèn flash. Đèn flash LED cho cảnh báo chỉ hoạt động khi thiết bị của bạn bị khóa.";
+
+"WIDGET" = "Widget.";
+"What does the Widget Show?" = "Các widget hiển thị những gì?";
+"If you would like view the status of your noise alert running in the background, you can add the widget to your home screen." = "Nếu bạn muốn xem trạng thái cảnh báo tiếng ồn của mình đang chạy trong nền, bạn có thể thêm tiện ích vào màn hình chính của mình.";
+"Adding the widget" = "Thêm tiện ích";
+"1. From the Home Screen, touch and hold a widget or an empty area until the apps jiggle." = "1. Từ màn hình chính, chạm và giữ một widget hoặc một khu vực trống cho đến khi ứng dụng lắc lư.";
+"2. Tap the Add button (+) in the upper-left corner." = "2. Nhấn nút Thêm (+) ở góc trên bên trái.";
+"3. Select the BeAware widget and then tap Add Widget and then tap Done." = "3. Chọn tiện ích Beware và sau đó nhấn Thêm tiện ích và sau đó nhấn Xong.";
+
+"BeAware The D/deaf Assistant" = "Beware the d / trợ lý điếc";
+"The Must Have Alerting Tool" = "Công cụ cảnh báo phải có";
+"Get LED Flashes For Noise Alerts" = "Nhận đèn flash LED cho cảnh báo tiếng ồn";
+"Feature Packed With Essentials" = "Tính năng đóng gói với nhu yếu phẩm";
+"Play Text Into Live Phone Calls" = "Phát văn bản vào các cuộc gọi điện thoại trực tiếp";
+"Download, Enjoy, Utilise, Share" = "Tải về, thưởng thức, sử dụng, chia sẻ";
+
+"Hi, I downloaded your app and I would like to provide the following feedback:" = "Xin chào, tôi đã tải xuống ứng dụng của mình và tôi muốn cung cấp các phản hồi sau:";
+"Hi! I downloaded BeAware- the deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "Xin chào! Tôi đã tải xuống Beware- Trợ lý Điếc cho iPhone và tôi thực sự nghĩ rằng bạn nên kiểm tra nó. Nó chưa được phát hành cho công chúng, vì vậy bạn có thể cài đặt phiên bản miễn phí đặc biệt thông qua đây: https://testflight.apple.com/join/3ixeJPSz";
+"Do you like this app?" = "Bạn có thích ứng dụng này không?";
+"Yes" = "Đúng";
+"Not" = "Không";
+"Rate The App" = "Đánh giá ứng dụng";
+"Noise alert notification" = "Thông báo tiếng ồn thông báo";
+"The noise is loud at " = "Tiếng ồn lớn ở ";
+"By tapping Continue, you agree to our privacy policy" = "Bằng cách nhấn Tiếp tục, bạn đồng ý với Chính sách bảo mật của chúng tôi";
+"By tapping Continue, you agree to our" = "Bằng cách nhấn vào tiếp tục, bạn đồng ý với chúng tôi";
+"Privacy Policy" = "Chính sách bảo mật";
+"PRIVACY POLICY" = "CHÍNH SÁCH BẢO MẬT";
+
+"Noise Alert" = "Báo động";
+"On" = "Tích cực";
+"Stopped" = "Dừng lại";
+"Transcribing" = "Phiên âm";
