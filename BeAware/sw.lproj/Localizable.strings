@@ -56,7 +56,7 @@
 "WHY" = "KWA NINI";
 "Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "Lengo letu la kujenga hili lilikuwa kuunda programu ambayo ingeweza kuboresha kazi za kila siku kwa watu wakati wa kuwa pamoja";
 "FEEDBACK" = "MAONI";
-"The app is far from perfect, but we would like to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "Programu ni mbali na kamilifu, lakini tungependa kusikia kutoka kwako, kujua ni maboresho gani ya kipaumbele. Tutumie barua pepe kwenye hi@deafassistant.com";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "Programu inapatikana kwa lugha nyingi ili tuhitaji msaada wako, kujua makosa ambayo tunaweza kuwa wamekosa. Tutumie barua pepe kwenye hi@deafassistant.com";
 "CONTRIBUTE" = "KUSHIRIKI";
 "We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "Tunatumia mfumo wa hivi karibuni wa IOS Swiftui kujenga sehemu zote za programu hii. Kanuni ni chanzo wazi na hivyo ni kubuni. Tungependa ushiriki wako na msimbo wa kuomba maombi.";
 "CRITICAL ALERTS" = "TAHADHARI MBAYA";

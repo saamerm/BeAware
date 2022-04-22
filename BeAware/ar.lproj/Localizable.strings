@@ -63,7 +63,7 @@
 "WHY" = "لماذا";
 "Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "كان هدفنا لبناء هذا هو إنشاء تطبيق من شأنه تحسين المهام اليومية للاشخاص ذوي الاحتياجات الخاصة";
 "FEEDBACK" = "ردود الفعل";
-"The app is far from perfect, so we need to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "التطبيق بعيد كل البعد عن الكمال ، لذلك نحن بحاجة إلى الاستماع منك ، لمعرفة التحسينات التي يجب تحديد أولوياتها. راسلنا على hi@deafassistant.com";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "التطبيق بعيد كل البعد عن الكمال ، لذلك نحن بحاجة إلى الاستماع منك ، لمعرفة التحسينات التي يجب تحديد أولوياتها. راسلنا على hi@deafassistant.com";
 "CONTRIBUTE" = "مساهمة";
 "We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "نحن نستخدم أحدث إطار iOS SwiftUI لبناء جميع أجزاء هذا التطبيق. تصميم و برمجة هذا التطبيق هو مصدر مفتوح. نرحب بأي مشاركة او تقديم سحب الطلبات على Github";
 "CRITICAL ALERTS" = "التنبيهات الحرجة";

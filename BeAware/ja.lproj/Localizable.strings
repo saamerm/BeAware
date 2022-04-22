@@ -65,6 +65,7 @@
 "Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "これを構築するための私たちの目標は、包括的でありながら人々の日常のタスクを改善するアプリを作成することでした";
 "FEEDBACK" = "フィードバック";
 "The app is far from perfect, so we need to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "このアプリは完璧にはほど遠いので、どのような改善を優先すべきかを知るために、あなたから話を聞く必要があります。 hi@deafassistant.comまでメールでお問い合わせください";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "このアプリは完璧にはほど遠いので、どのような改善を優先すべきかを知るために、あなたから話を聞く必要があります。 hi@deafassistant.comまでメールでお問い合わせください";
 "CONTRIBUTE" = "助ける";
 "We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "このアプリのすべての部分を構築するために、最新のiOSSwiftUIフレームワークを使用しています。 コードはオープンソースであり、デザインもオープンソースです。 私たちはあなたの関与とコードプルリクエストを歓迎します";
 

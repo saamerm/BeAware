@@ -62,25 +62,25 @@
 "Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "Cảnh báo - Biến thiết bị của bạn thành một công cụ cảnh báo ưu tú với các cảnh báo có thể tùy chỉnh của âm thanh ngắn hoặc kéo dài xung quanh bạn";
 "Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "Bài phát biểu - Tận dụng khả năng phát biểu với văn bản mạnh mẽ của điện thoại của bạn để phiên âm, ngay cả trong khi ứng dụng nằm trong nền";
 "Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases" = "Text - Beware là ứng dụng duy nhất có thể đọc văn bản lớn vào bạn các cuộc gọi điện thoại trực tiếp của bạn, được hỗ trợ bởi các cụm từ đặt trước có thể tùy chỉnh";
-"Emoji Board - Communicate using curated emojis or add images" = "表情符號版  - 使用精选的表情符号或添加图像进行交流";
+"Emoji Board - Communicate using curated emojis or add images" = "Bảng biểu tượng cảm xúc - Giao tiếp bằng biểu tượng cảm xúc được giám tuyển hoặc thêm hình ảnh";
 
-"ABOUT US" = "關於我們";
-"WHO" = "誰";
+"ABOUT US" = "VỀ CHÚNG TÔI";
+"WHO" = "AI";
 "Who made this" = "Ai làm nó";
-"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "這個應用程序是由一群在底特律的蘋果開發者學院遇到的朋友一齊構思，設計和開發。";
-"WHY" = "為什麼";
-"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "我們建立這個應用軟件的目標是在具有包容性下改善人們的日常任務。";
-"FEEDBACK" = "回饋";
-"The app is far from perfect, so we need to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "該應用程序遠非完美，所以我們需要收到您的來信，了解優先級的改進。在hi@deafassistant.com發送電子郵件給我們";
-"CONTRIBUTE" = "貢獻";
-"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "我們正在使用最新的iOS Swift UI 框架來建構此應用程序裡的全部部分，代碼和設計都是開放資源。我們期望您的參與和代碼拉取請求。";
+"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "Ứng dụng này đã được IDEAT, được thiết kế và phát triển bởi một nhóm bạn gặp tại Học viện Nhà phát triển Apple ở Detroit";
+"WHY" = "TẠI SAO";
+"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "Mục tiêu của chúng tôi để xây dựng điều này là tạo ra một ứng dụng sẽ cải thiện các nhiệm vụ hàng ngày cho những người trong khi đã bao gồm";
+"FEEDBACK" = "PHẢN HỒI";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "Ứng dụng có sẵn bằng nhiều ngôn ngữ để chúng tôi cần sự giúp đỡ của bạn, để biết những lỗi nào chúng ta có thể đã bỏ qua. Gửi email cho chúng tôi tại hi@deafassistant.com";
+"CONTRIBUTE" = "GÓP PHẦN";
+"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "Chúng tôi đang sử dụng khung IOS SWIFTUI mới nhất để xây dựng tất cả các phần của ứng dụng này. Mã là nguồn mở và thiết kế cũng vậy. Chúng tôi sẽ yêu thích sự tham gia của bạn và yêu cầu kéo mã của bạn";
 
-"CRITICAL ALERTS" = "關鍵警報";
-"What are Critical Alerts?" = "什麼是關鍵警報？";
-"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "如果您希望顯示屏即使在應用程序處於無法打擾/焦點模式時提出警報，可以將警報標記為至嚴重關鍵。";
-"How to turn on LED Flash" = "如何打開LED閃光燈";
-"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1.打開設置應用程序，點擊輔助功能，然後點擊音頻/視覺。";
-"2. Turn on LED Flash for Alerts." = "2.打開LED閃光燈作為警報。";
+"CRITICAL ALERTS" = "Cảnh báo quan trọng.";
+"What are Critical Alerts?" = "Cảnh báo quan trọng là gì?";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "Nếu bạn muốn cảnh báo hiển thị ngay cả khi ứng dụng không làm phiền / lấy nét, bạn có thể đánh dấu các cảnh báo là quan trọng.";
+"How to turn on LED Flash" = "Cách bật đèn flash LED";
+"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1. Mở ứng dụng Cài đặt, chạm vào khả năng truy cập, sau đó nhấn Audio / Visual.";
+"2. Turn on LED Flash for Alerts." = "2. Bật đèn flash LED để cảnh báo.";
 "To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "Để ngăn đèn LED nhấp nháy khi thiết bị của bạn ở chế độ im lặng, hãy tắt đèn flash. Đèn flash LED cho cảnh báo chỉ hoạt động khi thiết bị của bạn bị khóa.";
 
 "WIDGET" = "Widget.";

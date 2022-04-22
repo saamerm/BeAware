@@ -63,7 +63,7 @@
 "WHY" = "POR QUÊ";
 "Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "Nosso objetivo ao construir isso foi criar um aplicativo que melhorasse as tarefas diárias das pessoas e fosse inclusivo";
 "FEEDBACK" = "COMENTÁRIOS";
-"The app is far from perfect, but we would like to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "O aplicativo está longe de ser perfeito, mas gostaríamos de ouvir de você, para saber quais melhorias priorizar. Envie-nos um e-mail para hi@deafassistant.com";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "O aplicativo está disponível em vários idiomas, por isso precisamos de sua ajuda, para saber quais erros podemos ter cometido. Envie-nos um e-mail para hi@deafassistant.com";
 "CONTRIBUTE" = "CONTRIBUIR"; // Daora
 "We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "Estamos usando a estrutura iOS SwiftUI mais recente para criar todas as partes deste aplicativo. O código é open source e o design também. Adoraríamos seu envolvimento e solicitações de pull requests";
 

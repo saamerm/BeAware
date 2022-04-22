@@ -53,7 +53,7 @@ var aboutItems: [About] = [
     About(title:NSLocalizedString("WHY", comment: "WHY"),
           description: NSLocalizedString("Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive", comment: "Section 2")),
     About(title:NSLocalizedString("FEEDBACK", comment: "FEEDBACK"),
-          description: NSLocalizedString("The app is far from perfect, but we would like to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com",comment: "3rd section")),
+          description: NSLocalizedString("The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com",comment: "3rd section")),
     About(title:NSLocalizedString("CONTRIBUTE", comment: "CONTRIBUTE"),
           description: NSLocalizedString("We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests", comment: "Last paragraph")),
 ]
