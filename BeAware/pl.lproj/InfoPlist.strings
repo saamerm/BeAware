@@ -5,7 +5,7 @@
   Created by Saamer Mansoor on 4/22/22.
   
 */
-"NSMicrophoneUsageDescription" = "Your microphone will be used to record your speech when you press the 'Start Recording' button.";
-"NSSpeechRecognitionUsageDescription" = "Use the speech feature to convert voice to text";
+"NSMicrophoneUsageDescription" = "Twój mikrofon zostanie użyty do nagrywania mowy po naciśnięciu przycisku 'Rozpocznij nagrywanie'.";
+"NSSpeechRecognitionUsageDescription" = "Użyj funkcji mowy, aby konwertować głos do tekstu";
 "CFBundleName" = "Być świadomym BeAware";
 "CFBundleDisplayName" = "Być świadomym BeAware";

@@ -163,6 +163,7 @@ struct SpeechView : View {
     func startSpeechRecognization(){
         let node = audioEngine.inputNode
         let recordingFormat = node.outputFormat(forBus: 0)
+        request = SFSpeechAudioBufferRecognitionRequest()
         
         node.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer, _) in
             request.append(buffer)

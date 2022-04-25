@@ -16,8 +16,8 @@
 "1s" = "1秒";
 "10s" = "10秒";
 "Noise Threshold" = "噪聲臨界值";
-"2 seconds" = "2秒";
-"60db" = "60分貝";
+"seconds" = "秒";
+" db" = " 分貝";
 "Start Noise Alert" = "開始噪音警報";
 "Stop Noise Alert" = "停止噪音警報";
 "Mark alerts as critical" = "將警報標記為至關鍵";
@@ -34,7 +34,7 @@
 "Preset Phrases:" = "預設短語：";
 "Type here to add..." = "在此輸入添加...";
 "ADD" = "添加";
-"I'm deaf or hard of hearing" = "我是聾人或聽力困難";
+"I'm Deaf or hard of hearing" = "我是聾人或聽力困難";
 "" = "";
 "EMOJI BOARD" = "表情符號板";
 "Emoji Board" = "表情符號版";
@@ -105,7 +105,7 @@
 "Not" = "不是";
 "Rate The App" = "評價應用程序";
 "Noise alert notification" = "噪聲警報通知";
-"The noise is loud at " = "噪音在60dB響亮";
+"The noise is loud at " = "噪音在響亮";
 "By tapping Continue, you agree to our privacy policy" = "通過輕敲繼續，您同意我們的隱私政策";
 "By tapping Continue, you agree to our" = "通過輕敲繼續，您同意我們的同意";
 "Privacy Policy" = "隱私政策";
