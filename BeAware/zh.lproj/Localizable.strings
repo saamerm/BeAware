@@ -15,8 +15,8 @@
 "Stop Noise Alert" = "停止噪音警报";
 "Mark alerts as critical" = "将警报标记为关键";
 
-"SPEECH" = "演讲";
-"Speech" = "演讲";
+"SPEECH" = "讲话";
+"Speech" = "讲话";
 "I can’t hear you clearly.  I use this tool to understand what people are saying. Please speak into the mic" = "我听不清楚你的声音。我用这个工具来了解人们在说什么，请对准麦克风说话。";
 
 "TEXT" = "文本";
@@ -53,7 +53,7 @@
 "This app has 4 main functions:" = "此应用程序有4个主要功能：";
 "Continue" = "继续";
 "Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "警报 - 将您的设备转换为杰出的警报工具，可通过您的周围来定制短暂或延长的警报声音";
-"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "演講 - 利用您手機裡強大的語音到文本功能來轉錄，即使應用程序在後台也能運作。";
+"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "讲话 - 利用您手機裡強大的語音到文本功能來轉錄，即使應用程序在後台也能運作。";
 "Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases" = "文字 -  BeAware是唯一可以由自定义的预设短语辅助下在实时电话通话中朗读文字的应用程序。";
 "Emoji Board - Communicate using curated emojis or add images" = "表情符号版  - 使用精选的表情符号或添加图像进行交流";
 
@@ -71,11 +71,11 @@
 
 "CRITICAL ALERTS" = "关键警报";
 "What are Critical Alerts?" = "什么是关键警报？";
-"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "如果您希望顯示屏即使在應用程序處於無法打擾/焦點模式時提出警報，可以將警報標記為至嚴重關鍵。";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "如果您希望即使应用程序处于“请勿打扰”模式也能显示警报，您可以将警报标记为关键。";
 "How to turn on LED Flash" = "如何打开LED闪光灯";
 "1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1.打开设置应用程序，点击辅助功能，然后点击音频/视觉。";
-"2. Turn on LED Flash for Alerts." = "2.打開LED閃光燈作為警報。";
-"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "為了防止LED在您的設備處於靜音模式時閃爍，請於靜音模式下關閉閃爍。 LED 閃爍警報僅在您的設備被鎖定時運作。";
+"2. Turn on LED Flash for Alerts." = "2. 打开 LED 闪光灯以发出警报。";
+"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "为防止设备处于静音模式时 LED 闪烁，请关闭“静音时闪烁”。 仅当您的设备被锁定时，用于警报的 LED 闪光灯才有效。";
 
 "WIDGET" = "小部件";
 "What does the Widget Show?" = "小部件显示了什么？";
@@ -95,8 +95,8 @@
 "Hi, I downloaded your app and I would like to provide the following feedback:" = "嗨，我下载了您的应用程序，我想提供以下反馈：";
 "Hi! I downloaded BeAware- the deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "你好！我下载了Beawware- iPhone的聋人助手，我真的认为你应该看看。它尚未向公众发布，因此您可以通过此处安装特殊的免费版本：https://testflight.apple.com/join/3ixeJPSz";
 "Do you like this app?" = "你喜欢这个应用吗？";
-"Yes" = "是的";
-"Not" = "不是";
+"Yes" = "喜欢";
+"Not" = "不喜欢";
 "Rate The App" = "评价应用程序";
 "Noise alert notification" = "噪声警报通知";
 "The noise is loud at " = "噪音在响亮";
