@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TutorialView: View {
-    private var idiom = UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iPhone"
+//    private var idiom = UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iPhone"
     
     var body: some View {
         ZStack{

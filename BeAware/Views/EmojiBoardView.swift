@@ -74,7 +74,7 @@ struct EmojiBoardView : View {
                                         .foregroundColor(Color("SecondaryColor"))
                                         .frame(width:70, height:70)
                                         .shadow(color: .black, radius: 2, x: 0, y: 4)
-                                    Image(uiImage: item!.image)
+                                    Image(nsImage: item!.image)
                                         .resizable()
                                         .frame(width:70.0, height:70)
                                         .cornerRadius(35)
@@ -86,10 +86,10 @@ struct EmojiBoardView : View {
                 }
                 .navigationTitle("EMOJI BOARD")
                 .navigationBarTitleTextColor(Color("SecondaryColor"))
-                .navigationViewStyle(StackNavigationViewStyle())
-                .navigationBarTitleDisplayMode(.inline)
+//                .navigationViewStyle(StackNavigationViewStyle())
+//                .navigationBarTitleDisplayMode(.inline)
                 .toolbar{
-                    ToolbarItem(placement: .navigationBarTrailing){
+                    ToolbarItem(placement: .automatic){
                         NavigationLink(
                             destination: SettingsView()
                         ) {
@@ -100,16 +100,16 @@ struct EmojiBoardView : View {
                 }
             }
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+//        .navigationViewStyle(StackNavigationViewStyle())
         .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
-            ImagePicker(image: $inputImage)
+//            ImagePicker(image: $inputImage)
         }
         
     }
     func loadImage() {
         guard let inputImage = inputImage else { return }
         print(inputImage)
-        image = Image(uiImage: inputImage)
+        image = Image(nsImage: inputImage)
         uiImage = inputImage
         images.append(AddedImage(image: inputImage))
     }

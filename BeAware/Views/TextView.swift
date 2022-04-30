@@ -18,7 +18,7 @@ struct TextView : View {
     @State private var showRateSheet = false
     @AppStorage("ratingTapCounter") var ratingTapCounter = 0
     @AppStorage("TextFontSize") var fontSize = 50.0   
-    @AppStorage("items") var data:[String] = [NSLocalizedString("I'm Deaf or hard of hearing", comment: "I'm Deaf or hard of hearing")]
+    @AppStorage("item") var data:[String] = [NSLocalizedString("I'm Deaf or hard of hearing", comment: "I'm Deaf or hard of hearing")]
 
     var body : some View {
         NavigationView{
@@ -53,7 +53,7 @@ struct TextView : View {
                                     utterance.rate = 0.5
 
                                     let synthesizer = AVSpeechSynthesizer()
-                                    synthesizer.mixToTelephonyUplink = true
+//                                    synthesizer.mixToTelephonyUplink = true
                                     synthesizer.speak(utterance)
 
                                 }
@@ -181,7 +181,7 @@ struct TextView : View {
                 .padding([.top, .leading, .trailing])
                 .textFieldStyle(.roundedBorder)
                 .navigationTitle("TEXT")
-                .navigationBarTitleDisplayMode(.inline)
+//                .navigationBarTitleDisplayMode(.inline)
                 .font(.custom("Avenir", size:17))
                 .navigationBarTitleTextColor(Color("SecondaryColor"))
                 .alert(isPresented: $showRateSheet, content: {
@@ -189,13 +189,13 @@ struct TextView : View {
                         title: Text("Do you like this app?"),
                         primaryButton: .default(Text("Yes"), action: {
                             print("Pressed")
-                            if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
+//                            if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                         }),
                         secondaryButton: .destructive(Text("Not"))
                     )
                 })
                 .toolbar{
-                    ToolbarItem(placement: .navigationBarTrailing){
+                    ToolbarItem(placement: .automatic){
                         NavigationLink(
                             destination: SettingsView()
                         ) {
@@ -206,9 +206,9 @@ struct TextView : View {
                 }
             }
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+//        .navigationViewStyle(StackNavigationViewStyle())
         .onAppear(perform: prepareHaptics)
-        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
+//        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
 
     }
     // Taken from here https://www.hackingwithswift.com/books/ios-swiftui/making-vibrations-with-uinotificationfeedbackgenerator-and-core-haptics

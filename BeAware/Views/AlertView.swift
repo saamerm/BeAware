@@ -158,19 +158,19 @@ struct AlertView : View {
                 }}
             .navigationTitle(NSLocalizedString("ALERT", comment: "Alert Navigation Page Title"))
             .navigationBarTitleTextColor(Color("SecondaryColor"))
-            .navigationBarTitleDisplayMode(.inline)
+//            .navigationBarTitleDisplayMode(.inline)
             .alert(isPresented: $showRateSheet, content: {
                 Alert(
                     title: Text("Do you like this app?"),
                     primaryButton: .default(Text("Yes"), action: {
                         print("Pressed")
-                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
+//                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                     }),
                     secondaryButton: .destructive(Text("Not"))
                 )
             })
             .toolbar{
-                ToolbarItem(placement: .navigationBarTrailing){
+                ToolbarItem(placement: .automatic){
                     NavigationLink(
                         destination: SettingsView()
                     ) {
@@ -182,7 +182,7 @@ struct AlertView : View {
             }
             Text("Test")
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+//        .navigationViewStyle(StackNavigationViewStyle())
         .onReceive(timer) { input in
             print("1s timer on")
             if isRecording{
@@ -281,14 +281,14 @@ func startRecording(isCritical: Bool)
         AVEncoderAudioQualityKey : NSNumber(value: Int32(AVAudioQuality.medium.rawValue) as Int32),
     ]
     
-    let audioSession = AVAudioSession.sharedInstance()
+//    let audioSession = AVAudioSession.sharedInstance()
     
     do {
-        try audioSession.setCategory(AVAudioSession.Category.playAndRecord)
+//        try audioSession.setCategory(AVAudioSession.Category.playAndRecord)
         audioRecorder = try AVAudioRecorder(url: url, settings: recordSettings)
         audioRecorder?.prepareToRecord()
         audioRecorder?.record()
-        try audioSession.setActive(true)
+//        try audioSession.setActive(true)
         audioRecorder?.isMeteringEnabled = true
     } catch let err {
         print("Unable to start recording", err)

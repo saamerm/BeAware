@@ -14,6 +14,32 @@
 		1FEB47DE27C40BCA0060F29A /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB47DD27C40BCA0060F29A /* TutorialView.swift */; };
 		1FEB47E027C433E40060F29A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB47DF27C433E40060F29A /* VideoView.swift */; };
 		760262FC27B47277003E52C1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760262FB27B47277003E52C1 /* Launch Screen.storyboard */; };
+		7602C2FE281BCDF1006A6E37 /* BeAwareMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602C2FD281BCDF1006A6E37 /* BeAwareMacApp.swift */; };
+		7602C300281BCDF1006A6E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602C2FF281BCDF1006A6E37 /* ContentView.swift */; };
+		7602C302281BCDF4006A6E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7602C301281BCDF4006A6E37 /* Assets.xcassets */; };
+		7602C305281BCDF4006A6E37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7602C304281BCDF4006A6E37 /* Preview Assets.xcassets */; };
+		7602C30B281BCF07006A6E37 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698190C27AD6636009AB2E2 /* IntroductionView.swift */; };
+		7602C30C281BCF19006A6E37 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698191027ADAF88009AB2E2 /* MyTabView.swift */; };
+		7602C30D281BCF21006A6E37 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB47DD27C40BCA0060F29A /* TutorialView.swift */; };
+		7602C30E281BCF27006A6E37 /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03E827B0F30E001FF3E9 /* SpeechView.swift */; };
+		7602C30F281BCF2A006A6E37 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03EA27B0F3F2001FF3E9 /* AlertView.swift */; };
+		7602C310281BCF2D006A6E37 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03EC27B0F416001FF3E9 /* TextView.swift */; };
+		7602C311281BCF30006A6E37 /* EmojiBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03EE27B0F43D001FF3E9 /* EmojiBoardView.swift */; };
+		7602C312281BCF33006A6E37 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03F027B0F732001FF3E9 /* SettingsView.swift */; };
+		7602C313281BCF35006A6E37 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB47DF27C433E40060F29A /* VideoView.swift */; };
+		7602C314281BCF38006A6E37 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486227E84A9200EF1505 /* InfoRow.swift */; };
+		7602C315281BCF3C006A6E37 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486427E8589A00EF1505 /* WebView.swift */; };
+		7602C316281BCF3E006A6E37 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486627E85B9C00EF1505 /* AboutView.swift */; };
+		7602C317281BCF41006A6E37 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486827E85BAF00EF1505 /* WidgetView.swift */; };
+		7602C31A281BCF49006A6E37 /* CriticalAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486E27EB051000EF1505 /* CriticalAlertsView.swift */; };
+		7602C31B281BD0B1006A6E37 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F74CB27B635F9009E757C /* AVPlayer+Ding.swift */; };
+		7602C31C281BD11F006A6E37 /* AddedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F348BA27BC7E1D00BABBAD /* AddedImages.swift */; };
+		7602C31E281BD127006A6E37 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 767F74CD27B63868009E757C /* ding.wav */; };
+		7602C31F281BD130006A6E37 /* BeAware-tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 769462E827C573E4006A660D /* BeAware-tutorial.mp4 */; };
+		7602C320281BD169006A6E37 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F348F127BCC37100BABBAD /* Extensions.swift */; };
+		7602C322281BD21E006A6E37 /* MacExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602C321281BD21E006A6E37 /* MacExtensions.swift */; };
+		7602C323281BD64E006A6E37 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76E087E127FB810E0008F4F0 /* Localizable.strings */; };
+		7602C324281BD651006A6E37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3010628008CD700456C4B /* InfoPlist.strings */; };
 		765734262813209000024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3011E28008D3800456C4B /* InfoPlist.strings */; };
 		765734272813209B00024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3013028008D6F00456C4B /* InfoPlist.strings */; };
 		76573428281320AC00024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3012D28008D6800456C4B /* InfoPlist.strings */; };
@@ -167,6 +193,13 @@
 		1FEB47DF27C433E40060F29A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		76019E5227B052C200042B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760262FB27B47277003E52C1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7602C2FB281BCDF1006A6E37 /* BeAwareMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeAwareMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7602C2FD281BCDF1006A6E37 /* BeAwareMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAwareMacApp.swift; sourceTree = "<group>"; };
+		7602C2FF281BCDF1006A6E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7602C301281BCDF4006A6E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7602C304281BCDF4006A6E37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7602C306281BCDF4006A6E37 /* BeAwareMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeAwareMac.entitlements; sourceTree = "<group>"; };
+		7602C321281BD21E006A6E37 /* MacExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacExtensions.swift; sourceTree = "<group>"; };
 		765734372813235700024F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Partner.intentdefinition; sourceTree = "<group>"; };
 		7657343A2813235C00024F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Partner.strings; sourceTree = "<group>"; };
 		7657343C2813235D00024F2C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Partner.strings; sourceTree = "<group>"; };
@@ -273,6 +306,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7602C2F8281BCDF1006A6E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76F348D827BCC16E00BABBAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +332,7 @@
 				76F348F127BCC37100BABBAD /* Extensions.swift */,
 				1F1DD5EB27AB0EB9008FD66F /* BeAware */,
 				76F348E127BCC16E00BABBAD /* Partner */,
+				7602C2FC281BCDF1006A6E37 /* BeAwareMac */,
 				76F348DC27BCC16E00BABBAD /* Frameworks */,
 				1F1DD5EA27AB0EB9008FD66F /* Products */,
 			);
@@ -302,6 +343,7 @@
 			children = (
 				1F1DD5E927AB0EB9008FD66F /* BeAware.app */,
 				76F348DB27BCC16E00BABBAD /* PartnerExtension.appex */,
+				7602C2FB281BCDF1006A6E37 /* BeAwareMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -352,6 +394,27 @@
 			isa = PBXGroup;
 			children = (
 				1F1DD5F327AB0EBA008FD66F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7602C2FC281BCDF1006A6E37 /* BeAwareMac */ = {
+			isa = PBXGroup;
+			children = (
+				7602C2FD281BCDF1006A6E37 /* BeAwareMacApp.swift */,
+				7602C2FF281BCDF1006A6E37 /* ContentView.swift */,
+				7602C301281BCDF4006A6E37 /* Assets.xcassets */,
+				7602C306281BCDF4006A6E37 /* BeAwareMac.entitlements */,
+				7602C303281BCDF4006A6E37 /* Preview Content */,
+				7602C321281BD21E006A6E37 /* MacExtensions.swift */,
+			);
+			path = BeAwareMac;
+			sourceTree = "<group>";
+		};
+		7602C303281BCDF4006A6E37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7602C304281BCDF4006A6E37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -620,6 +683,23 @@
 			productReference = 1F1DD5E927AB0EB9008FD66F /* BeAware.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7602C2FA281BCDF1006A6E37 /* BeAwareMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7602C309281BCDF4006A6E37 /* Build configuration list for PBXNativeTarget "BeAwareMac" */;
+			buildPhases = (
+				7602C2F7281BCDF1006A6E37 /* Sources */,
+				7602C2F8281BCDF1006A6E37 /* Frameworks */,
+				7602C2F9281BCDF1006A6E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeAwareMac;
+			productName = BeAwareMac;
+			productReference = 7602C2FB281BCDF1006A6E37 /* BeAwareMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		76F348DA27BCC16E00BABBAD /* PartnerExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F348F027BCC17000BABBAD /* Build configuration list for PBXNativeTarget "PartnerExtension" */;
@@ -649,6 +729,9 @@
 				TargetAttributes = {
 					1F1DD5E827AB0EB9008FD66F = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					7602C2FA281BCDF1006A6E37 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 					76F348DA27BCC16E00BABBAD = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -691,6 +774,7 @@
 			targets = (
 				1F1DD5E827AB0EB9008FD66F /* BeAware */,
 				76F348DA27BCC16E00BABBAD /* PartnerExtension */,
+				7602C2FA281BCDF1006A6E37 /* BeAwareMac */,
 			);
 		};
 /* End PBXProject section */
@@ -749,6 +833,19 @@
 				767272682812F4A5007AA9D5 /* Localizable.strings in Resources */,
 				76C3012C28008D6000456C4B /* InfoPlist.strings in Resources */,
 				1F1DD5F127AB0EBA008FD66F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602C2F9281BCDF1006A6E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7602C323281BD64E006A6E37 /* Localizable.strings in Resources */,
+				7602C324281BD651006A6E37 /* InfoPlist.strings in Resources */,
+				7602C31E281BD127006A6E37 /* ding.wav in Resources */,
+				7602C305281BCDF4006A6E37 /* Preview Assets.xcassets in Resources */,
+				7602C302281BCDF4006A6E37 /* Assets.xcassets in Resources */,
+				7602C31F281BD130006A6E37 /* BeAware-tutorial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,6 +932,33 @@
 				76F348F227BCC37100BABBAD /* Extensions.swift in Sources */,
 				76CC486B27E964B100EF1505 /* ShareSheet.swift in Sources */,
 				76CE03ED27B0F416001FF3E9 /* TextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602C2F7281BCDF1006A6E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7602C300281BCDF1006A6E37 /* ContentView.swift in Sources */,
+				7602C310281BCF2D006A6E37 /* TextView.swift in Sources */,
+				7602C315281BCF3C006A6E37 /* WebView.swift in Sources */,
+				7602C311281BCF30006A6E37 /* EmojiBoardView.swift in Sources */,
+				7602C30B281BCF07006A6E37 /* IntroductionView.swift in Sources */,
+				7602C31B281BD0B1006A6E37 /* AVPlayer+Ding.swift in Sources */,
+				7602C31C281BD11F006A6E37 /* AddedImages.swift in Sources */,
+				7602C322281BD21E006A6E37 /* MacExtensions.swift in Sources */,
+				7602C30F281BCF2A006A6E37 /* AlertView.swift in Sources */,
+				7602C312281BCF33006A6E37 /* SettingsView.swift in Sources */,
+				7602C31A281BCF49006A6E37 /* CriticalAlertsView.swift in Sources */,
+				7602C30C281BCF19006A6E37 /* MyTabView.swift in Sources */,
+				7602C316281BCF3E006A6E37 /* AboutView.swift in Sources */,
+				7602C317281BCF41006A6E37 /* WidgetView.swift in Sources */,
+				7602C30D281BCF21006A6E37 /* TutorialView.swift in Sources */,
+				7602C320281BD169006A6E37 /* Extensions.swift in Sources */,
+				7602C314281BCF38006A6E37 /* InfoRow.swift in Sources */,
+				7602C30E281BCF27006A6E37 /* SpeechView.swift in Sources */,
+				7602C313281BCF35006A6E37 /* VideoView.swift in Sources */,
+				7602C2FE281BCDF1006A6E37 /* BeAwareMacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,6 +1566,64 @@
 			};
 			name = Release;
 		};
+		7602C307281BCDF4006A6E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeAwareMac/BeAwareMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeAwareMac/Preview Content\"";
+				DEVELOPMENT_TEAM = VTU445YWD6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.BeAwareMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7602C308281BCDF4006A6E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeAwareMac/BeAwareMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeAwareMac/Preview Content\"";
+				DEVELOPMENT_TEAM = VTU445YWD6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.BeAwareMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		76F348EE27BCC17000BABBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1517,6 +1699,15 @@
 			buildConfigurations = (
 				1F1DD5F827AB0EBA008FD66F /* Debug */,
 				1F1DD5F927AB0EBA008FD66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7602C309281BCDF4006A6E37 /* Build configuration list for PBXNativeTarget "BeAwareMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7602C307281BCDF4006A6E37 /* Debug */,
+				7602C308281BCDF4006A6E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

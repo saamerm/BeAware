@@ -106,20 +106,21 @@ struct SpeechView : View {
                         .padding(.init(top: 12, leading: 25, bottom: 10, trailing: 25))
                 }
             }
-            .navigationTitle("SPEECH").navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("SPEECH")
+//            .navigationBarTitleDisplayMode(.inline)
             .navigationBarTitleTextColor(Color("SecondaryColor"))
             .alert(isPresented: $showRateSheet, content: {
                 Alert(
                     title: Text("Do you like this app?"),
                     primaryButton: .default(Text("Yes"), action: {
                         print("Pressed")
-                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
+//                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                     }),
                     secondaryButton: .destructive(Text("Not"))
                 )
             })
             .toolbar{
-                ToolbarItem(placement: .navigationBarTrailing){
+                ToolbarItem(placement: .automatic){
                     NavigationLink(
                         destination: SettingsView()
                     ) {
@@ -130,10 +131,10 @@ struct SpeechView : View {
                 }
             }
         }// clsoing bracket for navigation view
-        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
+//        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
         .onAppear{requestPermission()}
         // Added this to fix iPad navigation issue
-        .navigationViewStyle(StackNavigationViewStyle())
+//        .navigationViewStyle(StackNavigationViewStyle())
     }
     //closing bracket for vard body some view
     func speechRecognizer(_ speechRecognizer: SFSpeechRecognizer, availabilityDidChange available: Bool) {
@@ -222,16 +223,16 @@ struct SpeechView_Previews : PreviewProvider {
 }
 
 func simpleSuccessHaptic() {
-    let generator = UINotificationFeedbackGenerator()
-    generator.notificationOccurred(.success)
+//    let generator = UINotificationFeedbackGenerator()
+//    generator.notificationOccurred(.success)
 }
 
 func simpleEndHaptic() {
-    let generator = UINotificationFeedbackGenerator()
-    generator.notificationOccurred(.warning)
+//    let generator = UINotificationFeedbackGenerator()
+//    generator.notificationOccurred(.warning)
 }
 
 func simpleBigHaptic() {
-    let generator = UINotificationFeedbackGenerator()
-    generator.notificationOccurred(.error)
+//    let generator = UINotificationFeedbackGenerator()
+//    generator.notificationOccurred(.error)
 }
