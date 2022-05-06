@@ -8,12 +8,14 @@ import AVFoundation
 import SwiftUI
 import Speech
 import WidgetKit
-//private let speechRecognizer = SFSpeechRecognizer()
+import StoreKit
 
 struct SpeechView : View {
+    @AppStorage("ratingTapCounter") var ratingTapCounter = 0
     @State private var isRecording = false
     @State private var permissionStatus = SFSpeechRecognizerAuthorizationStatus.notDetermined
     @State private var errorMessage = "For this functionality to work, you need to provide permission in your settings"
+    @State private var showRateSheet = false
     @State private var transcription = ""
     @State private var task: SFSpeechRecognitionTask? = SFSpeechRecognitionTask()
     @State private var audioEngine = AVAudioEngine()
@@ -40,6 +42,12 @@ struct SpeechView : View {
                         Task
                         {
                             isRecording.toggle()
+                            ratingTapCounter+=1
+                            if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
+                            {
+                                self.showRateSheet.toggle()
+                            }
+                            print(ratingTapCounter)
                             if isRecording{
                                 simpleEndHaptic()
                                 if let userDefaults = UserDefaults(suiteName: "group.com.tfp.beaware") {
@@ -99,7 +107,18 @@ struct SpeechView : View {
                 }
             }
             .navigationTitle("SPEECH").navigationBarTitleDisplayMode(.inline)
-            .navigationBarTitleTextColor(Color("SecondaryColor"))                            .toolbar{
+            .navigationBarTitleTextColor(Color("SecondaryColor"))
+            .alert(isPresented: $showRateSheet, content: {
+                Alert(
+                    title: Text("Do you like this app?"),
+                    primaryButton: .default(Text("Yes"), action: {
+                        print("Pressed")
+                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
+                    }),
+                    secondaryButton: .destructive(Text("Not"))
+                )
+            })
+            .toolbar{
                 ToolbarItem(placement: .navigationBarTrailing){
                     NavigationLink(
                         destination: SettingsView()
@@ -144,6 +163,7 @@ struct SpeechView : View {
     func startSpeechRecognization(){
         let node = audioEngine.inputNode
         let recordingFormat = node.outputFormat(forBus: 0)
+        request = SFSpeechAudioBufferRecognitionRequest()
         
         node.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer, _) in
             request.append(buffer)
@@ -179,7 +199,7 @@ struct SpeechView : View {
             transcription = message
         }
     }
-    
+    // Figured out thanks to https://www.wepstech.com/multi-user-voice-recognition-in-ios-swift-5/
     func cancelSpeechRecognization() {
         task?.finish()
         task?.cancel()

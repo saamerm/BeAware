@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
+"NSMicrophoneUsageDescription" = "當您按下“開始錄製”按鈕時，您的麥克風將用於記錄您的演講。";
+"NSSpeechRecognitionUsageDescription" = "使用語音功能將語音轉換為文本";
+"CFBundleName" = "警惕 BeAware";
+"CFBundleDisplayName" = "警惕 BeAware";

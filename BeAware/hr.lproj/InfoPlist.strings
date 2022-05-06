@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 4/22/22.
+  
+*/
+
+"NSMicrophoneUsageDescription" = "Vaš će se mikrofon koristiti za snimanje govora kada pritisnete gumb 'Start Snimanje'.";
+"NSSpeechRecognitionUsageDescription" = "Koristite značajku govora za pretvaranje glasa u tekst";
+"CFBundleName" = "Biti svjestan BeAware";
+"CFBundleDisplayName" = "Biti svjestan BeAware";

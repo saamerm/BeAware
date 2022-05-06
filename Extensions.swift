@@ -17,6 +17,7 @@ extension Color {
     }
 }
 
+//@available(iOS 15.0, *)
 extension View {
     /// Sets the text color for a navigation bar title.
     /// - Parameter color: Color the title should be
@@ -26,6 +27,13 @@ extension View {
     func navigationBarTitleTextColor(_ color: Color) -> some View {
         let uiColor = UIColor(color)
     
+//        Adding these lines causes the subsequent pages (like critical alerts page) to appear with a green bottom tab bar, probably one of these lines causes it
+//        UIToolbar.appearance().barTintColor = .green// UIColor(named: "BrandColor")
+//        appearance.backgroundColor = .green// UIColor(named: "BrandColor")
+//        tabAppearance.backgroundColor = .green
+//        UIToolbar.appearance().backgroundColor = .green
+//        UIToolbar.appearance().barTintColor = .green
+
         // Set appearance for both normal and large sizes.
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
@@ -40,11 +48,10 @@ extension View {
         
         let tabAppearance = UITabBarAppearance()
         tabAppearance.configureWithOpaqueBackground()
+        
         UITabBar.appearance().standardAppearance = tabAppearance
 
-        if #available(iOSApplicationExtension 15.0, *) {
-            UITabBar.appearance().scrollEdgeAppearance = tabAppearance
-        }
+//            UITabBar.appearance().scrollEdgeAppearance = tabAppearance
         return self
     }
 }
@@ -83,4 +90,10 @@ extension Array: RawRepresentable where Element: Codable {
         }
         return result
     }
+}
+
+extension UIScreen {
+    static let screenWidth = UIScreen.main.bounds.width
+    static let screenHeight = UIScreen.main.bounds.height
+    static let screenSize = UIScreen.main.bounds.size
 }

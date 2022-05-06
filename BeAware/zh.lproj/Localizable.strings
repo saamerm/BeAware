@@ -1,0 +1,111 @@
+"Be Aware" = "警惕 BeAware";
+"The Deaf Assistant" = "聋人助理";
+"Use the speech feature to convert voice to text" = "使用语音功能将语音转换为文本";
+"Your microphone will be used to record your speech when you press the 'Start Recording' button." = "当您按下“开始录制”按钮时，您的麦克风将用于记录您的演讲。";
+
+"ALERT" = "警报";
+"Alert" = "警报";
+"Alert Frequency" = "警报频率";
+"1s" = "1秒";
+"10s" = "10秒";
+"Noise Threshold" = "噪声临界值";
+"seconds" = "秒";
+" db" = " 分贝";
+"Start Noise Alert" = "开始噪音警报";
+"Stop Noise Alert" = "停止噪音警报";
+"Mark alerts as critical" = "将警报标记为关键";
+
+"SPEECH" = "讲话";
+"Speech" = "讲话";
+"I can’t hear you clearly.  I use this tool to understand what people are saying. Please speak into the mic" = "我听不清楚你的声音。我用这个工具来了解人们在说什么，请对准麦克风说话。";
+
+"TEXT" = "文本";
+"Text" = "文本";
+"Tap below to start typing:" = "点击下方开始键入：";
+"PLAY" = "玩";
+"FLIP TEXT" = "翻转文本";
+"Preset Phrases:" = "预设短语：";
+"Type here to add..." = "在此输入添加...";
+"ADD" = "添加";
+"I'm Deaf or hard of hearing" = "我是聋人或听力困难";
+
+"EMOJI BOARD" = "表情符号板";
+"Emoji Board" = "表情符号板";
+"Select an emoji from the list to display above" = "从列表中选择一个表情符号以显示上方";
+"ADD IMAGE" = "添加图片";
+
+"INFO" = "信息";
+"Tutorial" = "教程";
+"License Agreement" = "许可协议";
+"LICENSE AGREEMENT" = "许可协议";
+"About Us" = "关于我们";
+"Video" = "影片";
+"Video" = "影片";
+"Widget" = "小掛件";
+"Contact Us" = "联系我们";
+"CONTACT US" = "联系我们";
+"Share" = "分享";
+"Terms Of Use" = "使用条款";
+"TERMS OF USE" = "使用条款";
+
+"TUTORIAL" = "教程";
+"Welcome to BeAware" = "欢迎来到BeAware.";
+"This app has 4 main functions:" = "此应用程序有4个主要功能：";
+"Continue" = "继续";
+"Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "警报 - 将您的设备转换为杰出的警报工具，可通过您的周围来定制短暂或延长的警报声音";
+"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "讲话 - 利用您手機裡強大的語音到文本功能來轉錄，即使應用程序在後台也能運作。";
+"Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases" = "文字 -  BeAware是唯一可以由自定义的预设短语辅助下在实时电话通话中朗读文字的应用程序。";
+"Emoji Board - Communicate using curated emojis or add images" = "表情符号版  - 使用精选的表情符号或添加图像进行交流";
+
+"ABOUT US" = "关于我们";
+"WHO" = "谁";
+"Who made this" = "谁做了这一点";
+"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "这个应用程序是由一群在底特律的苹果开发者学院遇到的朋友一齐构思，设计和开发。";
+"WHY" = "为什么";
+"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "我们建立这个应用软件的目标是在具有包容性下改善人们的日常任务";
+"FEEDBACK" = "回馈";
+"The app is far from perfect, so we need to hear from you, to know what improvements to prioritize. Email us at hi@deafassistant.com" = "该应用程序远非完美，所以我们需要收到您的来信，了解优先级的改进。在hi@deafassistant.com发送电子邮件给我们";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "该应用程序远非完美，所以我们需要收到您的来信，了解优先级的改进。在 hi@deafassistant.com 发送电子邮件给我们";
+"CONTRIBUTE" = "贡献";
+"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "我们正在使用 Swift UI 框架的最新资源部分来使用这个 iOS 应用程序中的全部资源，您的代码和设计都是请求开放的。我们定制的参与和代码拉取。";
+
+"CRITICAL ALERTS" = "关键警报";
+"What are Critical Alerts?" = "什么是关键警报？";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "如果您希望即使应用程序处于“请勿打扰”模式也能显示警报，您可以将警报标记为关键。";
+"How to turn on LED Flash" = "如何打开LED闪光灯";
+"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1.打开设置应用程序，点击辅助功能，然后点击音频/视觉。";
+"2. Turn on LED Flash for Alerts." = "2. 打开 LED 闪光灯以发出警报。";
+"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "为防止设备处于静音模式时 LED 闪烁，请关闭“静音时闪烁”。 仅当您的设备被锁定时，用于警报的 LED 闪光灯才有效。";
+
+"WIDGET" = "小部件";
+"What does the Widget Show?" = "小部件显示了什么？";
+"If you would like view the status of your noise alert running in the background, you can add the widget to your home screen." = "如果您希望查看後台運行的噪聲警報狀態，則可以將窗口小部件添加到主屏幕中。";
+"Adding the widget" = "添加小部件";
+"1. From the Home Screen, touch and hold a widget or an empty area until the apps jiggle." = "1.在主屏幕中，触摸并按住小部件或空白区域，直到应用程序抖动。";
+"2. Tap the Add button (+) in the upper-left corner." = "2.点击左上角的“添加”按钮（+）。";
+"3. Select the BeAware widget and then tap Add Widget and then tap Done." = "3.选择BeAware窗口小部件，然后点击添加窗口小部件，然后点击完成。";
+
+"BeAware The D/deaf Assistant" = "警惕 BeAware 聋人助理";
+"The Must Have Alerting Tool" = "必备的警报工具";
+"Get LED Flashes For Noise Alerts" = "用于噪声警报的LED闪烁";
+"Feature Packed With Essentials" = "包含必需品的功能";
+"Play Text Into Live Phone Calls" = "将文字播放为实时通话";
+"Download, Enjoy, Utilise, Share" = "下载，享受，使用，分享";
+
+"Hi, I downloaded your app and I would like to provide the following feedback:" = "嗨，我下载了您的应用程序，我想提供以下反馈：";
+"Hi! I downloaded BeAware- the deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://testflight.apple.com/join/3ixeJPSz" = "你好！我下载了Beawware- iPhone的聋人助手，我真的认为你应该看看。它尚未向公众发布，因此您可以通过此处安装特殊的免费版本：https://testflight.apple.com/join/3ixeJPSz";
+"Do you like this app?" = "你喜欢这个应用吗？";
+"Yes" = "喜欢";
+"Not" = "不喜欢";
+"Rate The App" = "评价应用程序";
+"Noise alert notification" = "噪声警报通知";
+"The noise is loud at " = "噪音在响亮";
+"By tapping Continue, you agree to our privacy policy" = "通过轻敲继续，您同意我们的隐私政策";
+"By tapping Continue, you agree to our" = "通过轻敲继续，您同意我们的同意";
+"Privacy Policy" = "隐私政策";
+"PRIVACY POLICY" = "隐私政策";
+
+"Noise Alert" = "警报";
+"On" = "积极的";
+"Stopped" = "停下来";
+"Transcribing" = "转录";
