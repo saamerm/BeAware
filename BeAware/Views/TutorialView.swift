@@ -46,7 +46,7 @@ struct TutorialView: View {
                         HStack{
                             Text("\(Image(systemName: "keyboard")) ")
                                 .foregroundColor(Color("SecondaryColor"))
-                            Text(NSLocalizedString("Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases", comment: "Text") + "\n")
+                            Text(NSLocalizedString("Text - BeAware is the only app that can read text loud into your live phone calls, assisted by customizable preset phrases", comment: "Text") + "\n")
                                 .font(Font.custom("Avenir", size: 18))
                                 .foregroundColor(Color("SecondaryColor"))
                         }
