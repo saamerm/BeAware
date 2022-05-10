@@ -115,3 +115,19 @@
 "On" = "積極的";
 "Stopped" = "停下來";
 "Transcribing" = "轉錄";
+
+"Start Transcribing" = "開始轉錄";
+"Stop Transcribing" = "停止轉錄";
+"This field populates in real time when the voice is being recorded" = "當聲音被錄製時，該字段實時填充";
+"Play the the text loud, even to the other party during a phone or video call" = "大聲播放文字，甚至在電話或視頻通話中向另一方播放文字";
+"Flip the text box" = "翻轉文本框";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "此按鈕翻轉窗口，讓對方查看您的鍵入，而無需轉動您的手";
+"Tap to add preset phrase to the text editor above" = "點擊將預設短語添加到上面的文本編輯器";
+"Remove Phrase" = "刪除短語";
+"Removes the preset phrase" = "刪除預設短語";
+"Clear Text" = "清晰的文字";
+"Clears the text from the window above" = "從上面的窗口清除文本";
+"Input a preset phrase you would like to add" = "輸入您要添加的預設短語";
+"Add Image" = "添加圖片";
+"Adds images that you can show" = "添加您可以顯示的圖像";
+"This text field acts as a notepad so you can share what you would like to say" = "該文本字段充當記事本，因此您可以分享您想說的話";

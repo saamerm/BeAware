@@ -107,3 +107,19 @@
 "On" = "نشيط";
 "Stopped" = "توقفت";
 "Transcribing" = "النسخ";
+
+"Start Transcribing" = "ابدأ في النسخ";
+"Stop Transcribing" = "توقف عن النسخ";
+"This field populates in real time when the voice is being recorded" = "يملأ هذا الحقل في الوقت الفعلي عندما يتم تسجيل الصوت";
+"Play the the text loud, even to the other party during a phone or video call" = "قم بتشغيل النص بصوت عالٍ ، حتى إلى الطرف الآخر أثناء مكالمة الهاتف أو الفيديو";
+"Flip the text box" = "اقلب مربع النص";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "يقلب هذا الزر النافذة للشخص الآخر لرؤية ما كتبته دون الحاجة إلى قلب يدك";
+"Tap to add preset phrase to the text editor above" = "انقر لإضافة عبارة مسبق إلى محرر النصوص أعلاه";
+"Remove Phrase" = "إزالة العبارة";
+"Removes the preset phrase" = "يزيل عبارة الإعداد المسبق";
+"Clear Text" = "نص واضح";
+"Clears the text from the window above" = "يمسح النص من النافذة أعلاه";
+"Input a preset phrase you would like to add" = "إدخال عبارة مسبقًا ترغب في إضافتها";
+"Add Image" = "إضافة صورة";
+"Adds images that you can show" = "يضيف الصور التي يمكنك إظهارها";
+"This text field acts as a notepad so you can share what you would like to say" = "يعمل حقل النص هذا بمثابة مفكرة حتى تتمكن من مشاركة ما تود قوله";

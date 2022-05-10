@@ -115,3 +115,19 @@
 "On" = "فعال";
 "Stopped" = "متوقف شده";
 "Transcribing" = "رونویسی";
+
+"Start Transcribing" = "شروع به رونویسی";
+"Stop Transcribing" = "رونویسی را متوقف کنید";
+"This field populates in real time when the voice is being recorded" = "این زمینه در زمان واقعی هنگام ضبط صدا جمع می شود";
+"Play the the text loud, even to the other party during a phone or video call" = "متن را با صدای بلند و حتی به طرف دیگر در حین تماس تلفنی یا ویدیویی پخش کنید";
+"Flip the text box" = "جعبه متن را بچرخانید";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "این دکمه پنجره را برای شخص دیگر می چرخاند تا بدون نیاز به چرخاندن دست خود را ببیند";
+"Tap to add preset phrase to the text editor above" = "برای افزودن عبارت از پیش تعیین شده به ویرایشگر متن در بالا ضربه بزنید";
+"Remove Phrase" = "حذف عبارت";
+"Removes the preset phrase" = "عبارت از پیش تعیین شده را حذف می کند";
+"Clear Text" = "متن روشن";
+"Clears the text from the window above" = "متن را از پنجره بالا پاک می کند";
+"Input a preset phrase you would like to add" = "یک عبارت از پیش تعیین شده را که می خواهید اضافه کنید وارد کنید";
+"Add Image" = "تصویر اضافه کن";
+"Adds images that you can show" = "تصاویری را اضافه می کند که می توانید نشان دهید";
+"This text field acts as a notepad so you can share what you would like to say" = "این زمینه متن به عنوان یک دفترچه یادداشت عمل می کند تا بتوانید آنچه را که می خواهید بگویید به اشتراک بگذارید";

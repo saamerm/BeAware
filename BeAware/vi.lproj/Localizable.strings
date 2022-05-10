@@ -115,3 +115,19 @@
 "On" = "Tích cực";
 "Stopped" = "Dừng lại";
 "Transcribing" = "Phiên âm";
+
+"Start Transcribing" = "Bắt đầu phiên âm";
+"Stop Transcribing" = "Ngừng phiên âm";
+"This field populates in real time when the voice is being recorded" = "Trường này cư trú trong thời gian thực khi giọng nói đang được ghi lại";
+"Play the the text loud, even to the other party during a phone or video call" = "Phát văn bản to, ngay cả với bên kia trong một cuộc gọi điện thoại hoặc video";
+"Flip the text box" = "Lật hộp văn bản";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Nút này lật cửa sổ cho người khác để xem những gì bạn đã gõ mà không cần phải xoay tay";
+"Tap to add preset phrase to the text editor above" = "Nhấn để thêm cụm từ đặt trước vào trình chỉnh sửa văn bản ở trên";
+"Remove Phrase" = "Loại bỏ cụm từ";
+"Removes the preset phrase" = "Xóa cụm từ đặt trước";
+"Clear Text" = "Văn bản rõ ràng";
+"Clears the text from the window above" = "Xóa văn bản khỏi cửa sổ ở trên";
+"Input a preset phrase you would like to add" = "Nhập một cụm từ đặt trước mà bạn muốn thêm";
+"Add Image" = "Thêm hình ảnh";
+"Adds images that you can show" = "Thêm hình ảnh mà bạn có thể hiển thị";
+"This text field acts as a notepad so you can share what you would like to say" = "Trường văn bản này hoạt động như một notepad để bạn có thể chia sẻ những gì bạn muốn nói";

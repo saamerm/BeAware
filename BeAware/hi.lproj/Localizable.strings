@@ -108,3 +108,19 @@
 "On" = "सक्रिय";
 "Stopped" = "रोका हुआ";
 "Transcribing" = "प्रतिलेखन";
+
+"Start Transcribing" = "प्रतिलेखन शुरू करना";
+"Stop Transcribing" = "प्रतिलेखन बंद करो";
+"This field populates in real time when the voice is being recorded" = "यह क्षेत्र वास्तविक समय में पॉपुलेट करता है जब आवाज दर्ज की जा रही है";
+"Play the the text loud, even to the other party during a phone or video call" = "एक फोन या वीडियो कॉल के दौरान दूसरे पक्ष को भी पाठ को जोर से चलाएं";
+"Flip the text box" = "टेक्स्ट बॉक्स को फ्लिप करें";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "यह बटन दूसरे व्यक्ति के लिए खिड़की को देखता है कि आपने अपने हाथ को मोड़ने के बिना क्या टाइप किया है";
+"Tap to add preset phrase to the text editor above" = "उपरोक्त पाठ संपादक में प्रीसेट वाक्यांश जोड़ने के लिए टैप करें";
+"Remove Phrase" = "वाक्यांश निकालें";
+"Removes the preset phrase" = "प्रीसेट वाक्यांश को हटा देता है";
+"Clear Text" = "स्पष्ट पाठ";
+"Clears the text from the window above" = "ऊपर की खिड़की से पाठ को साफ करता है";
+"Input a preset phrase you would like to add" = "एक प्रीसेट वाक्यांश इनपुट आप जोड़ना चाहते हैं";
+"Add Image" = "छवि जोड़ें";
+"Adds images that you can show" = "उन छवियों को जोड़ता है जो आप दिखा सकते हैं";
+"This text field acts as a notepad so you can share what you would like to say" = "यह टेक्स्ट फ़ील्ड एक नोटपैड के रूप में कार्य करता है ताकि आप साझा कर सकें कि आप क्या कहना चाहते हैं";

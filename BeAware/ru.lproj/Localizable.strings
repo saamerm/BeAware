@@ -108,3 +108,19 @@
 "On" = "Активный";
 "Stopped" = "Остановился";
 "Transcribing" = "Транскрибация";
+
+"Start Transcribing" = "Начать транскрибинг";
+"Stop Transcribing" = "Остановить транскрибирование";
+"This field populates in real time when the voice is being recorded" = "Это поле популярно в режиме реального времени, когда голос записывается";
+"Play the the text loud, even to the other party during a phone or video call" = "Играть в текст громко, даже на другую вечеринку во время телефона или видеозвонка";
+"Flip the text box" = "Перевернуть текстовое поле";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Эта кнопка переворачивает окно для другого человека, чтобы увидеть, что вы напечатали, не повернув руку";
+"Tap to add preset phrase to the text editor above" = "Нажмите, чтобы добавить предустановленную фразу в текстовый редактор выше";
+"Remove Phrase" = "Удалить фразу";
+"Removes the preset phrase" = "Удаляет предустановленную фразу";
+"Clear Text" = "Чистый текст";
+"Clears the text from the window above" = "Очищает текст из окна выше";
+"Input a preset phrase you would like to add" = "Введите заданную фразу, которую вы хотели бы добавить";
+"Add Image" = "Добавить изображение";
+"Adds images that you can show" = "Добавляет изображения, которые вы можете показать";
+"This text field acts as a notepad so you can share what you would like to say" = "Это текстовое поле действует как блокнот, чтобы вы могли поделиться тем, что хотели бы сказать";

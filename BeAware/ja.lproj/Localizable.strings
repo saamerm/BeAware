@@ -109,3 +109,19 @@
 "On" = "アクティブ";
 "Stopped" = "停止";
 "Transcribing" = "転記";
+
+"Start Transcribing" = "転写を開始します";
+"Stop Transcribing" = "転写を停止します";
+"This field populates in real time when the voice is being recorded" = "このフィールドは、声が記録されているときにリアルタイムで入力します";
+"Play the the text loud, even to the other party during a phone or video call" = "電話やビデオ通話中に、相手にもテキストを大声で再生します";
+"Flip the text box" = "テキストボックスをフリップします";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "このボタンは、他の人が手を回すことなく入力したものを見るためにウィンドウをひっくり返します";
+"Tap to add preset phrase to the text editor above" = "タップして、上記のテキストエディターにプリセットフレーズを追加します";
+"Remove Phrase" = "フレーズを削除します";
+"Removes the preset phrase" = "プリセットフレーズを削除します";
+"Clear Text" = "クリアテキスト";
+"Clears the text from the window above" = "上のウィンドウからテキストをクリアします";
+"Input a preset phrase you would like to add" = "追加したいプリセットフレーズを入力します";
+"Add Image" = "画像を追加";
+"Adds images that you can show" = "表示できる画像を追加します";
+"This text field acts as a notepad so you can share what you would like to say" = "このテキストフィールドはメモ帳として機能するので、言いたいことを共有できます";

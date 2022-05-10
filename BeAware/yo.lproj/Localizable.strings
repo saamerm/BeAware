@@ -108,3 +108,19 @@
 "On" = "Alaapọn";
 "Stopped" = "Duro";
 "Transcribing" = "Ranctibing";
+
+"Start Transcribing" = "Bẹrẹ transcribing";
+"Stop Transcribing" = "Dakọ sibicing";
+"This field populates in real time when the voice is being recorded" = "Aaye yii n gbejade ni akoko gidi nigbati ohun naa ba gba silẹ";
+"Play the the text loud, even to the other party during a phone or video call" = "Mu ọrọ naa pariwo, paapaa si ẹgbẹ miiran lakoko foonu tabi ipe fidio";
+"Flip the text box" = "Isipade apoti ọrọ";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Bọtini yii Flips window fun eniyan miiran lati rii ohun ti o tẹ laisi nini fi ọwọ rẹ";
+"Tap to add preset phrase to the text editor above" = "Fọwọ ba lati ṣafikun gbolohun tito tẹlẹ si olootu ọrọ loke";
+"Remove Phrase" = "Yọ gbolohun ọrọ";
+"Removes the preset phrase" = "Yọ gbolohun tito kuro";
+"Clear Text" = "Ko ọrọ";
+"Clears the text from the window above" = "Pa ọrọ kuro ninu window ti o wa loke";
+"Input a preset phrase you would like to add" = "Input gbolohun tito ti iwọ yoo fẹ lati ṣafikun";
+"Add Image" = "Ṣafikun aworan";
+"Adds images that you can show" = "Ṣafikun awọn aworan ti o le fihan";
+"This text field acts as a notepad so you can share what you would like to say" = "Aaye ọrọ yii n ṣe bi ohun elo kan ki o le pin ohun ti o yoo fẹ lati sọ";

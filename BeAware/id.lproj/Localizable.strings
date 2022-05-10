@@ -108,3 +108,19 @@
 "On" = "Aktif";
 "Stopped" = "Berhenti";
 "Transcribing" = "Transkrip";
+
+"Start Transcribing" = "Mulailah menyalin";
+"Stop Transcribing" = "Berhenti menyalin";
+"This field populates in real time when the voice is being recorded" = "Bidang ini terisi secara real time saat suara sedang direkam";
+"Play the the text loud, even to the other party during a phone or video call" = "Mainkan teksnya dengan keras, bahkan ke pihak lain selama panggilan telepon atau video";
+"Flip the text box" = "Balikkan kotak teks";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Tombol ini membalik jendela untuk orang lain untuk melihat apa yang Anda ketik tanpa harus memutar tangan Anda";
+"Tap to add preset phrase to the text editor above" = "Ketuk untuk menambahkan frase preset ke editor teks di atas";
+"Remove Phrase" = "Hapus frasa";
+"Removes the preset phrase" = "Menghapus frasa yang telah ditetapkan";
+"Clear Text" = "Teks bersih";
+"Clears the text from the window above" = "Menghapus teks dari jendela di atas";
+"Input a preset phrase you would like to add" = "Masukkan frasa preset yang ingin Anda tambahkan";
+"Add Image" = "Menambahkan gambar";
+"Adds images that you can show" = "Menambahkan gambar yang dapat Anda tunjukkan";
+"This text field acts as a notepad so you can share what you would like to say" = "Bidang teks ini bertindak sebagai notepad sehingga Anda dapat membagikan apa yang ingin Anda katakan";

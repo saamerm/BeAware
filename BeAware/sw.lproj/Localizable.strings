@@ -98,3 +98,19 @@
 "On" = "Active.";
 "Stopped" = "Imesimama";
 "Transcribing" = "TRANScribing.";
+
+"Start Transcribing" = "Anza kuandika";
+"Stop Transcribing" = "Acha kuandika";
+"This field populates in real time when the voice is being recorded" = "Uwanja huu hujaa kwa wakati halisi wakati sauti inarekodiwa";
+"Play the the text loud, even to the other party during a phone or video call" = "Cheza maandishi kwa sauti kubwa, hata kwa mtu mwingine wakati wa simu au simu ya video";
+"Flip the text box" = "Flip sanduku la maandishi";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Kitufe hiki kinaruka dirisha kwa mtu mwingine kuona kile ulichoandika bila kugeuza mkono wako";
+"Tap to add preset phrase to the text editor above" = "Gonga ili kuongeza kifungu cha preset kwa hariri ya maandishi hapo juu";
+"Remove Phrase" = "Ondoa kifungu";
+"Removes the preset phrase" = "Huondoa kifungu cha preset";
+"Clear Text" = "Maandishi wazi";
+"Clears the text from the window above" = "Inasafisha maandishi kutoka kwenye dirisha hapo juu";
+"Input a preset phrase you would like to add" = "Ingiza kifungu cha mapema ambacho ungependa kuongeza";
+"Add Image" = "Ongeza picha";
+"Adds images that you can show" = "Anaongeza picha ambazo unaweza kuonyesha";
+"This text field acts as a notepad so you can share what you would like to say" = "Uwanja huu wa maandishi hufanya kama notepad ili uweze kushiriki kile ungependa kusema";

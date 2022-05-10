@@ -108,3 +108,19 @@
 "On" = "Включити";
 "Stopped" = "Зупинити";
 "Transcribing" = "Переписати";
+
+"Start Transcribing" = "Почніть переписувати";
+"Stop Transcribing" = "Зупиніть транскрипцію";
+"This field populates in real time when the voice is being recorded" = "Це поле заповнюється в режимі реального часу, коли голос записується";
+"Play the the text loud, even to the other party during a phone or video call" = "Грайте в текст голосно, навіть на іншу вечірку під час телефону або відеодзвінка";
+"Flip the text box" = "Переверніть текстове поле";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Ця кнопка перевертає вікно для іншої людини, щоб побачити, що ви набрали, не звертаючи руки";
+"Tap to add preset phrase to the text editor above" = "Торкніться, щоб додати попередньо встановлену фразу до текстового редактора вище";
+"Remove Phrase" = "Видалити фразу";
+"Removes the preset phrase" = "Видаляє попередньо встановлену фразу";
+"Clear Text" = "Чіткий текст";
+"Clears the text from the window above" = "Очищає текст з вікна вгорі";
+"Input a preset phrase you would like to add" = "Введіть попередньо встановлену фразу, яку ви хочете додати";
+"Add Image" = "Додати зображення";
+"Adds images that you can show" = "Додає зображення, які ви можете показати";
+"This text field acts as a notepad so you can share what you would like to say" = "Це текстове поле діє як блокнот, щоб ви могли поділитися тим, що хотіли б сказати";

@@ -37,6 +37,7 @@ struct TextView : View {
                         TextEditor(
                             text: $writtenText
                         )
+                            .accessibilityHint("This text field acts as a notepad so you can share what you would like to say")
                             .frame(height: 300)
                             .minimumScaleFactor(0.5)
                             .font(.custom("Avenir", size: fontSize))
@@ -58,15 +59,24 @@ struct TextView : View {
 
                                 }
                             ){
-//                                Text("Hello")
                                 Image(systemName: "iphone.badge.play")
                                     .resizable()
                                     .foregroundColor(Color("SecondaryColor"))
                                     .scaledToFit()
                                     .frame(width: 40, height: 40)
-//                                    .foregroundColor(Color("BrandColor"))
-                                    .accessibilityLabel("Play")
+                                    .accessibilityLabel("PLAY")
                                     .accessibilityHint("Play the the text loud, even to the other party during a phone or video call")
+                            }
+                            Button(action:{
+                                writtenText = ""
+                            }){
+                                Image(systemName: "clear")
+                                    .resizable()
+                                    .foregroundColor(Color("SecondaryColor"))
+                                    .scaledToFit()
+                                    .frame(width: 24, height: 40)
+                                    .accessibilityLabel("Clear Text")
+                                    .accessibilityHint("Clears the text from the window above")
                             }
                             Button(
                                 action: {
@@ -87,8 +97,8 @@ struct TextView : View {
                                     RoundedRectangle(cornerRadius: 10).frame(width: 150, height: 40).foregroundColor(Color("SecondaryColor")).shadow(color: .black, radius: 5, x: 0, y: 4)
                                     Text("FLIP TEXT").foregroundColor(Color("BrandColor"))
                                         .font(.custom("Avenir", size: 17))
-                                        .accessibilityLabel("flip screen")
-                                        .accessibilityHint("Flips the screen for the other person to see what you typed")
+                                        .accessibilityLabel("Flip the text box")
+                                        .accessibilityHint("This button flips the window for the other person to see what you typed without having to turn your hand")
                                 }
                             }
                             Slider(value: $fontSize, in: 18...50, step: 4)
@@ -131,7 +141,7 @@ struct TextView : View {
                                     }
                                 Spacer()
                                 Image(systemName: "trash")
-                                    .accessibilityLabel("Delete")
+                                    .accessibilityLabel("Remove Phrase")
                                     .accessibilityHint("Removes the preset phrase")
                                     .accessibilityAddTraits(.isButton)
                                     .foregroundColor(Color("SecondaryColor"))
@@ -165,11 +175,6 @@ struct TextView : View {
                                 }
                             ){
                                 ZStack{
-//                                    RoundedRectangle(cornerRadius: 10).foregroundColor(Color("SecondaryColor")).shadow(color: .black, radius: 5, x: 0, y: 4)
-//                                    Text("ADD").foregroundColor(Color("BrandColor"))
-//                                        .font(.custom("Avenir", size: 17))
-//                                        .accessibilityLabel("Add")
-//                                        .accessibilityHint("Adds the phrase you input to a list of preset phrases")
                                     Image(systemName: "plus.circle")
                                         .font(.system(size:28))
                                         .foregroundColor(Color("SecondaryColor"))

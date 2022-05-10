@@ -108,3 +108,19 @@
 "On" = "Aktywny";
 "Stopped" = "Zatrzymany";
 "Transcribing" = "Transkrybowanie";
+
+"Start Transcribing" = "Zacznij transkrybować";
+"Stop Transcribing" = "Przestań transkrybować";
+"This field populates in real time when the voice is being recorded" = "To pole jest zaludnione w czasie rzeczywistym, gdy głos jest rejestrowany";
+"Play the the text loud, even to the other party during a phone or video call" = "Odtwórz tekst głośno, nawet na drugą stronę podczas telefonu lub telefonicznego";
+"Flip the text box" = "Odwróć pole tekstowe";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Ten przycisk przewraca okno dla drugiej osoby, aby zobaczyć, co wpisałeś bez konieczności obracania ręki";
+"Tap to add preset phrase to the text editor above" = "Stuknij, aby dodać ustawione wyrażenie do edytora tekstu powyżej";
+"Remove Phrase" = "Usuń zdanie";
+"Removes the preset phrase" = "Usuwa wstępnie ustawione wyrażenie";
+"Clear Text" = "Czysty tekst";
+"Clears the text from the window above" = "Wyczyszcza tekst z okna powyżej";
+"Input a preset phrase you would like to add" = "Wprowadź wstępną frazę, którą chcesz dodać";
+"Add Image" = "Dodaj obraz";
+"Adds images that you can show" = "Dodaje obrazy, które możesz pokazać";
+"This text field acts as a notepad so you can share what you would like to say" = "To pole tekstowe działa jako notatnik, więc możesz podzielić się tym, co chciałbyś powiedzieć";

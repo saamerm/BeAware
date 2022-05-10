@@ -115,3 +115,19 @@
 "On" = "Activ";
 "Stopped" = "Oprit";
 "Transcribing" = "Transcriere";
+
+"Start Transcribing" = "Începeți să transcrieți";
+"Stop Transcribing" = "Nu mai transcrie";
+"This field populates in real time when the voice is being recorded" = "Acest câmp populează în timp real când vocea este înregistrată";
+"Play the the text loud, even to the other party during a phone or video call" = "Redați textul tare, chiar și la cealaltă petrecere în timpul unui telefon sau apel video";
+"Flip the text box" = "Rotiți caseta de text";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Acest buton aruncă fereastra pentru ca cealaltă persoană să vadă ce ați tastat fără a fi nevoie să vă întoarceți mâna";
+"Tap to add preset phrase to the text editor above" = "Atingeți pentru a adăuga frază presetată la editorul de text de mai sus";
+"Remove Phrase" = "Eliminați fraza";
+"Removes the preset phrase" = "Elimină fraza prestabilită";
+"Clear Text" = "Text clar";
+"Clears the text from the window above" = "Șterge textul de pe fereastra de mai sus";
+"Input a preset phrase you would like to add" = "Introduceți o frază prestabilită pe care doriți să o adăugați";
+"Add Image" = "Adauga imagine";
+"Adds images that you can show" = "Adaugă imagini pe care le puteți afișa";
+"This text field acts as a notepad so you can share what you would like to say" = "Acest câmp de text acționează ca un bloc de notițe, astfel încât să puteți împărtăși ceea ce ați dori să spuneți";

@@ -108,3 +108,19 @@
 "On" = "فعال";
 "Stopped" = "روکا";
 "Transcribing" = "ٹرانسمیشن";
+
+"Start Transcribing" = "نقل شروع کریں";
+"Stop Transcribing" = "نقل بند کرنا بند کریں";
+"This field populates in real time when the voice is being recorded" = "جب آواز ریکارڈ کی جارہی ہے تو یہ فیلڈ حقیقی وقت میں مقبول ہوتا ہے";
+"Play the the text loud, even to the other party during a phone or video call" = "فون یا ویڈیو کال کے دوران یہاں تک کہ دوسرے فریق کو بھی متن کو اونچی آواز میں کھیلیں";
+"Flip the text box" = "ٹیکسٹ باکس پلٹائیں";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "یہ بٹن دوسرے شخص کے ل window ونڈو کو پلٹاتا ہے کہ آپ نے اپنا ہاتھ پھیرنے کے بغیر کیا ٹائپ کیا";
+"Tap to add preset phrase to the text editor above" = "مذکورہ ٹیکسٹ ایڈیٹر میں پیش سیٹ فقرے کو شامل کرنے کے لئے ٹیپ کریں";
+"Remove Phrase" = "جملے کو ہٹا دیں";
+"Removes the preset phrase" = "پیش سیٹ جملے کو ہٹا دیتا ہے";
+"Clear Text" = "صاف متن";
+"Clears the text from the window above" = "اوپر کی کھڑکی سے متن کو صاف کرتا ہے";
+"Input a preset phrase you would like to add" = "ایک پیش سیٹ فقرے کو ان پٹ کریں جو آپ شامل کرنا چاہیں گے";
+"Add Image" = "تصویر شامل کریں";
+"Adds images that you can show" = "ایسی تصاویر شامل کرتا ہے جو آپ دکھا سکتے ہیں";
+"This text field acts as a notepad so you can share what you would like to say" = "یہ ٹیکسٹ فیلڈ نوٹ پیڈ کے طور پر کام کرتا ہے تاکہ آپ جو کچھ کہنا چاہیں اس کا اشتراک کرسکیں";

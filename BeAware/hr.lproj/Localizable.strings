@@ -115,3 +115,19 @@
 "On" = "Aktivan";
 "Stopped" = "Zaustavljen";
 "Transcribing" = "Prepisivanje";
+
+"Start Transcribing" = "Počnite prepisivati";
+"Stop Transcribing" = "Prestati prepisivati";
+"This field populates in real time when the voice is being recorded" = "Ovo polje popunjava u stvarnom vremenu kada se glas zabilježi";
+"Play the the text loud, even to the other party during a phone or video call" = "Igrajte tekst glasno, čak i drugoj zabavi tijekom telefona ili video poziva";
+"Flip the text box" = "Prebacite tekstni okvir";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Ovaj gumb okreće prozor da druga osoba vidi što ste upisali bez potrebe da okrenete ruku";
+"Tap to add preset phrase to the text editor above" = "Dodirnite za dodavanje unaprijed postavljene fraze gornjem uređivaču teksta";
+"Remove Phrase" = "Uklonite frazu";
+"Removes the preset phrase" = "Uklanja unaprijed postavljenu frazu";
+"Clear Text" = "Jasan tekst";
+"Clears the text from the window above" = "Čisti tekst iz gornjeg prozora";
+"Input a preset phrase you would like to add" = "Unesite unaprijed postavljenu frazu koju želite dodati";
+"Add Image" = "Dodati sliku";
+"Adds images that you can show" = "Dodaje slike koje možete pokazati";
+"This text field acts as a notepad so you can share what you would like to say" = "Ovo tekstualno polje djeluje kao bilježnica kako biste mogli podijeliti ono što biste željeli reći";

@@ -108,3 +108,19 @@
 "On" = "On";
 "Stopped" = "Stopped";
 "Transcribing" = "Transcribing";
+
+"Start Transcribing" = "Start Transcribing";
+"Stop Transcribing" = "Stop Transcribing";
+"This field populates in real time when the voice is being recorded" = "This field populates in real time when the voice is being recorded";
+"Play the the text loud, even to the other party during a phone or video call" = "Play the the text loud, even to the other party during a phone or video call";
+"Flip the text box" = "Flip the text box";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "This button flips the window for the other person to see what you typed without having to turn your hand";
+"Tap to add preset phrase to the text editor above" = "Tap to add preset phrase to the text editor above";
+"Remove Phrase" = "Remove Phrase";
+"Removes the preset phrase" = "Removes the preset phrase";
+"Clear Text" = "Clear Text";
+"Clears the text from the window above" = "Clears the text from the window above";
+"Input a preset phrase you would like to add" = "Input a preset phrase you would like to add";
+"Add Image" = "Add Image";
+"Adds images that you can show" = "Adds images that you can show";
+"This text field acts as a notepad so you can share what you would like to say" = "This text field acts as a notepad so you can share what you would like to say";
