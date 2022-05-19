@@ -14,6 +14,10 @@
 		1FEB47DE27C40BCA0060F29A /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB47DD27C40BCA0060F29A /* TutorialView.swift */; };
 		1FEB47E027C433E40060F29A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB47DF27C433E40060F29A /* VideoView.swift */; };
 		760262FC27B47277003E52C1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760262FB27B47277003E52C1 /* Launch Screen.storyboard */; };
+		76230615282BD7F900E9F469 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230613282BD7F900E9F469 /* Localizable.strings */; };
+		7623061B282BDA4C00E9F469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230619282BDA4C00E9F469 /* InfoPlist.strings */; };
+		7623061F282BE3EB00E9F469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230619282BDA4C00E9F469 /* InfoPlist.strings */; };
+		76230620282BE3EE00E9F469 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230613282BD7F900E9F469 /* Localizable.strings */; };
 		765734262813209000024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3011E28008D3800456C4B /* InfoPlist.strings */; };
 		765734272813209B00024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3013028008D6F00456C4B /* InfoPlist.strings */; };
 		76573428281320AC00024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3012D28008D6800456C4B /* InfoPlist.strings */; };
@@ -167,6 +171,9 @@
 		1FEB47DF27C433E40060F29A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		76019E5227B052C200042B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760262FB27B47277003E52C1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		76230614282BD7F900E9F469 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Localizable.strings; sourceTree = "<group>"; };
+		7623061A282BDA4C00E9F469 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = InfoPlist.strings; sourceTree = "<group>"; };
+		7623061E282BE3B400E9F469 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Partner.strings; sourceTree = "<group>"; };
 		765734372813235700024F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Partner.intentdefinition; sourceTree = "<group>"; };
 		7657343A2813235C00024F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Partner.strings; sourceTree = "<group>"; };
 		7657343C2813235D00024F2C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Partner.strings; sourceTree = "<group>"; };
@@ -309,28 +316,7 @@
 		1F1DD5EB27AB0EB9008FD66F /* BeAware */ = {
 			isa = PBXGroup;
 			children = (
-				767272932812FD07007AA9D5 /* fa.lproj */,
-				7672728A2812FC62007AA9D5 /* hr.lproj */,
-				76C300EA2800820B00456C4B /* zh.lproj */,
-				767272812812FA7F007AA9D5 /* zh-Hant.lproj */,
-				767272772812F855007AA9D5 /* ro.lproj */,
-				7672726E2812F5DB007AA9D5 /* vi.lproj */,
-				767272652812F492007AA9D5 /* pl.lproj */,
-				76C300FC280082AD00456C4B /* sw.lproj */,
-				7672725C2812F2B8007AA9D5 /* ja.lproj */,
-				76C300FB280082A500456C4B /* it.lproj */,
-				76C300FA2800829700456C4B /* id.lproj */,
-				76C300F62800825300456C4B /* yo.lproj */,
-				76C300F22800823900456C4B /* ur.lproj */,
-				76C300EE2800822200456C4B /* hi.lproj */,
-				76C300E6280073CF00456C4B /* uk.lproj */,
-				76C300E2280073AC00456C4B /* de.lproj */,
-				76C300DE2800739100456C4B /* ru.lproj */,
-				76C300D628006F6C00456C4B /* ar.lproj */,
-				76C300DA2800722900456C4B /* pt.lproj */,
-				76C300D228006E9F00456C4B /* es.lproj */,
-				76E087DD27FB80CE0008F4F0 /* fr.lproj */,
-				76E087DC27FB80C10008F4F0 /* en.lproj */,
+				7623061C282BDA9400E9F469 /* Localizations */,
 				76F348F427BCC69B00BABBAD /* BeAware.entitlements */,
 				76F348BC27BC7E2600BABBAD /* Views */,
 				1F1DD5EC27AB0EB9008FD66F /* BeAwareApp.swift */,
@@ -354,6 +340,45 @@
 				1F1DD5F327AB0EBA008FD66F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76230612282BD7D600E9F469 /* nl.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				76230613282BD7F900E9F469 /* Localizable.strings */,
+				76230619282BDA4C00E9F469 /* InfoPlist.strings */,
+			);
+			path = nl.lproj;
+			sourceTree = "<group>";
+		};
+		7623061C282BDA9400E9F469 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				76230612282BD7D600E9F469 /* nl.lproj */,
+				767272932812FD07007AA9D5 /* fa.lproj */,
+				7672728A2812FC62007AA9D5 /* hr.lproj */,
+				76C300EA2800820B00456C4B /* zh.lproj */,
+				767272812812FA7F007AA9D5 /* zh-Hant.lproj */,
+				767272772812F855007AA9D5 /* ro.lproj */,
+				7672726E2812F5DB007AA9D5 /* vi.lproj */,
+				767272652812F492007AA9D5 /* pl.lproj */,
+				76C300FC280082AD00456C4B /* sw.lproj */,
+				7672725C2812F2B8007AA9D5 /* ja.lproj */,
+				76C300FB280082A500456C4B /* it.lproj */,
+				76C300FA2800829700456C4B /* id.lproj */,
+				76C300F62800825300456C4B /* yo.lproj */,
+				76C300F22800823900456C4B /* ur.lproj */,
+				76C300EE2800822200456C4B /* hi.lproj */,
+				76C300E6280073CF00456C4B /* uk.lproj */,
+				76C300E2280073AC00456C4B /* de.lproj */,
+				76C300DE2800739100456C4B /* ru.lproj */,
+				76C300D628006F6C00456C4B /* ar.lproj */,
+				76C300DA2800722900456C4B /* pt.lproj */,
+				76C300D228006E9F00456C4B /* es.lproj */,
+				76E087DD27FB80CE0008F4F0 /* fr.lproj */,
+				76E087DC27FB80C10008F4F0 /* en.lproj */,
+			);
+			path = Localizations;
 			sourceTree = "<group>";
 		};
 		7672725C2812F2B8007AA9D5 /* ja.lproj */ = {
@@ -683,6 +708,7 @@
 				"zh-Hant",
 				hr,
 				fa,
+				nl,
 			);
 			mainGroup = 1F1DD5E027AB0EB9008FD66F;
 			productRefGroup = 1F1DD5EA27AB0EB9008FD66F /* Products */;
@@ -722,6 +748,7 @@
 				767272522811274B007AA9D5 /* Localizable.strings in Resources */,
 				7672726C2812F4B7007AA9D5 /* InfoPlist.strings in Resources */,
 				1F1DD5F427AB0EBA008FD66F /* Preview Assets.xcassets in Resources */,
+				7623061B282BDA4C00E9F469 /* InfoPlist.strings in Resources */,
 				76C3010E28008CF800456C4B /* InfoPlist.strings in Resources */,
 				76C3012028008D3800456C4B /* InfoPlist.strings in Resources */,
 				76C3010B28008CE000456C4B /* InfoPlist.strings in Resources */,
@@ -735,6 +762,7 @@
 				767F74CE27B63868009E757C /* ding.wav in Resources */,
 				767272562811274B007AA9D5 /* Localizable.strings in Resources */,
 				767272752812F5FA007AA9D5 /* InfoPlist.strings in Resources */,
+				76230615282BD7F900E9F469 /* Localizable.strings in Resources */,
 				767272572811274B007AA9D5 /* Localizable.strings in Resources */,
 				7672727A2812F86C007AA9D5 /* Localizable.strings in Resources */,
 				767272882812FA9F007AA9D5 /* InfoPlist.strings in Resources */,
@@ -757,6 +785,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				767272602812F2D2007AA9D5 /* Localizable.strings in Resources */,
+				76230620282BE3EE00E9F469 /* Localizable.strings in Resources */,
 				76573431281320DB00024F2C /* InfoPlist.strings in Resources */,
 				765734272813209B00024F2C /* InfoPlist.strings in Resources */,
 				765734262813209000024F2C /* InfoPlist.strings in Resources */,
@@ -765,6 +794,7 @@
 				7657342C281320C500024F2C /* InfoPlist.strings in Resources */,
 				76573429281320B100024F2C /* InfoPlist.strings in Resources */,
 				76F348E627BCC17000BABBAD /* Assets.xcassets in Resources */,
+				7623061F282BE3EB00E9F469 /* InfoPlist.strings in Resources */,
 				76573433281320E900024F2C /* InfoPlist.strings in Resources */,
 				767272892812FA9F007AA9D5 /* InfoPlist.strings in Resources */,
 				7657342F281320D300024F2C /* InfoPlist.strings in Resources */,
@@ -859,6 +889,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		76230613282BD7F900E9F469 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76230614282BD7F900E9F469 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		76230619282BDA4C00E9F469 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7623061A282BDA4C00E9F469 /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		765734382813235700024F2C /* Partner.intentdefinition */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -885,6 +931,7 @@
 				765734602813236900024F2C /* vi */,
 				765734622813236A00024F2C /* yo */,
 				765734642813236A00024F2C /* ur */,
+				7623061E282BE3B400E9F469 /* nl */,
 			);
 			name = Partner.intentdefinition;
 			sourceTree = "<group>";
@@ -1369,7 +1416,7 @@
 				CODE_SIGN_ENTITLEMENTS = BeAware/BeAware.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 29;
 				DEVELOPMENT_ASSET_PATHS = "\"BeAware/Preview Content\"";
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				ENABLE_PREVIEWS = YES;
@@ -1391,7 +1438,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1410,7 +1457,7 @@
 				CODE_SIGN_ENTITLEMENTS = BeAware/BeAware.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 29;
 				DEVELOPMENT_ASSET_PATHS = "\"BeAware/Preview Content\"";
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				ENABLE_PREVIEWS = YES;
@@ -1432,7 +1479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1449,7 +1496,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = PartnerExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 29;
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Partner/Info.plist;
@@ -1461,7 +1508,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware.partner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1478,7 +1525,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = PartnerExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 29;
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Partner/Info.plist;
@@ -1490,7 +1537,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware.partner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
