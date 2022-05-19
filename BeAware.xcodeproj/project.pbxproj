@@ -18,6 +18,9 @@
 		7623061B282BDA4C00E9F469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230619282BDA4C00E9F469 /* InfoPlist.strings */; };
 		7623061F282BE3EB00E9F469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230619282BDA4C00E9F469 /* InfoPlist.strings */; };
 		76230620282BE3EE00E9F469 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76230613282BD7F900E9F469 /* Localizable.strings */; };
+		764B8B032836C283001A8F31 /* BeAwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B8B022836C283001A8F31 /* BeAwareTests.swift */; };
+		764B8B102836C2C3001A8F31 /* BeAwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B8B0F2836C2C3001A8F31 /* BeAwareUITests.swift */; };
+		764B8B122836C2C3001A8F31 /* BeAwareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764B8B112836C2C3001A8F31 /* BeAwareUITestsLaunchTests.swift */; };
 		765734262813209000024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3011E28008D3800456C4B /* InfoPlist.strings */; };
 		765734272813209B00024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3013028008D6F00456C4B /* InfoPlist.strings */; };
 		76573428281320AC00024F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76C3012D28008D6800456C4B /* InfoPlist.strings */; };
@@ -138,6 +141,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		764B8B042836C283001A8F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1DD5E127AB0EB9008FD66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1DD5E827AB0EB9008FD66F;
+			remoteInfo = BeAware;
+		};
+		764B8B132836C2C3001A8F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1DD5E127AB0EB9008FD66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1DD5E827AB0EB9008FD66F;
+			remoteInfo = BeAware;
+		};
 		76F348EA27BCC17000BABBAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F1DD5E127AB0EB9008FD66F /* Project object */;
@@ -174,6 +191,11 @@
 		76230614282BD7F900E9F469 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Localizable.strings; sourceTree = "<group>"; };
 		7623061A282BDA4C00E9F469 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = InfoPlist.strings; sourceTree = "<group>"; };
 		7623061E282BE3B400E9F469 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Partner.strings; sourceTree = "<group>"; };
+		764B8B002836C283001A8F31 /* BeAwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeAwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764B8B022836C283001A8F31 /* BeAwareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAwareTests.swift; sourceTree = "<group>"; };
+		764B8B0D2836C2C3001A8F31 /* BeAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeAwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764B8B0F2836C2C3001A8F31 /* BeAwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAwareUITests.swift; sourceTree = "<group>"; };
+		764B8B112836C2C3001A8F31 /* BeAwareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAwareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		765734372813235700024F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Partner.intentdefinition; sourceTree = "<group>"; };
 		7657343A2813235C00024F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Partner.strings; sourceTree = "<group>"; };
 		7657343C2813235D00024F2C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Partner.strings; sourceTree = "<group>"; };
@@ -280,6 +302,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		764B8AFD2836C283001A8F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764B8B0A2836C2C3001A8F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76F348D827BCC16E00BABBAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +335,8 @@
 				76F348F127BCC37100BABBAD /* Extensions.swift */,
 				1F1DD5EB27AB0EB9008FD66F /* BeAware */,
 				76F348E127BCC16E00BABBAD /* Partner */,
+				764B8B012836C283001A8F31 /* BeAwareTests */,
+				764B8B0E2836C2C3001A8F31 /* BeAwareUITests */,
 				76F348DC27BCC16E00BABBAD /* Frameworks */,
 				1F1DD5EA27AB0EB9008FD66F /* Products */,
 			);
@@ -309,6 +347,8 @@
 			children = (
 				1F1DD5E927AB0EB9008FD66F /* BeAware.app */,
 				76F348DB27BCC16E00BABBAD /* PartnerExtension.appex */,
+				764B8B002836C283001A8F31 /* BeAwareTests.xctest */,
+				764B8B0D2836C2C3001A8F31 /* BeAwareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -379,6 +419,23 @@
 				76E087DC27FB80C10008F4F0 /* en.lproj */,
 			);
 			path = Localizations;
+			sourceTree = "<group>";
+		};
+		764B8B012836C283001A8F31 /* BeAwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				764B8B022836C283001A8F31 /* BeAwareTests.swift */,
+			);
+			path = BeAwareTests;
+			sourceTree = "<group>";
+		};
+		764B8B0E2836C2C3001A8F31 /* BeAwareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				764B8B0F2836C2C3001A8F31 /* BeAwareUITests.swift */,
+				764B8B112836C2C3001A8F31 /* BeAwareUITestsLaunchTests.swift */,
+			);
+			path = BeAwareUITests;
 			sourceTree = "<group>";
 		};
 		7672725C2812F2B8007AA9D5 /* ja.lproj */ = {
@@ -645,6 +702,42 @@
 			productReference = 1F1DD5E927AB0EB9008FD66F /* BeAware.app */;
 			productType = "com.apple.product-type.application";
 		};
+		764B8AFF2836C283001A8F31 /* BeAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764B8B082836C283001A8F31 /* Build configuration list for PBXNativeTarget "BeAwareTests" */;
+			buildPhases = (
+				764B8AFC2836C283001A8F31 /* Sources */,
+				764B8AFD2836C283001A8F31 /* Frameworks */,
+				764B8AFE2836C283001A8F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764B8B052836C283001A8F31 /* PBXTargetDependency */,
+			);
+			name = BeAwareTests;
+			productName = BeAwareTests;
+			productReference = 764B8B002836C283001A8F31 /* BeAwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		764B8B0C2836C2C3001A8F31 /* BeAwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764B8B152836C2C3001A8F31 /* Build configuration list for PBXNativeTarget "BeAwareUITests" */;
+			buildPhases = (
+				764B8B092836C2C3001A8F31 /* Sources */,
+				764B8B0A2836C2C3001A8F31 /* Frameworks */,
+				764B8B0B2836C2C3001A8F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764B8B142836C2C3001A8F31 /* PBXTargetDependency */,
+			);
+			name = BeAwareUITests;
+			productName = BeAwareUITests;
+			productReference = 764B8B0D2836C2C3001A8F31 /* BeAwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		76F348DA27BCC16E00BABBAD /* PartnerExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F348F027BCC17000BABBAD /* Build configuration list for PBXNativeTarget "PartnerExtension" */;
@@ -674,6 +767,14 @@
 				TargetAttributes = {
 					1F1DD5E827AB0EB9008FD66F = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					764B8AFF2836C283001A8F31 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1F1DD5E827AB0EB9008FD66F;
+					};
+					764B8B0C2836C2C3001A8F31 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1F1DD5E827AB0EB9008FD66F;
 					};
 					76F348DA27BCC16E00BABBAD = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -717,6 +818,8 @@
 			targets = (
 				1F1DD5E827AB0EB9008FD66F /* BeAware */,
 				76F348DA27BCC16E00BABBAD /* PartnerExtension */,
+				764B8AFF2836C283001A8F31 /* BeAwareTests */,
+				764B8B0C2836C2C3001A8F31 /* BeAwareUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -777,6 +880,20 @@
 				767272682812F4A5007AA9D5 /* Localizable.strings in Resources */,
 				76C3012C28008D6000456C4B /* InfoPlist.strings in Resources */,
 				1F1DD5F127AB0EBA008FD66F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764B8AFE2836C283001A8F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764B8B0B2836C2C3001A8F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,6 +985,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		764B8AFC2836C283001A8F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764B8B032836C283001A8F31 /* BeAwareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764B8B092836C2C3001A8F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764B8B122836C2C3001A8F31 /* BeAwareUITestsLaunchTests.swift in Sources */,
+				764B8B102836C2C3001A8F31 /* BeAwareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76F348D727BCC16E00BABBAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -881,6 +1015,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		764B8B052836C283001A8F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1DD5E827AB0EB9008FD66F /* BeAware */;
+			targetProxy = 764B8B042836C283001A8F31 /* PBXContainerItemProxy */;
+		};
+		764B8B142836C2C3001A8F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1DD5E827AB0EB9008FD66F /* BeAware */;
+			targetProxy = 764B8B132836C2C3001A8F31 /* PBXContainerItemProxy */;
+		};
 		76F348EB27BCC17000BABBAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 76F348DA27BCC16E00BABBAD /* PartnerExtension */;
@@ -1489,6 +1633,80 @@
 			};
 			name = Release;
 		};
+		764B8B062836C283001A8F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTU445YWD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.BeAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeAware.app/BeAware";
+			};
+			name = Debug;
+		};
+		764B8B072836C283001A8F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTU445YWD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.BeAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeAware.app/BeAware";
+			};
+			name = Release;
+		};
+		764B8B162836C2C3001A8F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTU445YWD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.BeAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeAware;
+			};
+			name = Debug;
+		};
+		764B8B172836C2C3001A8F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VTU445YWD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.BeAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeAware;
+			};
+			name = Release;
+		};
 		76F348EE27BCC17000BABBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1564,6 +1782,24 @@
 			buildConfigurations = (
 				1F1DD5F827AB0EBA008FD66F /* Debug */,
 				1F1DD5F927AB0EBA008FD66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764B8B082836C283001A8F31 /* Build configuration list for PBXNativeTarget "BeAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764B8B062836C283001A8F31 /* Debug */,
+				764B8B072836C283001A8F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764B8B152836C2C3001A8F31 /* Build configuration list for PBXNativeTarget "BeAwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764B8B162836C2C3001A8F31 /* Debug */,
+				764B8B172836C2C3001A8F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
