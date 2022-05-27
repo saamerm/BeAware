@@ -1,0 +1,4 @@
+"NSMicrophoneUsageDescription" = "Ваш мікрофон буде використовуватися для перекладу вашої мови. Щоб дозволити натисніть - 'Почати записувати'.";
+"NSSpeechRecognitionUsageDescription" = "Використовуйте функцію мовлення для перетворення голосу в текст";
+"CFBundleName" = "Будь обізнаним BeAware";
+"CFBundleDisplayName" = "Будь обізнаним BeAware";

@@ -1,0 +1,4 @@
+"NSMicrophoneUsageDescription" = "Uw microfoon wordt gebruikt om uw spraak op te nemen wanneer u op de knop 'Opname starten' drukt.";
+"NSSpeechRecognitionUsageDescription" = "Gebruik de spraakfunctie om spraak naar tekst te converteren";
+"CFBundleName" = "Bewust zijn BeAware";
+"CFBundleDisplayName" = "Bewust zijn BeAware";

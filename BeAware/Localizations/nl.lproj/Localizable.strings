@@ -1,0 +1,126 @@
+"Be Aware" = "Bewust zijn BeAware";
+"The Deaf Assistant" = "De dove assistent";
+"Use the speech feature to convert voice to text" = "Gebruik de spraakfunctie om spraak naar tekst te converteren";
+"Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Uw microfoon wordt gebruikt om uw spraak op te nemen wanneer u op de knop 'Opname starten' drukt.";
+
+"ALERT" = "ALERT";
+"Alert" = "Waarschuwing";
+"Alert Frequency" = "Waarschuwingsfrequentie:";
+"1s" = "1s";
+"10s" = "10s";
+"Noise Threshold" = "Geluidsdrempel";
+"seconds" = "seconden";
+" db" = " db";
+"Start Noise Alert" = "Geluidswaarschuwing starten";
+"Stop Noise Alert" = "Stop ruiswaarschuwing";
+"Mark alerts as critical" = "Meldingen als kritiek markeren";
+
+"SPEECH" = "TOESPRAAK";
+"Speech" = "Toespraak";
+"I can’t hear you clearly.  I use this tool to understand what people are saying. Please speak into the mic" = "Ik kan je niet duidelijk horen. Ik gebruik deze tool om te begrijpen wat mensen zeggen. Spreek alsjeblieft in de microfoon";
+
+"TEXT" = "TEKST";
+"Text" = "Tekst";
+"Tap below to start typing:" = "Tik hieronder om te beginnen met typen:";
+"PLAY" = "SPEEL";
+"FLIP TEXT" = "DRAAI TEKST";
+"Preset Phrases:" = "Vooraf ingestelde zinnen:";
+"Type here to add..." = "Typ hier om toe te voegen...";
+"ADD" = "TOEVOEGEN";
+"I'm deaf or hard of hearing" = "Ik ben doof of slechthorend";
+
+"EMOJI BOARD" = "EMOJI BOARD";
+"Emoji Board" = "Emoji-bord";
+"Select an emoji from the list to display above" = "Selecteer een emoji uit de lijst om hierboven weer te geven";
+"ADD IMAGE" = "VOEG AFBEELDING TOE";
+
+"INFO" = "INFO";
+"Tutorial" = "zelfstudie";
+"License Agreement" = "Licentieovereenkomst";
+"LICENSE AGREEMENT" = "LICENTIEOVEREENKOMST";
+"About Us" = "Over ons";
+"Video" = "Video";
+"Video" = "Video";
+"Widget" = "Widget";
+"Contact Us" = "Neem contact op";
+"CONTACT US" = "NEEM CONTACT OP";
+"Share" = "Delen";
+"Terms Of Use" = "Gebruiksvoorwaarden";
+"TERMS OF USE" = "GEBRUIKSVOORWAARDEN";
+
+"TUTORIAL" = "TUTORIAL";
+"Welcome to BeAware" = "Welkom bij BeAware";
+"This app has 4 main functions:" = "Deze app heeft 4 hoofdfuncties:";
+"Continue" = "Doorgaan";
+"Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "Waarschuwing - Verander uw apparaat in een elite waarschuwingstool met aanpasbare waarschuwingen voor korte of langdurige geluiden om u heen";
+"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "Spraak - Profiteer van de krachtige spraak-naar-tekstfunctie van uw telefoon om te transcriberen, zelfs als de app op de achtergrond actief is";
+"Text - BeAware is the only app that can read text loud into your live phone calls, assisted by customizable preset phrases" = "Tekst - BeAware is de enige app die tekst luid kan voorlezen tijdens uw live telefoongesprekken, bijgestaan ​​door aanpasbare vooraf ingestelde zinnen";
+"Emoji Board - Communicate using curated emojis or add images" = "Emoji-bord - Communiceer met behulp van samengestelde emoji's of voeg afbeeldingen toe";
+
+"ABOUT US" = "OVER ONS";
+"WHO" = "WHO";
+"Who made this" = "Wie heeft dit gemaakt";
+"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "Deze app is bedacht, ontworpen en ontwikkeld door een groep vrienden die elkaar ontmoetten op de Apple Developer Academy in Detroit";
+"WHY" = "WAAROM";
+"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "Ons doel om dit te bouwen was om een ​​app te maken die de dagelijkse taken voor mensen zou verbeteren en tegelijkertijd inclusief zou zijn";
+"FEEDBACK" = "FEEDBACK";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "De app is beschikbaar in vele talen, dus we hebben uw hulp nodig om te weten welke fouten we mogelijk hebben gemist. E-mail ons op hi@deafassistant.com";
+"CONTRIBUTE" = "BIJDRAGE LEVEREN";
+"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "We gebruiken het nieuwste iOS SwiftUI-framework om alle onderdelen van deze app te bouwen. De code is open source en het ontwerp ook. We zouden erg blij zijn met uw betrokkenheid en code pull-verzoeken";
+
+"CRITICAL ALERTS" = "KRITIEKE MELDINGEN";
+"What are Critical Alerts?" = "Wat zijn kritieke waarschuwingen?";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "Als u wilt dat waarschuwingen worden weergegeven, zelfs als de app zich in de modus Niet storen/focus bevindt, kunt u de waarschuwingen als kritiek markeren.";
+"How to turn on LED Flash" = "Hoe LED-flitser aan te zetten";
+"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1. Open de app Instellingen, tik op Toegankelijkheid en tik vervolgens op Audio/Visueel.";
+"2. Turn on LED Flash for Alerts." = "2. Schakel LED-flitser in voor waarschuwingen.";
+"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "Om te voorkomen dat de led knippert wanneer uw apparaat in de stille modus staat, schakelt u Flash on Silent uit. LED-flitser voor waarschuwingen werkt alleen als uw apparaat is vergrendeld.";
+
+"WIDGET" = "WIDGET";
+"What does the Widget Show?" = "Wat laat de widget zien?";
+"If you would like view the status of your noise alert running in the background, you can add the widget to your home screen." = "Als u de status van uw geluidsmelding op de achtergrond wilt zien, kunt u de widget aan uw startscherm toevoegen.";
+"Adding the widget" = "De widget toevoegen";
+"1. From the Home Screen, touch and hold a widget or an empty area until the apps jiggle." = "1. Houd in het startscherm een ​​widget of een leeg gebied ingedrukt totdat de apps bewegen.";
+"2. Tap the Add button (+) in the upper-left corner." = "2. Tik op de knop Toevoegen (+) in de linkerbovenhoek.";
+"3. Select the BeAware widget and then tap Add Widget and then tap Done." = "3. Selecteer de BeAware-widget en tik vervolgens op Widget toevoegen en vervolgens op Gereed.";
+
+"BeAware The D/deaf Assistant" = "BeAware De D/dove Assistent";
+"The Must Have Alerting Tool" = "De must-have waarschuwingstool";
+"Get LED Flashes For Noise Alerts" = "Ontvang LED-flitsen voor geluidswaarschuwingen";
+"Feature Packed With Essentials" = "Functie boordevol benodigdheden";
+"Play Text Into Live Phone Calls" = "Tekst afspelen in live telefoongesprekken";
+"Download, Enjoy, Utilise, Share" = "Downloaden, genieten, gebruiken, delen";
+
+"Hi, I downloaded your app and I would like to provide the following feedback:" = "Hallo, ik heb uw app gedownload en wil graag de volgende feedback geven:";
+"Hi! I downloaded BeAware- the deaf assistant for iPhones and I really think you should check it out. It has not been released to the public yet, so you can install a special free version through here: https://deafassistant.com/app" = "Hoi! Ik heb BeAware gedownload - de dove assistent voor iPhones en ik denk echt dat je het moet proberen. Het is nog niet vrijgegeven voor het publiek, dus je kunt een speciale gratis versie installeren via hier: https://deafassistant.com/app";
+"Do you like this app?" = "Vind je deze app leuk?";
+"Yes" = "Ja";
+"Not" = "Niet";
+"Rate The App" = "Beoordeel de app";
+"Noise alert notification" = "Geluidswaarschuwingsmelding";
+"The noise is loud at " = "Het geluid is luid op ";
+"By tapping Continue, you agree to our privacy policy" = "Door op Doorgaan te tikken, ga je akkoord met ons privacybeleid";
+"By tapping Continue, you agree to our" = "Door op Doorgaan te tikken, gaat u akkoord met onze";
+"Privacy Policy" = "Privacybeleid";
+"PRIVACY POLICY" = "PRIVACYBELEID";
+
+"Noise Alert" = "Geluidswaarschuwing";
+"On" = "Op";
+"Stopped" = "Gestopt";
+"Transcribing" = "Transcriberen";
+
+"Start Transcribing" = "Begin met transcriberen";
+"Stop Transcribing" = "Stop met transcriberen";
+"This field populates in real time when the voice is being recorded" = "Dit veld wordt in realtime ingevuld wanneer de stem wordt opgenomen";
+"Play the the text loud, even to the other party during a phone or video call" = "Speel de tekst luid af, zelfs voor de andere partij tijdens een telefoon- of videogesprek";
+"Flip the text box" = "Draai het tekstvak om";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Met deze knop draait het venster zodat de andere persoon kan zien wat je hebt getypt zonder dat je je hand hoeft te draaien";
+"Tap to add preset phrase to the text editor above" = "Tik om een ​​vooraf ingestelde zin toe te voegen aan de bovenstaande teksteditor";
+"Remove Phrase" = "zin verwijderen";
+"Removes the preset phrase" = "Verwijdert de vooraf ingestelde frase";
+"Clear Text" = "Duidelijke tekst";
+"Clears the text from the window above" = "Wist de tekst uit het bovenstaande venster";
+"Input a preset phrase you would like to add" = "Voer een vooraf ingestelde frase in die u wilt toevoegen";
+"Add Image" = "Voeg afbeelding toe";
+"Adds images that you can show" = "Voegt afbeeldingen toe die u kunt laten zien";
+"This text field acts as a notepad so you can share what you would like to say" = "Dit tekstveld fungeert als een notitieblok, zodat u kunt delen wat u wilt zeggen";
