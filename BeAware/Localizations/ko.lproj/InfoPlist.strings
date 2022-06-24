@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  BeAware
+
+  Created by Saamer Mansoor on 6/24/22.
+  
+*/
+"NSMicrophoneUsageDescription" = "녹음 시작' 버튼을 누르면 마이크가 연설을 녹음하는 데 사용됩니다.";
+"NSSpeechRecognitionUsageDescription" = "음성 기능을 사용하여 음성을 텍스트로 변환";
+"CFBundleName" = "주의 BeAware";
+"CFBundleDisplayName" = "주의 BeAware";

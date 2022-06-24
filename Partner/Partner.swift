@@ -149,9 +149,9 @@ struct Partner: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             PartnerEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
+        .configurationDisplayName("BeAware Widget")
         .supportedFamilies([.systemMedium])
-        .description("This is an example widget.")
+        .description("This widget displays the current status of the noise alert and speech transcription")
     }
 }
 

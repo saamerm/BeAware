@@ -1,0 +1,133 @@
+/* 
+  Localizable.strings
+  BeAware
+
+  Created by Saamer Mansoor on 6/24/22.
+  
+*/
+"Be Aware" = "주의 BeAware";
+"The Deaf Assistant" = "청각 장애인 도우미";
+"Use the speech feature to convert voice to text" = "음성 기능을 사용하여 음성을 텍스트로 변환";
+"Your microphone will be used to record your speech when you press the 'Start Recording' button." = "녹음 시작' 버튼을 누르면 마이크가 연설을 녹음하는 데 사용됩니다.";
+
+"ALERT" = "알리다";
+"Alert" = "알리다";
+"Alert Frequency" = "경고 빈도";
+"1s" = "1초";
+"10s" = "10초";
+"Noise Threshold" = "노이즈 임계값";
+"seconds" = "초";
+" db" = " 데시벨";
+"Start Noise Alert" = "소음 경고 시작";
+"Stop Noise Alert" = "소음 경고 중지";
+"Mark alerts as critical" = "경고를 위험으로 표시";
+
+"SPEECH" = "연설";
+"Speech" = "연설";
+"I can’t hear you clearly.  I use this tool to understand what people are saying. Please speak into the mic" = "나는 당신을 명확하게들을 수 없습니다. 나는 사람들이 말하는 것을 이해하기 위해 이 도구를 사용합니다. 마이크에 대고 말해주세요";
+
+"TEXT" = "텍스트";
+"Text" = "텍스트";
+"Tap below to start typing:" = "입력을 시작하려면 아래를 탭하세요.";
+"PLAY" = "플레이";
+"FLIP TEXT" = "플립 텍스트";
+"Preset Phrases:" = "사전 설정 문구:";
+"Type here to add..." = "추가하려면 여기에 입력하세요...";
+"ADD" = "추가하다";
+"I'm deaf or hard of hearing" = "나는 귀머거리이거나 난청이다";
+
+"EMOJI BOARD" = "이모티콘 보드";
+"Emoji Board" = "이모티콘 보드";
+"Select an emoji from the list to display above" = "목록에서 위에 표시할 이모티콘을 선택하세요.";
+"ADD IMAGE" = "이미지 추가";
+
+"INFO" = "정보";
+"Tutorial" = "지도 시간";
+"License Agreement" = "라이센스 계약";
+"LICENSE AGREEMENT" = "라이센스 계약";
+"About Us" = "회사 소개";
+"Video" = "동영상";
+"Video" = "동영상";
+"Widget" = "위젯";
+"Contact Us" = "문의하기";
+"CONTACT US" = "문의하기";
+"Share" = "공유하다";
+"Terms Of Use" = "이용약관";
+"TERMS OF USE" = "이용약관";
+
+"TUTORIAL" = "지도 시간";
+"Welcome to BeAware" = "주의 BeAware 청각 장애인 도우미";
+"This app has 4 main functions:" = "이 앱에는 4가지 주요 기능이 있습니다.";
+"Continue" = "계속하다";
+"Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "경고 - 주변의 짧거나 긴 소리에 대한 사용자 지정 가능한 경고로 장치를 엘리트 경고 도구로 바꿉니다.";
+"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "음성 - 앱이 백그라운드에 있는 동안에도 휴대전화의 강력한 음성을 텍스트로 변환하는 기능을 활용합니다.";
+"Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases" = "텍스트 - 주의 BeAware는 사용자 정의 가능한 사전 설정 문구를 통해 실시간 전화 통화에 텍스트를 크게 읽어줄 수 있는 유일한 앱입니다.";
+"Emoji Board - Communicate using curated emojis or add images" = "Emoji Board - 선별된 이모티콘을 사용하여 의사 소통하거나 이미지를 추가하십시오.";
+
+"ABOUT US" = "회사 소개";
+"WHO" = "누구";
+"Who made this" = "이거 만든사람";
+"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "이 앱은 디트로이트의 Apple 개발자 아카데미에서 만난 친구들이 아이디어, 디자인 및 개발했습니다.";
+"WHY" = "왜";
+"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "이를 구축하기 위한 우리의 목표는 포괄적인 동시에 사람들의 일상 업무를 개선하는 앱을 만드는 것이었습니다.";
+"FEEDBACK" = "피드백";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "이 앱은 여러 언어로 제공되므로 놓쳤을 수 있는 오류를 알기 위해 귀하의 도움이 필요합니다. hi@deafassistant.com 으로 이메일을 보내주십시오.";
+"CONTRIBUTE" = "기여하다";
+"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "우리는 이 앱의 모든 부분을 빌드하기 위해 최신 iOS SwiftUI 프레임워크를 사용하고 있습니다. 코드는 오픈 소스이며 디자인도 마찬가지입니다. 여러분의 참여와 코드 풀 요청을 환영합니다.";
+
+"CRITICAL ALERTS" = "중요 경고";
+"What are Critical Alerts?" = "중요 경고란 무엇입니까?";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "앱이 방해 금지/초점 모드에 있는 경우에도 경고를 표시하려면 경고를 위험으로 표시할 수 있습니다.";
+"How to turn on LED Flash" = "LED 플래시를 켜는 방법";
+"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1. 설정 앱을 열고 접근성을 탭한 다음 오디오/비주얼을 탭합니다.";
+"2. Turn on LED Flash for Alerts." = "2. 경고용 LED 플래시를 켭니다.";
+"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "장치가 무음 모드일 때 LED가 깜박이는 것을 방지하려면 무음에서 플래시를 끄십시오. 경고용 LED 플래시는 장치가 잠겨 있을 때만 작동합니다.";
+
+"WIDGET" = "위젯";
+"What does the Widget Show?" = "위젯은 무엇을 보여줍니까?";
+"If you would like view the status of your noise alert running in the background, you can add the widget to your home screen." = "백그라운드에서 실행 중인 소음 경고의 상태를 보려면 위젯을 홈 화면에 추가할 수 있습니다.";
+"Adding the widget" = "위젯 추가";
+"1. From the Home Screen, touch and hold a widget or an empty area until the apps jiggle." = "1. 홈 화면에서 위젯이나 빈 공간을 앱이 흔들릴 때까지 길게 터치하세요.";
+"2. Tap the Add button (+) in the upper-left corner." = "2. 왼쪽 상단 모서리에 있는 추가 버튼(+)을 누릅니다.";
+"3. Select the BeAware widget and then tap Add Widget and then tap Done." = "3. 주의 BeAware 위젯을 선택하고 위젯 추가를 누른 다음 완료를 누릅니다.";
+
+"BeAware The D/deaf Assistant" = "주의 BeAware 청각 장애인 도우미";
+"The Must Have Alerting Tool" = "필수 경고 도구";
+"Get LED Flashes For Noise Alerts" = "소음 경고에 대한 LED 깜박임 받기";
+"Feature Packed With Essentials" = "필수 기능으로 가득 찬 기능";
+"Play Text Into Live Phone Calls" = "실시간 전화 통화로 텍스트 재생";
+"Download, Enjoy, Utilise, Share" = "다운로드, 즐기기, 활용, 공유";
+
+"Hi, I downloaded your app and I would like to provide the following feedback:" = "안녕하세요, 귀하의 앱을 다운로드했으며 다음과 같은 피드백을 제공하고 싶습니다.";
+"Hi! I downloaded BeAware- the deaf assistant for iPhones and I really think you should check it out. You can install a special free version through here: https://deafassistant.com/app/" = "안녕! 나는 iPhone용 청각 장애인 비서인 주의 BeAware 를 다운로드했는데 꼭 확인해야 한다고 생각합니다. 아직 공개되지 않았으므로 여기를 통해 특별 무료 버전을 설치할 수 있습니다: https://deafassistant.com/app/";
+"Do you like this app?" = "이 앱이 마음에 드시나요?";
+"Yes" = "예";
+"Not" = "아니다";
+"Rate The App" = "앱 평가";
+"Noise alert notification" = "소음 경보 알림";
+"The noise is loud at " = "소음은 에서 시끄럽습니다";
+"By tapping Continue, you agree to our privacy policy" = "계속을 탭하면 개인 정보 보호 정책에 동의하는 것입니다.";
+"By tapping Continue, you agree to our" = "계속을 탭하면 다음 내용에 동의하는 것입니다.";
+"Privacy Policy" = "개인 정보 정책";
+"PRIVACY POLICY" = "개인 정보 정책";
+
+"Noise Alert" = "알리다";
+"On" = "활동적인";
+"Stopped" = "중지됨";
+"Transcribing" = "필사";
+
+"Start Transcribing" = "전사 시작";
+"Stop Transcribing" = "전사 중지";
+"This field populates in real time when the voice is being recorded" = "이 필드는 음성이 녹음될 때 실시간으로 채워집니다.";
+"Play the the text loud, even to the other party during a phone or video call" = "전화나 영상통화 중에 상대방에게도 문자를 크게 재생";
+"Flip the text box" = "텍스트 상자 뒤집기";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "이 버튼은 다른 사람이 손을 돌리지 않고도 내가 입력한 내용을 볼 수 있도록 창을 뒤집습니다.";
+"Tap to add preset phrase to the text editor above" = "위의 텍스트 편집기에 사전 설정 구문을 추가하려면 탭하세요.";
+"Remove Phrase" = "문구 제거";
+"Removes the preset phrase" = "사전 설정 구문을 제거합니다.";
+"Clear Text" = "명확한 문구";
+"Clears the text from the window above" = "위의 창에서 텍스트를 지웁니다.";
+"Input a preset phrase you would like to add" = "추가하려는 사전 설정 구문을 입력합니다.";
+"Add Image" = "이미지 추가";
+"Adds images that you can show" = "보여줄 수 있는 이미지 추가";
+"This text field acts as a notepad so you can share what you would like to say" = "이 텍스트 필드는 메모장 역할을 하므로 말하고 싶은 내용을 공유할 수 있습니다.";

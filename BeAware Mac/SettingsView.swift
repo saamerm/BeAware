@@ -5,13 +5,13 @@
 //  Created by Saamer Mansoor on 2/7/22.
 //
 import SwiftUI
-import MessageUI
 import StoreKit
 
 struct SettingsView : View {
     @State private var showShareSheet = false
     @State private var showRateSheet = false
-    @State var result: Result<MFMailComposeResult, Error>? = nil
+    // TODO: FIGURE THIS OUT
+//    @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
 
     var body : some View {
@@ -35,19 +35,20 @@ struct SettingsView : View {
                             InfoRow(infoItem: item)
                         }
                     }
-                    else if  MFMailComposeViewController.canSendMail() && item.name == "Contact Us"
-                    {
-                        Button(action: {
-                            self.isShowingMailView.toggle()
-                        }) {
-                            InfoRow(infoItem: item)
-                        }
-                    }
+                    // TODO: FIGURE THIS OUT
+//                    else if  MFMailComposeViewController.canSendMail() && item.name == "Contact Us"
+//                    {
+//                        Button(action: {
+//                            self.isShowingMailView.toggle()
+//                        }) {
+//                            InfoRow(infoItem: item)
+//                        }
+//                    }
                     else{
                         NavigationLink{
                             switch item.name{
-                            case NSLocalizedString("Video", comment:"Video"):
-                                VideoView()
+//                            case NSLocalizedString("Video", comment:"Video"):
+//                                VideoView()
                             case NSLocalizedString("Tutorial", comment: "Tutorial"):
                                 TutorialView()
                             case NSLocalizedString("About Us", comment: "About"):
@@ -57,16 +58,19 @@ struct SettingsView : View {
                                 // Just in case sharing is not available?
                             case NSLocalizedString("Share", comment: "Share"):
                                 WidgetView()
-                            case NSLocalizedString("Contact Us", comment: "Contact Us"):
-                                WebView(url: URL(string: "https://forms.gle/RbQxn7ymAAHWGSoy8")!).navigationTitle(NSLocalizedString("CONTACT US", comment: "CONTACT US"))
-                            case NSLocalizedString("License Agreement", comment: "License Agreement"):
-                                WebView(url: URL(string: "https://github.com/philparkus/BeAware/blob/main/LICENSE")!).navigationTitle(NSLocalizedString("LICENSE AGREEMENT", comment: "LICENSE AGREEMENT"))
-                            case NSLocalizedString("Terms Of Use", comment: "Terms Of Use"):
-                                WebView(url: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!).navigationTitle(NSLocalizedString("TERMS OF USE", comment: "TERMS OF USE"))
-                            case NSLocalizedString("Privacy Policy", comment: "Privacy Policy"):
-                                WebView(url: URL(string: "https://deafassistant.com/privacy-policy.html")!).navigationTitle(NSLocalizedString("PRIVACY POLICY", comment: "PRIVACY POLICY"))
+                                // TODO: Figure it out
+//                            case NSLocalizedString("Contact Us", comment: "Contact Us"):
+//                                WebView(url: URL(string: "https://forms.gle/RbQxn7ymAAHWGSoy8")!).navigationTitle(NSLocalizedString("CONTACT US", comment: "CONTACT US"))
+//                            case NSLocalizedString("License Agreement", comment: "License Agreement"):
+//                                WebView(url: URL(string: "https://github.com/philparkus/BeAware/blob/main/LICENSE")!).navigationTitle(NSLocalizedString("LICENSE AGREEMENT", comment: "LICENSE AGREEMENT"))
+//                            case NSLocalizedString("Terms Of Use", comment: "Terms Of Use"):
+//                                WebView(url: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!).navigationTitle(NSLocalizedString("TERMS OF USE", comment: "TERMS OF USE"))
+//                            case NSLocalizedString("Privacy Policy", comment: "Privacy Policy"):
+//                                WebView(url: URL(string: "https://deafassistant.com/privacy-policy.html")!).navigationTitle(NSLocalizedString("PRIVACY POLICY", comment: "PRIVACY POLICY"))
                             default:
-                                VideoView()
+                                //TODO: Figure this out
+                                AboutView()
+//                                VideoView()
                             }
                         } label:{
                             InfoRow(infoItem: item)
@@ -76,23 +80,29 @@ struct SettingsView : View {
                 Spacer ()
             }
         }.navigationTitle("INFO")
-            .navigationBarTitleTextColor(Color("SecondaryColor"))
+        // TODO: FIGURE THIS OUT
+
+//            .navigationBarTitleTextColor(Color("SecondaryColor"))
         // TODO: Change this when we are getting rid of iOS 14 support
             .alert(isPresented: $showRateSheet, content: {
                 Alert(
                     title: Text(NSLocalizedString("Do you like this app?", comment: "Do you like this app?")),
                     primaryButton: .default(Text("Yes"), action: {
                         print("Pressed")
-                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
+                        // TODO: FIGURE THIS OUT
+//                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                     }),
                     secondaryButton: .destructive(Text("Not"))
                 )
             })
             .sheet(isPresented: $showShareSheet) {
-                ShareSheet(activityItems: [NSLocalizedString("Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. You can install a special free version through here: https://deafassistant.com/app", comment: "ShareSheet")])
+                // TODO: FIGURE THIS OUT
+//                ShareSheet(activityItems: [NSLocalizedString("Hi! I downloaded BeAware- the Deaf assistant for iPhones and I really think you should check it out. You can install a special free version through here: https://deafassistant.com/app", comment: "ShareSheet")])
                     }
             .sheet(isPresented: $isShowingMailView) {
-                MailView(isShowing: self.$isShowingMailView, result: self.$result)
+                // TODO: FIGURE THIS OUT
+
+//                MailView(isShowing: self.$isShowingMailView, result: self.$result)
             }
     }
 }

@@ -1,0 +1,133 @@
+/* 
+  Localizable.strings
+  BeAware
+
+  Created by Saamer Mansoor on 6/24/22.
+  
+*/
+"Be Aware" = "VarMedveten BeAware";
+"The Deaf Assistant" = "Dövassistenten";
+"Use the speech feature to convert voice to text" = "Använd talfunktionen för att konvertera röst till text";
+"Your microphone will be used to record your speech when you press the 'Start Recording' button." = "Din mikrofon kommer att användas för att spela in ditt tal när du trycker på knappen 'Starta inspelning'.";
+
+"ALERT" = "VARNA";
+"Alert" = "Varna";
+"Alert Frequency" = "Varningsfrekvens";
+"1s" = "1s";
+"10s" = "10s";
+"Noise Threshold" = "Bullergräns";
+"seconds" = "sekunder";
+" db" = " dB";
+"Start Noise Alert" = "Start brusvarning";
+"Stop Noise Alert" = "Stoppbrusvarning";
+"Mark alerts as critical" = "Markera varningar som kritiska";
+
+"SPEECH" = "TAL";
+"Speech" = "Tal";
+"I can’t hear you clearly.  I use this tool to understand what people are saying. Please speak into the mic" = "Jag kan inte höra dig tydligt. Jag använder det här verktyget för att förstå vad folk säger. Snälla tala in i mikrofonen";
+
+"TEXT" = "TEXT";
+"Text" = "Text";
+"Tap below to start typing:" = "Tryck på nedan för att börja skriva:";
+"PLAY" = "SPELA";
+"FLIP TEXT" = "Vändtext";
+"Preset Phrases:" = "Förinställda fraser:";
+"Type here to add..." = "Skriv här för att lägga till ...";
+"ADD" = "LÄGG TILL";
+"I'm deaf or hard of hearing" = "Jag är döv eller hörselskadad";
+
+"EMOJI BOARD" = "Emoji";
+"Emoji Board" = "Emoji";
+"Select an emoji from the list to display above" = "Välj en emoji från listan som ska visas ovan";
+"ADD IMAGE" = "LÄGG TILL BILD";
+
+"INFO" = "INFO";
+"Tutorial" = "Handledning";
+"License Agreement" = "Licensavtal";
+"LICENSE AGREEMENT" = "LICENSAVTAL";
+"About Us" = "Om oss";
+"Video" = "Video";
+"Video" = "Video";
+"Widget" = "Widget";
+"Contact Us" = "Kontakta oss";
+"CONTACT US" = "KONTAKTA OSS";
+"Share" = "Dela med sig";
+"Terms Of Use" = "Villkor";
+"TERMS OF USE" = "VILLKOR";
+
+"TUTORIAL" = "HANDLEDNING";
+"Welcome to BeAware" = "Välkommen till VarMedveten BeAware";
+"This app has 4 main functions:" = "Denna app har fyra huvudfunktioner:";
+"Continue" = "Fortsätta";
+"Alert - Turn your device into an elite alerting tool with customizable alerts of short or prolonged sounds around you" = "Varning - Förvandla din enhet till ett elitvarningsverktyg med anpassningsbara varningar med korta eller långvariga ljud runt dig";
+"Speech - Take advantage of your phone's powerful speech-to-text capability to transcribe, even while the app is in the background" = "Tal-dra nytta av telefonens kraftfulla tal-till-text-kapacitet att transkribera, även om appen är i bakgrunden";
+"Text - BeAware is the only app that can read text loud into you your live phone calls, assisted by customizable preset phrases" = "Text - VarMedveten BeAware är den enda appen som kan läsa text högt i dig dina live -telefonsamtal, med hjälp av anpassningsbara förinställda fraser";
+"Emoji Board - Communicate using curated emojis or add images" = "Emoji Board - Kommunicera med kuraterade emojis eller lägg till bilder";
+
+"ABOUT US" = "OM OSS";
+"WHO" = "VEM";
+"Who made this" = "Vem har gjort det här?";
+"This app was ideated, designed and developed by a group of friends that met at the Apple Developer Academy in Detroit" = "Denna app var ideat, designad och utvecklad av en grupp vänner som träffades på Apple Developer Academy i Detroit";
+"WHY" = "VARFÖR";
+"Our goal for building this was to create an app that would improve the everyday tasks for people while being inclusive" = "Vårt mål för att bygga detta var att skapa en app som skulle förbättra de vardagliga uppgifterna för människor samtidigt som de är inkluderande";
+"FEEDBACK" = "RESPONS";
+"The app is available in many languages so we need your help, to know what errors we might have made missed. Email us at hi@deafassistant.com" = "Appen är tillgänglig på många språk så vi behöver din hjälp, för att veta vilka fel vi kan ha gjort missat. Maila oss på hi@deafassistant.com";
+"CONTRIBUTE" = "BIDRA";
+"We are using the latest iOS SwiftUI framework to build all parts of this app. The code is open source and so is the design. We would love your involvement and code pull requests" = "Vi använder det senaste iOS Swiftui -ramverket för att bygga alla delar av denna app. Koden är öppen källkod och det är också designen. Vi skulle älska ditt engagemang och koddragförfrågningar";
+
+"CRITICAL ALERTS" = "Kritiska varningar";
+"What are Critical Alerts?" = "Vad är kritiska varningar?";
+"If you would like alerts to display even when the app is in Do Not Disturb/Focus modes, you can mark the alerts as critical." = "Om du vill att varningar ska visas även när appen är i inte stör/fokuslägen kan du markera varningarna som kritiska.";
+"How to turn on LED Flash" = "Hur man slår på LED -blixt";
+"1. Open the Settings app, tap Accessibility, then tap Audio/Visual." = "1. Öppna inställningsappen, tryck på tillgängligheten och tryck sedan på Audio/Visual.";
+"2. Turn on LED Flash for Alerts." = "2. Slå på LED -blixt för varningar.";
+"To prevent LED flashes when your device is in silent mode, turn off Flash on Silent. LED Flash for Alerts works only when your device is locked." = "För att förhindra LED -blinkningar när din enhet är i tyst läge, stäng av blixt. LED -blixt för varningar fungerar endast när din enhet är låst.";
+
+"WIDGET" = "Widget";
+"What does the Widget Show?" = "Vad visar widgeten?";
+"If you would like view the status of your noise alert running in the background, you can add the widget to your home screen." = "Om du vill se statusen för din brusvarning som körs i bakgrunden kan du lägga till widgeten på din hemskärm.";
+"Adding the widget" = "Lägga till widgeten";
+"1. From the Home Screen, touch and hold a widget or an empty area until the apps jiggle." = "1. Från hemskärmen, tryck och håll en widget eller ett tomt område tills apparna fnissar.";
+"2. Tap the Add button (+) in the upper-left corner." = "2. Tryck på knappen Lägg till (+) i det övre vänstra hörnet.";
+"3. Select the BeAware widget and then tap Add Widget and then tap Done." = "3. Välj VarMedveten BeAware -widgeten och tryck sedan på Lägg till widget och tryck sedan på GEENT.";
+
+"BeAware The D/deaf Assistant" = "VarMedveten BeAware Dövassistenten";
+"The Must Have Alerting Tool" = "Måste ha varningsverktyg";
+"Get LED Flashes For Noise Alerts" = "Få LED -blinkningar för brusvarningar";
+"Feature Packed With Essentials" = "Funktion fylld med väsentligheter";
+"Play Text Into Live Phone Calls" = "Spela text i live telefonsamtal";
+"Download, Enjoy, Utilise, Share" = "Ladda ner, njut, utnyttja, dela";
+
+"Hi, I downloaded your app and I would like to provide the following feedback:" = "Hej, jag laddade ner din app och jag skulle vilja ge följande feedback:";
+"Hi! I downloaded BeAware- the deaf assistant for iPhones and I really think you should check it out. You can install a special free version through here: https://deafassistant.com/app" = "Hej! Jag laddade ner VarMedveten BeAware- den döva assistenten för iPhones och jag tycker verkligen att du bör kolla in det. Du kan installera en speciell gratisversion här: https://deafassistant.com/app";
+"Do you like this app?" = "Gillar du den här appen?";
+"Yes" = "Ja";
+"Not" = "Inte";
+"Rate The App" = "Betygsätt appen";
+"Noise alert notification" = "Bullervarning";
+"The noise is loud at " = "Bruset är högt på ";
+"By tapping Continue, you agree to our privacy policy" = "Genom att trycka på Fortsätt, samtycker du till vår integritetspolicy";
+"By tapping Continue, you agree to our" = "Genom att knacka fortsätta, samtycker du till vår";
+"Privacy Policy" = "Integritetspolicy";
+"PRIVACY POLICY" = "INTEGRITETSPOLICY";
+
+"Noise Alert" = "Varna";
+"On" = "Aktiva";
+"Stopped" = "Stoppad";
+"Transcribing" = "Transkriberande";
+
+"Start Transcribing" = "Börja transkribera";
+"Stop Transcribing" = "STOPPRANSERING";
+"This field populates in real time when the voice is being recorded" = "Detta fält populerar i realtid när rösten spelas in";
+"Play the the text loud, even to the other party during a phone or video call" = "Spela texten högt, även till den andra parten under ett telefon- eller videosamtal";
+"Flip the text box" = "Vänd textrutan";
+"This button flips the window for the other person to see what you typed without having to turn your hand" = "Den här knappen vänder fönstret för den andra personen för att se vad du skrev utan att behöva vända handen";
+"Tap to add preset phrase to the text editor above" = "Tryck för att lägga till förinställningsfras till textredigeraren ovan";
+"Remove Phrase" = "Ta bort frasen";
+"Removes the preset phrase" = "Tar bort förinställningsfrasen";
+"Clear Text" = "Klar text";
+"Clears the text from the window above" = "Rensar texten från fönstret ovan";
+"Input a preset phrase you would like to add" = "Ange en förinställd fras som du vill lägga till";
+"Add Image" = "Lägg till bild";
+"Adds images that you can show" = "Lägger till bilder som du kan visa";
+"This text field acts as a notepad so you can share what you would like to say" = "Detta textfält fungerar som en anteckningsblock så att du kan dela vad du vill säga";

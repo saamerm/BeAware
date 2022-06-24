@@ -42,7 +42,59 @@ struct SpeechView : View {
                         }
                         .fixedSize(horizontal: false, vertical: true)
                     }
-                    
+                    else{
+                        HStack{
+                            Button(action:{
+                                transcription = ""
+                            }){
+                                Image(systemName: "clear")
+                                    .resizable()
+                                    .foregroundColor(Color("SecondaryColor"))
+                                    .scaledToFit()
+                                    .frame(width: 24, height: 40)
+                                    .accessibilityLabel("Clear Text")
+                                    .accessibilityHint("Clears the text from the window above")
+                            }
+                            Button(
+                                action: {
+                                    if rotation == 0{
+                                        rotation = 180
+                                    }
+                                    else {
+                                        rotation = 0
+                                    }
+                                    ratingTapCounter+=1
+                                    if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
+                                    {
+                                        self.showRateSheet.toggle()
+                                    }
+                                }
+                            ){
+                                ZStack{
+                                    RoundedRectangle(cornerRadius: 10).frame(width: 150, height: 40).foregroundColor(Color("SecondaryColor")).shadow(color: .black, radius: 5, x: 0, y: 4)
+                                    Text("FLIP TEXT").foregroundColor(Color("BrandColor"))
+                                        .font(.custom("Avenir", size: 17))
+                                        .accessibilityLabel("Flip the text box")
+                                        .accessibilityHint("This button flips the window for the other person to see what you typed without having to turn your hand")
+                                }
+                            }
+                            .padding(.leading)
+                            Slider(value: $fontSize, in: 16...50, step: 4)
+                            {
+                                Text("Font Size")
+                            } minimumValueLabel: {
+                                Text("A")
+                                    .font(Font.custom("Avenir", size: 12))
+                                    .foregroundColor(Color("SecondaryColor"))
+
+                            } maximumValueLabel: {
+                                Text("A")
+                                    .font(Font.custom("Avenir", size: 20))
+                                    .foregroundColor(Color("SecondaryColor"))
+                            }
+                            .padding(.leading)
+                        }.padding()
+                    }
                     Button(action: {
                         Task
                         {
@@ -109,76 +161,27 @@ struct SpeechView : View {
                         .cornerRadius(10)
                         .border(Color("SecondaryColor"), width: 1)
                         .padding(.init(top: 12, leading: 25, bottom: 10, trailing: 25))
-                        .rotationEffect(.degrees(rotation))
-                    if transcription != "" {
-                        HStack{
-                            Button(action:{
-                                transcription = ""
-                            }){
-                                Image(systemName: "clear")
-                                    .resizable()
-                                    .foregroundColor(Color("SecondaryColor"))
-                                    .scaledToFit()
-                                    .frame(width: 24, height: 40)
-                                    .accessibilityLabel("Clear Text")
-                                    .accessibilityHint("Clears the text from the window above")
-                            }
-                            Button(
-                                action: {
-                                    if rotation == 0{
-                                        rotation = 180
-                                    }
-                                    else {
-                                        rotation = 0
-                                    }
-                                    ratingTapCounter+=1
-                                    if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
-                                    {
-                                        self.showRateSheet.toggle()
-                                    }
-                                }
-                            ){
-                                ZStack{
-                                    RoundedRectangle(cornerRadius: 10).frame(width: 150, height: 40).foregroundColor(Color("SecondaryColor")).shadow(color: .black, radius: 5, x: 0, y: 4)
-                                    Text("FLIP TEXT").foregroundColor(Color("BrandColor"))
-                                        .font(.custom("Avenir", size: 17))
-                                        .accessibilityLabel("Flip the text box")
-                                        .accessibilityHint("This button flips the window for the other person to see what you typed without having to turn your hand")
-                                }
-                            }
-                            .padding(.leading)
-                            Slider(value: $fontSize, in: 16...50, step: 4)
-                            {
-                                Text("Font Size")
-                            } minimumValueLabel: {
-                                Text("A")
-                                    .font(Font.custom("Avenir", size: 12))
-                                    .foregroundColor(Color("SecondaryColor"))
-
-                            } maximumValueLabel: {
-                                Text("A")
-                                    .font(Font.custom("Avenir", size: 20))
-                                    .foregroundColor(Color("SecondaryColor"))
-                            }
-                            .padding(.leading)
-                        }.padding()
-                    }
                 }
+                .rotationEffect(.degrees(rotation))
             }
-            .navigationTitle("SPEECH").navigationBarTitleDisplayMode(.inline)
-            .navigationBarTitleTextColor(Color("SecondaryColor"))
+            .navigationTitle("SPEECH")
+            // TODO: FIGURE THIS OUT
+//            .navigationBarTitleDisplayMode(.inline)
+//            .navigationBarTitleTextColor(Color("SecondaryColor"))
             .alert(isPresented: $showRateSheet, content: {
                 Alert(
                     title: Text("Do you like this app?"),
                     primaryButton: .default(Text("Yes"), action: {
                         print("Pressed")
-                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
+                        // TODO: FIGURE THIS OUT
+//                        if let windowScene = UIApplication.shared.windows.first?.windowScene { SKStoreReviewController.requestReview(in: windowScene) }
                     }),
                     secondaryButton: .destructive(Text("Not"))
                 )
             })
             .toolbar{
-                ToolbarItem(placement: .navigationBarTrailing){
+                // TODO: FIGURE THIS OUT
+                ToolbarItem(placement: .automatic){
                     NavigationLink(
                         destination: SettingsView()
                     ) {
@@ -189,10 +192,11 @@ struct SpeechView : View {
                 }
             }
         }// clsoing bracket for navigation view
-        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
+        // TODO: FIGURE THIS OUT
+//        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
         .onAppear{requestPermission()}
         // Added this to fix iPad navigation issue
-        .navigationViewStyle(StackNavigationViewStyle())
+//        .navigationViewStyle(StackNavigationViewStyle())
     }
     //closing bracket for vard body some view
     func speechRecognizer(_ speechRecognizer: SFSpeechRecognizer, availabilityDidChange available: Bool) {
@@ -281,16 +285,17 @@ struct SpeechView_Previews : PreviewProvider {
 }
 
 func simpleSuccessHaptic() {
-    let generator = UINotificationFeedbackGenerator()
-    generator.notificationOccurred(.success)
+    // TODO: FIGURE OUT A DIFFERENT WAY
+//    let generator = UINotificationFeedbackGenerator()
+//    generator.notificationOccurred(.success)
 }
 
 func simpleEndHaptic() {
-    let generator = UINotificationFeedbackGenerator()
-    generator.notificationOccurred(.warning)
+//    let generator = UINotificationFeedbackGenerator()
+//    generator.notificationOccurred(.warning)
 }
 
 func simpleBigHaptic() {
-    let generator = UINotificationFeedbackGenerator()
-    generator.notificationOccurred(.error)
+//    let generator = UINotificationFeedbackGenerator()
+//    generator.notificationOccurred(.error)
 }

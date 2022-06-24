@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IntroductionView: View {
     @AppStorage("DidShowIntroductionView") var isActive:Bool = false
-    private var idiom : UIUserInterfaceIdiom { UIDevice.current.userInterfaceIdiom }
+//    private var idiom : UIUserInterfaceIdiom { UIDevice.current.userInterfaceIdiom }
     @Environment(\.openURL) var openURL
 
     var body: some View {
