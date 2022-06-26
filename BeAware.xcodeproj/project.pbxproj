@@ -127,38 +127,16 @@
 		76CE03ED27B0F416001FF3E9 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03EC27B0F416001FF3E9 /* TextView.swift */; };
 		76CE03EF27B0F43D001FF3E9 /* EmojiBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03EE27B0F43D001FF3E9 /* EmojiBoardView.swift */; };
 		76CE03F127B0F732001FF3E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03F027B0F732001FF3E9 /* SettingsView.swift */; };
-		76D6E70E2846C654000BBDBF /* BeAware_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E70D2846C654000BBDBF /* BeAware_MacApp.swift */; };
-		76D6E7102846C654000BBDBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E70F2846C654000BBDBF /* ContentView.swift */; };
-		76D6E7122846C656000BBDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D6E7112846C656000BBDBF /* Assets.xcassets */; };
-		76D6E7152846C656000BBDBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D6E7142846C656000BBDBF /* Preview Assets.xcassets */; };
-		76D6E71A2846C6DC000BBDBF /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698190C27AD6636009AB2E2 /* IntroductionView.swift */; };
-		76D6E71B2846C708000BBDBF /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7698191027ADAF88009AB2E2 /* MyTabView.swift */; };
-		76D6E7202846C74F000BBDBF /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F74CB27B635F9009E757C /* AVPlayer+Ding.swift */; };
-		76D6E7232846C804000BBDBF /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E7222846C804000BBDBF /* AlertView.swift */; };
-		76D6E7252846C82E000BBDBF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E7242846C82E000BBDBF /* SettingsView.swift */; };
-		76D6E7272846C874000BBDBF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E7262846C874000BBDBF /* TextView.swift */; };
-		76D6E7282846C89D000BBDBF /* CriticalAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486E27EB051000EF1505 /* CriticalAlertsView.swift */; };
-		76D6E72B2846C8C4000BBDBF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E72A2846C8C4000BBDBF /* Extensions.swift */; };
-		76D6E72D2846C90F000BBDBF /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E72C2846C90F000BBDBF /* SpeechView.swift */; };
-		76D6E72F2846C951000BBDBF /* EmojiBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E72E2846C951000BBDBF /* EmojiBoardView.swift */; };
-		76D6E7302846CA61000BBDBF /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486227E84A9200EF1505 /* InfoRow.swift */; };
-		76D6E7342846CC50000BBDBF /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D6E7332846CC50000BBDBF /* TutorialView.swift */; };
-		76D6E7352846CC6A000BBDBF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486627E85B9C00EF1505 /* AboutView.swift */; };
-		76D6E7362846CC7B000BBDBF /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC486827E85BAF00EF1505 /* WidgetView.swift */; };
 		76E087E027FB80F90008F4F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76E087DE27FB80F90008F4F0 /* Localizable.strings */; };
 		76E087E327FB810E0008F4F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76E087E127FB810E0008F4F0 /* Localizable.strings */; };
 		76F21BA2286659F500842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA0286659F500842933 /* Localizable.strings */; };
 		76F21BA3286659F500842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA0286659F500842933 /* Localizable.strings */; };
-		76F21BA4286659F500842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA0286659F500842933 /* Localizable.strings */; };
 		76F21BA728665A0400842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA528665A0400842933 /* InfoPlist.strings */; };
 		76F21BA828665A0400842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA528665A0400842933 /* InfoPlist.strings */; };
-		76F21BA928665A0400842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA528665A0400842933 /* InfoPlist.strings */; };
 		76F21BAD2866607900842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BAB2866607900842933 /* Localizable.strings */; };
 		76F21BAE2866607900842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BAB2866607900842933 /* Localizable.strings */; };
-		76F21BAF2866607900842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BAB2866607900842933 /* Localizable.strings */; };
 		76F21BB22866608800842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BB02866608800842933 /* InfoPlist.strings */; };
 		76F21BB32866608800842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BB02866608800842933 /* InfoPlist.strings */; };
-		76F21BB42866608800842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BB02866608800842933 /* InfoPlist.strings */; };
 		76F348B927BC719600BABBAD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F348B827BC719600BABBAD /* ImagePicker.swift */; };
 		76F348BB27BC7E1D00BABBAD /* AddedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F348BA27BC7E1D00BABBAD /* AddedImages.swift */; };
 		76F348DE27BCC16E00BABBAD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F348DD27BCC16E00BABBAD /* WidgetKit.framework */; };
@@ -309,19 +287,6 @@
 		76CE03EC27B0F416001FF3E9 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		76CE03EE27B0F43D001FF3E9 /* EmojiBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBoardView.swift; sourceTree = "<group>"; };
 		76CE03F027B0F732001FF3E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		76D6E70B2846C654000BBDBF /* BeAware Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeAware Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D6E70D2846C654000BBDBF /* BeAware_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeAware_MacApp.swift; sourceTree = "<group>"; };
-		76D6E70F2846C654000BBDBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		76D6E7112846C656000BBDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		76D6E7142846C656000BBDBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		76D6E7162846C656000BBDBF /* BeAware_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeAware_Mac.entitlements; sourceTree = "<group>"; };
-		76D6E7222846C804000BBDBF /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
-		76D6E7242846C82E000BBDBF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		76D6E7262846C874000BBDBF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		76D6E72A2846C8C4000BBDBF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		76D6E72C2846C90F000BBDBF /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
-		76D6E72E2846C951000BBDBF /* EmojiBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBoardView.swift; sourceTree = "<group>"; };
-		76D6E7332846CC50000BBDBF /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		76E087DF27FB80F90008F4F0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
 		76E087E227FB810E0008F4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		76F21BA1286659F500842933 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable.strings; sourceTree = "<group>"; };
@@ -363,13 +328,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D6E7082846C654000BBDBF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		76F348D827BCC16E00BABBAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,7 +349,6 @@
 				76F348E127BCC16E00BABBAD /* Partner */,
 				764B8B012836C283001A8F31 /* BeAwareTests */,
 				764B8B0E2836C2C3001A8F31 /* BeAwareUITests */,
-				76D6E70C2846C654000BBDBF /* BeAware Mac */,
 				76F348DC27BCC16E00BABBAD /* Frameworks */,
 				1F1DD5EA27AB0EB9008FD66F /* Products */,
 			);
@@ -404,7 +361,6 @@
 				76F348DB27BCC16E00BABBAD /* PartnerExtension.appex */,
 				764B8B002836C283001A8F31 /* BeAwareTests.xctest */,
 				764B8B0D2836C2C3001A8F31 /* BeAwareUITests.xctest */,
-				76D6E70B2846C654000BBDBF /* BeAware Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -676,33 +632,6 @@
 			path = sw.lproj;
 			sourceTree = "<group>";
 		};
-		76D6E70C2846C654000BBDBF /* BeAware Mac */ = {
-			isa = PBXGroup;
-			children = (
-				76D6E70D2846C654000BBDBF /* BeAware_MacApp.swift */,
-				76D6E70F2846C654000BBDBF /* ContentView.swift */,
-				76D6E7112846C656000BBDBF /* Assets.xcassets */,
-				76D6E7162846C656000BBDBF /* BeAware_Mac.entitlements */,
-				76D6E7132846C656000BBDBF /* Preview Content */,
-				76D6E7222846C804000BBDBF /* AlertView.swift */,
-				76D6E7242846C82E000BBDBF /* SettingsView.swift */,
-				76D6E7262846C874000BBDBF /* TextView.swift */,
-				76D6E72A2846C8C4000BBDBF /* Extensions.swift */,
-				76D6E72C2846C90F000BBDBF /* SpeechView.swift */,
-				76D6E72E2846C951000BBDBF /* EmojiBoardView.swift */,
-				76D6E7332846CC50000BBDBF /* TutorialView.swift */,
-			);
-			path = "BeAware Mac";
-			sourceTree = "<group>";
-		};
-		76D6E7132846C656000BBDBF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				76D6E7142846C656000BBDBF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		76E087DC27FB80C10008F4F0 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -841,23 +770,6 @@
 			productReference = 764B8B0D2836C2C3001A8F31 /* BeAwareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		76D6E70A2846C654000BBDBF /* BeAware Mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76D6E7192846C656000BBDBF /* Build configuration list for PBXNativeTarget "BeAware Mac" */;
-			buildPhases = (
-				76D6E7072846C654000BBDBF /* Sources */,
-				76D6E7082846C654000BBDBF /* Frameworks */,
-				76D6E7092846C654000BBDBF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BeAware Mac";
-			productName = "BeAware Mac";
-			productReference = 76D6E70B2846C654000BBDBF /* BeAware Mac.app */;
-			productType = "com.apple.product-type.application";
-		};
 		76F348DA27BCC16E00BABBAD /* PartnerExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76F348F027BCC17000BABBAD /* Build configuration list for PBXNativeTarget "PartnerExtension" */;
@@ -895,9 +807,6 @@
 					764B8B0C2836C2C3001A8F31 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 1F1DD5E827AB0EB9008FD66F;
-					};
-					76D6E70A2846C654000BBDBF = {
-						CreatedOnToolsVersion = 13.4;
 					};
 					76F348DA27BCC16E00BABBAD = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -945,7 +854,6 @@
 				76F348DA27BCC16E00BABBAD /* PartnerExtension */,
 				764B8AFF2836C283001A8F31 /* BeAwareTests */,
 				764B8B0C2836C2C3001A8F31 /* BeAwareUITests */,
-				76D6E70A2846C654000BBDBF /* BeAware Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -1024,19 +932,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D6E7092846C654000BBDBF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76F21BAF2866607900842933 /* Localizable.strings in Resources */,
-				76F21BB42866608800842933 /* InfoPlist.strings in Resources */,
-				76D6E7152846C656000BBDBF /* Preview Assets.xcassets in Resources */,
-				76F21BA928665A0400842933 /* InfoPlist.strings in Resources */,
-				76F21BA4286659F500842933 /* Localizable.strings in Resources */,
-				76D6E7122846C656000BBDBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1146,29 +1041,6 @@
 			files = (
 				764B8B122836C2C3001A8F31 /* BeAwareUITestsLaunchTests.swift in Sources */,
 				764B8B102836C2C3001A8F31 /* BeAwareUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76D6E7072846C654000BBDBF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76D6E7342846CC50000BBDBF /* TutorialView.swift in Sources */,
-				76D6E7302846CA61000BBDBF /* InfoRow.swift in Sources */,
-				76D6E7102846C654000BBDBF /* ContentView.swift in Sources */,
-				76D6E7282846C89D000BBDBF /* CriticalAlertsView.swift in Sources */,
-				76D6E7352846CC6A000BBDBF /* AboutView.swift in Sources */,
-				76D6E72F2846C951000BBDBF /* EmojiBoardView.swift in Sources */,
-				76D6E71A2846C6DC000BBDBF /* IntroductionView.swift in Sources */,
-				76D6E71B2846C708000BBDBF /* MyTabView.swift in Sources */,
-				76D6E7252846C82E000BBDBF /* SettingsView.swift in Sources */,
-				76D6E7232846C804000BBDBF /* AlertView.swift in Sources */,
-				76D6E7362846CC7B000BBDBF /* WidgetView.swift in Sources */,
-				76D6E72B2846C8C4000BBDBF /* Extensions.swift in Sources */,
-				76D6E70E2846C654000BBDBF /* BeAware_MacApp.swift in Sources */,
-				76D6E7202846C74F000BBDBF /* AVPlayer+Ding.swift in Sources */,
-				76D6E72D2846C90F000BBDBF /* SpeechView.swift in Sources */,
-				76D6E7272846C874000BBDBF /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1762,13 +1634,13 @@
 				CODE_SIGN_ENTITLEMENTS = BeAware/BeAware.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 38;
 				DEVELOPMENT_ASSET_PATHS = "\"BeAware/Preview Content\"";
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BeAware/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "BeAware. Deaf Assistant";
+				INFOPLIST_KEY_CFBundleDisplayName = "BeAware Deaf Assistant";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your camera to display your picture in the emoji board";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone will be used to record your speech when you press the \"Start Recording\" button.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses your gallery to display selected ones in the emoji board";
@@ -1803,13 +1675,13 @@
 				CODE_SIGN_ENTITLEMENTS = BeAware/BeAware.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 38;
 				DEVELOPMENT_ASSET_PATHS = "\"BeAware/Preview Content\"";
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BeAware/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "BeAware. Deaf Assistant";
+				INFOPLIST_KEY_CFBundleDisplayName = "BeAware Deaf Assistant";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your camera to display your picture in the emoji board";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone will be used to record your speech when you press the \"Start Recording\" button.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses your gallery to display selected ones in the emoji board";
@@ -1909,76 +1781,19 @@
 			};
 			name = Release;
 		};
-		76D6E7172846C656000BBDBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "BeAware Mac/BeAware_Mac.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BeAware Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = VTU445YWD6;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tfp.beaware.BeAware-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		76D6E7182846C656000BBDBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "BeAware Mac/BeAware_Mac.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BeAware Mac/Preview Content\"";
-				DEVELOPMENT_TEAM = VTU445YWD6;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tfp.beaware.BeAware-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		76F348EE27BCC17000BABBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = PartnerExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 38;
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Partner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Partner;
+				INFOPLIST_KEY_CFBundleDisplayName = "BeAware Deaf Assistant Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1986,9 +1801,10 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.10;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware.partner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2002,12 +1818,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = PartnerExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 38;
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Partner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Partner;
+				INFOPLIST_KEY_CFBundleDisplayName = "BeAware Deaf Assistant Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2015,9 +1832,10 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.10;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware.partner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2060,15 +1878,6 @@
 			buildConfigurations = (
 				764B8B162836C2C3001A8F31 /* Debug */,
 				764B8B172836C2C3001A8F31 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76D6E7192846C656000BBDBF /* Build configuration list for PBXNativeTarget "BeAware Mac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76D6E7172846C656000BBDBF /* Debug */,
-				76D6E7182846C656000BBDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
