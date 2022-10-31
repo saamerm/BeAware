@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: sudo xcode-select --switch /Applications/Xcode_14.1.app && xcodebuild -list -project BeAware.xcodeproj && xcode-select --version && softwareupdate --history && which xcodebuild && xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
+      run: cd /Applications && ls && xcodebuild -list -project BeAware.xcodeproj && xcode-select --version && softwareupdate --history && which xcodebuild && xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
 
 # Figured out using these links
 # https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md
