@@ -11,13 +11,13 @@ jobs:
 
   build:
     runs-on: macos-latest
-    env:
-      DEVELOPER_DIR: /Applications/Xcode_14.0.app/Contents/Developer
+#     env:
+#       DEVELOPER_DIR: /Applications/Xcode_14.0.app/Contents/Developer
 
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: xcodebuild -list -project BeAware.xcodeproj && xcode-select --version && softwareupdate --history && which xcodebuild && xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
+      run: sudo xcode-select --switch /Applications/Xcode_14.1.app && xcodebuild -list -project BeAware.xcodeproj && xcode-select --version && softwareupdate --history && which xcodebuild && xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
 
 # Figured out using these links
 # https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md
