@@ -42,115 +42,47 @@ struct SimpleEntry: TimelineEntry {
 
 struct PartnerEntryView : View {
     var entry: Provider.Entry
+    @Environment(\.widgetFamily) var family: WidgetFamily
 
     var body: some View {
-        ZStack{
-            Color("BrandColor")
-                .ignoresSafeArea()
-            HStack{
-                ZStack{
-                    Color("BrandColor")
-                    Image("Splash")
-                        .resizable()
-                        .scaledToFit()
-                        .padding([.vertical])
-                        .clipped()
-                }
-                if let userDefaults = UserDefaults(suiteName: "group.com.tfp.beaware") {
-                    if let name = userDefaults.string(forKey: "state")
-                    {
-                        if name == "transcribing"
-                        {
-                            VStack{
-                                Text("Speech")
-                                    .font(Font.custom("Avenir", size: 16))
-                                
-                                    .fontWeight(.black)
-                                    .foregroundColor(Color("SecondaryColor"))
-                                Text("Transcribing")
-                                    .font(Font.custom("Avenir", size: 16))
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color("SecondaryColor"))
-                            }
-                            Text("\(Image(systemName: "stop.circle.fill"))")                .font(Font.custom("Avenir", size: 48))
-                                .foregroundColor(Color("stopred"))
-                        }
-                        else if name == "noise alert"
-                        {
-                            VStack{
-                                Text("Noise Alert")
-                                    .font(Font.custom("Avenir", size: 16))
-                                    .fontWeight(.black)
-                                    .foregroundColor(Color("SecondaryColor"))
-                                Text("On")
-                                    .font(Font.custom("Avenir", size: 16))
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color("SecondaryColor"))
-                            }
-                            Text("\(Image(systemName: "stop.circle.fill"))")                .font(Font.custom("Avenir", size: 48))
-                                .foregroundColor(Color("stopred"))
-                        }
-                        else
-                        {
-                            VStack{
-                                Text("Noise Alert")
-                                    .font(Font.custom("Avenir", size: 16))
-                                    .fontWeight(.black)
-                                    .foregroundColor(Color("SecondaryColor"))
-                                Text("Stopped")
-                                    .font(Font.custom("Avenir", size: 16))
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color("SecondaryColor"))
-                            }
-                            Text("\(Image(systemName: "record.circle.fill"))")                .font(Font.custom("Avenir", size: 48))
-                                .foregroundColor(Color("SecondaryColor"))
-                        }
-                    }
-                    else{
-                        VStack{
-                            Text("Noise Alert")
-                                .font(Font.custom("Avenir", size: 16))
-                                .fontWeight(.black)
-                                .foregroundColor(Color("SecondaryColor"))
-                            Text("Stopped")
-                                .font(Font.custom("Avenir", size: 16))
-                                .fontWeight(.bold)
-                                .foregroundColor(Color("SecondaryColor"))
-                        }
-                        Text("\(Image(systemName: "record.circle.fill"))")                .font(Font.custom("Avenir", size: 48))
-                            .foregroundColor(Color("SecondaryColor"))
-                    }
-                }
-                else{
-                    VStack{
-                        Text("Noise Alert")
-                            .font(Font.custom("Avenir", size: 16))
-                        
-                            .fontWeight(.black)
-                            .foregroundColor(Color("SecondaryColor"))
-                        Text("Stopped")
-                            .font(Font.custom("Avenir", size: 16))
-                            .fontWeight(.bold)
-                            .foregroundColor(Color("SecondaryColor"))
-                    }
-                    Text("\(Image(systemName: "record.circle.fill"))")                .font(Font.custom("Avenir", size: 48))
-                        .foregroundColor(Color("SecondaryColor"))
-                }
-            }
-        }
+        switch family {
+        case .systemMedium:
+            MediumWidgetView()
+        case .systemSmall:
+            SmallWidgetView()
+        case .systemLarge:
+            MediumWidgetView()
+        case .systemExtraLarge:
+            MediumWidgetView()
+        case .accessoryCircular:
+            AccessoryCircleView()
+        case .accessoryRectangular:
+            AccessoryRectangularView()
+        case .accessoryInline:
+            InlineWidgetView()
+        @unknown default:
+            EmptyView()
+        }        
     }
 }
 
 @main
 struct Partner: Widget {
     let kind: String = "Partner"
+    let supportedFamilies:[WidgetFamily] = {
+        if #available(iOSApplicationExtension 16.0, *) {
+            return [.systemMedium, .systemSmall, .accessoryInline, .accessoryCircular, .accessoryRectangular]
+        } else {
+            return [.systemMedium]
+        }
+    }()
 
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             PartnerEntryView(entry: entry)
         }
         .configurationDisplayName("BeAware Widget")
-        .supportedFamilies([.systemMedium])
+        .supportedFamilies(supportedFamilies)
         .description("This widget displays the current status of the noise alert and speech transcription")
     }
 }

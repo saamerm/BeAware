@@ -129,6 +129,9 @@
 		76CE03F127B0F732001FF3E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CE03F027B0F732001FF3E9 /* SettingsView.swift */; };
 		76E087E027FB80F90008F4F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76E087DE27FB80F90008F4F0 /* Localizable.strings */; };
 		76E087E327FB810E0008F4F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76E087E127FB810E0008F4F0 /* Localizable.strings */; };
+		76ED962228D4559B008C0CA4 /* MediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED962128D4559B008C0CA4 /* MediumWidgetView.swift */; };
+		76ED962428D455CD008C0CA4 /* InlineWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED962328D455CD008C0CA4 /* InlineWidgetView.swift */; };
+		76ED962628D456EE008C0CA4 /* AccessoryRectangularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED962528D456EE008C0CA4 /* AccessoryRectangularView.swift */; };
 		76F21BA2286659F500842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA0286659F500842933 /* Localizable.strings */; };
 		76F21BA3286659F500842933 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA0286659F500842933 /* Localizable.strings */; };
 		76F21BA728665A0400842933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76F21BA528665A0400842933 /* InfoPlist.strings */; };
@@ -289,6 +292,11 @@
 		76CE03F027B0F732001FF3E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		76E087DF27FB80F90008F4F0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
 		76E087E227FB810E0008F4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		76ED962128D4559B008C0CA4 /* MediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetView.swift; sourceTree = "<group>"; };
+		76ED962328D455CD008C0CA4 /* InlineWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineWidgetView.swift; sourceTree = "<group>"; };
+		76ED962528D456EE008C0CA4 /* AccessoryRectangularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryRectangularView.swift; sourceTree = "<group>"; };
+		76ED962828D46A9D008C0CA4 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Partner.strings; sourceTree = "<group>"; };
+		76ED962A28D46A9E008C0CA4 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Partner.strings; sourceTree = "<group>"; };
 		76F21BA1286659F500842933 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable.strings; sourceTree = "<group>"; };
 		76F21BA628665A0400842933 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = InfoPlist.strings; sourceTree = "<group>"; };
 		76F21BAC2866607900842933 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = Localizable.strings; sourceTree = "<group>"; };
@@ -708,6 +716,9 @@
 				765734382813235700024F2C /* Partner.intentdefinition */,
 				76F348E527BCC17000BABBAD /* Assets.xcassets */,
 				76F348E727BCC17000BABBAD /* Info.plist */,
+				76ED962128D4559B008C0CA4 /* MediumWidgetView.swift */,
+				76ED962328D455CD008C0CA4 /* InlineWidgetView.swift */,
+				76ED962528D456EE008C0CA4 /* AccessoryRectangularView.swift */,
 			);
 			path = Partner;
 			sourceTree = "<group>";
@@ -795,7 +806,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					1F1DD5E827AB0EB9008FD66F = {
 						CreatedOnToolsVersion = 13.1;
@@ -1048,7 +1059,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76ED962628D456EE008C0CA4 /* AccessoryRectangularView.swift in Sources */,
 				76F348E327BCC16E00BABBAD /* Partner.swift in Sources */,
+				76ED962428D455CD008C0CA4 /* InlineWidgetView.swift in Sources */,
+				76ED962228D4559B008C0CA4 /* MediumWidgetView.swift in Sources */,
 				76F348F327BCC37100BABBAD /* Extensions.swift in Sources */,
 				765734362813235700024F2C /* Partner.intentdefinition in Sources */,
 			);
@@ -1118,6 +1132,8 @@
 				765734622813236A00024F2C /* yo */,
 				765734642813236A00024F2C /* ur */,
 				7623061E282BE3B400E9F469 /* nl */,
+				76ED962828D46A9D008C0CA4 /* ko */,
+				76ED962A28D46A9E008C0CA4 /* sv */,
 			);
 			name = Partner.intentdefinition;
 			sourceTree = "<group>";
@@ -1513,6 +1529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1574,6 +1591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1634,7 +1652,7 @@
 				CODE_SIGN_ENTITLEMENTS = BeAware/BeAware.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 38;
+				CURRENT_PROJECT_VERSION = 45;
 				DEVELOPMENT_ASSET_PATHS = "\"BeAware/Preview Content\"";
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				ENABLE_PREVIEWS = YES;
@@ -1656,7 +1674,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1675,7 +1693,7 @@
 				CODE_SIGN_ENTITLEMENTS = BeAware/BeAware.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 38;
+				CURRENT_PROJECT_VERSION = 45;
 				DEVELOPMENT_ASSET_PATHS = "\"BeAware/Preview Content\"";
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				ENABLE_PREVIEWS = YES;
@@ -1697,7 +1715,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1789,7 +1807,7 @@
 				CODE_SIGN_ENTITLEMENTS = PartnerExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 38;
+				CURRENT_PROJECT_VERSION = 45;
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Partner/Info.plist;
@@ -1801,7 +1819,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware.partner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1820,7 +1838,7 @@
 				CODE_SIGN_ENTITLEMENTS = PartnerExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 38;
+				CURRENT_PROJECT_VERSION = 45;
 				DEVELOPMENT_TEAM = VTU445YWD6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Partner/Info.plist;
@@ -1832,7 +1850,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tfp.beaware.partner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
