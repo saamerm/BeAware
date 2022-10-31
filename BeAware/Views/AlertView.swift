@@ -14,7 +14,7 @@ let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 var audioRecorder: AVAudioRecorder?
 
 struct AlertView : View {
-    @AppStorage("ratingTapCounter") var ratingTapCounter = 0
+    @AppStorage("RatingTapCounter") var ratingTapCounter = 0
     @AppStorage("noiseLength") var noiseLength = 2.0
     @AppStorage("noiseThreshold") private var noiseThreshold = 20.0
     @AppStorage("isCritical") var isCritical = false
@@ -80,6 +80,7 @@ struct AlertView : View {
                                 .foregroundColor(Color("SecondaryColor"))
                                 .accessibilityLabel("Start Noise Alert")
                                 .onTapGesture {
+                                    // Functions to Start recording
                                     ratingTapCounter+=1
                                     if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
                                     {
@@ -106,6 +107,7 @@ struct AlertView : View {
                                 .foregroundColor(Color(hex: 0xea333c))
                                 .accessibilityLabel("Stop Noise Alert")
                                 .onTapGesture {
+                                    // Functions to stop recoding
                                     ratingTapCounter+=1
                                     if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
                                     {
@@ -121,6 +123,7 @@ struct AlertView : View {
                                     isRecording ? stopRecording() : startRecording(isCritical: isCritical)
                                     print(isRecording)
                                     isRecording.toggle()
+                                    toggleTorch(on: isRecording)
                                 }
                         }
                         if isRecording{
@@ -144,11 +147,12 @@ struct AlertView : View {
                             NavigationLink(
                                 destination: CriticalAlertsView()
                             ) {
-                                Text(NSLocalizedString("Mark alerts as critical", comment: "Mark alerts as critical") + " 􀿩")
+                                Text(NSLocalizedString("Mark alerts as critical", comment: "Mark alerts as critical"))
                                     .font(Font.custom("Avenir", size: 18))
                                     .foregroundColor(Color("SecondaryColor"))
                                     .padding(.leading)
                             }.layoutPriority(1000)
+                            Image(systemName: "questionmark.circle")
                             Spacer()
                             Toggle("", isOn: $isCritical)
                                 .padding(.trailing)
@@ -208,9 +212,6 @@ struct AlertView : View {
         print(peak)
         if (peak > Float(60 + noiseThreshold))
         {
-            
-            
-            
             let content = UNMutableNotificationContent()
             content.title = NSLocalizedString("Noise alert notification", comment: "Noise alert notification")
             content.body = NSLocalizedString("The noise is loud at ", comment: "The noise is loud at ") + String(describing: Int(peak.rounded())) + NSLocalizedString(" db", comment: " db")
@@ -314,6 +315,12 @@ func toggleTorch(on: Bool) {
 
     if device.hasTorch {
         do {
+//            if #available(iOS 15.0, *) {
+//                AVCaptureDevice.MicrophoneMode.wideSpectrum
+//                AVCaptureDevice.MicrophoneMode(rawValue: 1)
+//            } else {
+//                // Fallback on earlier versions
+//            }
             try device.lockForConfiguration()
 
             if on == true {

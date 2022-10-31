@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "70198F67-752F-453E-BF1D-91A30EA88D71"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "628C4B4A-9034-4671-AF3D-FF3DA4190F65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeAware/Views/SpeechView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "startSpeechRecognization()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76103B35-9A7F-44E8-982A-766643657772"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeAware/Views/SpeechView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "startSpeechRecognization()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76103B35-9A7F-44E8-982A-766643657772 - df8933a8046ab507"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeAware.SpeechView.startSpeechRecognization() -&gt; ()"
+                  moduleName = "BeAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saamer/Documents/GitHub/BeAware/BeAware/Views/SpeechView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "235"
+                  endingLineNumber = "235"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "76103B35-9A7F-44E8-982A-766643657772 - ac7456cde2ed8425"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.AVAudioPCMBuffer, __C.AVAudioTime) -&gt; () in BeAware.SpeechView.startSpeechRecognization() -&gt; ()"
+                  moduleName = "BeAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saamer/Documents/GitHub/BeAware/BeAware/Views/SpeechView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "236"
+                  endingLineNumber = "236"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

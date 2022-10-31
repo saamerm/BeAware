@@ -12,7 +12,7 @@ import StoreKit
 
 struct SpeechView : View {
     
-    @AppStorage("ratingTapCounter") var ratingTapCounter = 0
+    @AppStorage("RatingTapCounter") var ratingTapCounter = 0
     @AppStorage("SpeechTextFontSize") var fontSize = 16.0
     @State private var isRecording = false
     @State private var rotation = 0.0
@@ -23,6 +23,7 @@ struct SpeechView : View {
     @State private var task: SFSpeechRecognitionTask? = SFSpeechRecognitionTask()
     @State private var audioEngine = AVAudioEngine()
     @State private var request = SFSpeechAudioBufferRecognitionRequest()
+    private var LocaleErrorMessage:String = "Speech recognization is not available in your language"
     private var player: AVPlayer { AVPlayer.sharedDingPlayer }
     
     var body : some View {
@@ -52,7 +53,7 @@ struct SpeechView : View {
                             {
                                 self.showRateSheet.toggle()
                             }
-                            print(ratingTapCounter)
+//                            print(ratingTapCounter)
                             if isRecording{
                                 simpleEndHaptic()
                                 if let userDefaults = UserDefaults(suiteName: "group.com.tfp.beaware") {
@@ -220,10 +221,20 @@ struct SpeechView : View {
     }
     
     func startSpeechRecognization(){
+        transcription = ""
+        audioEngine.isAutoShutdownEnabled = false
         let node = audioEngine.inputNode
+        node.isVoiceProcessingAGCEnabled = true
+        print(node.isVoiceProcessingEnabled)
         let recordingFormat = node.outputFormat(forBus: 0)
         request = SFSpeechAudioBufferRecognitionRequest()
-        
+            
+        if errorMessage == LocaleErrorMessage{
+            permissionStatus = .notDetermined
+            isRecording = false
+            return
+        }
+
         node.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer, _) in
             request.append(buffer)
         }
@@ -235,27 +246,30 @@ struct SpeechView : View {
             errorMessage = "Error comes here for starting the audio listner =\(error.localizedDescription)"
         }
         
-        guard let myRecognization = SFSpeechRecognizer() else {
-            errorMessage = "Recognization is not allow on your local"
+        guard let myRecognition = SFSpeechRecognizer() else {
+            errorMessage = LocaleErrorMessage
+            permissionStatus = .notDetermined
+            isRecording = false
             return
         }
         
-        print(myRecognization.isAvailable)
-        if !myRecognization.isAvailable {
-            errorMessage = "Recognization is not free right now, Please try again after some time."
+        print(myRecognition.isAvailable)
+        if !myRecognition.isAvailable {
+            errorMessage = "Recognition is not free right now, Please try again after some time."
         }
-        
-        task = myRecognization.recognitionTask(with: request) { (response, error) in
+        task = myRecognition.recognitionTask(with: request) { (response, error) in
             guard let response = response else {
                 if error != nil {
-                    errorMessage = error?.localizedDescription ?? "For this functionality to work, you need to provide permission in your settings"
+                    errorMessage = error?.localizedDescription ?? "For this functionality to work, you need to provide permissions in your settings"
                 }else {
                     errorMessage = "Problem in giving the response"
                 }
                 return
             }
             let message = response.bestTranscription.formattedString
-            transcription = message
+            if message != ""{
+                transcription = message
+            }
         }
     }
     // Figured out thanks to https://www.wepstech.com/multi-user-voice-recognition-in-ios-swift-5/
@@ -294,3 +308,71 @@ func simpleBigHaptic() {
     let generator = UINotificationFeedbackGenerator()
     generator.notificationOccurred(.error)
 }
+
+/*
+ Supported locale identifiers are {(
+     "nl-NL",
+     "es-MX",
+     "fr-FR",
+     "zh-TW",
+     "it-IT",
+     "vi-VN",
+     "fr-CH",
+     "es-CL",
+     "en-ZA",
+     "ko-KR",
+     "ca-ES",
+     "ro-RO",
+     "en-PH",
+     "es-419",
+     "en-CA",
+     "en-SG",
+     "en-IN",
+     "en-NZ",
+     "it-CH",
+     "fr-CA",
+     "hi-IN",
+     "da-DK",
+     "de-AT",
+     "pt-BR",
+     "yue-CN",
+     "zh-CN",
+     "sv-SE",
+     "hi-IN-translit",
+     "es-ES",
+     "ar-SA",
+     "hu-HU",
+     "fr-BE",
+     "en-GB",
+     "ja-JP",
+     "zh-HK",
+     "fi-FI",
+     "tr-TR",
+     "nb-NO",
+     "en-ID",
+     "en-SA",
+     "pl-PL",
+     "ms-MY",
+     "cs-CZ",
+     "el-GR",
+     "id-ID",
+     "hr-HR",
+     "en-AE",
+     "he-IL",
+     "ru-RU",
+     "wuu-CN",
+     "de-DE",
+     "de-CH",
+     "en-AU",
+     "nl-BE",
+     "th-TH",
+     "pt-PT",
+     "sk-SK",
+     "en-US",
+     "en-IE",
+     "es-CO",
+     "hi-Latn",
+     "uk-UA",
+     "es-US"
+ )}
+ */
