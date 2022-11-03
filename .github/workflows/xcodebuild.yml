@@ -1,5 +1,4 @@
-# Following this instructions https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
-name: Swift
+name: Xcode Build
 
 on:
   push:
@@ -11,14 +10,13 @@ jobs:
 
   build:
     runs-on: macos-12
-#     macos-latest uses macos-11 as of november 2022
-#     env:
-#       DEVELOPER_DIR: /Applications/Xcode_14.0.app/Contents/Developer
+#     macos-latest uses macos-11 as of november 2022 which doesn't have Xcode 14
 
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: xcodebuild -list -project BeAware.xcodeproj && xcode-select --version && softwareupdate --history && which xcodebuild && xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
+# For help run: xcodebuild -list -project BeAware.xcodeproj && xcode-select --version && softwareupdate --history && which xcodebuild && xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
+      run: xcodebuild -scheme BeAware -configuration Debug -sdk iphonesimulator build
 
 # Figured out using these links
 # https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md
