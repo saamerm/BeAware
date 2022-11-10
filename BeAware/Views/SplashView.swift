@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct SplashView : View {
     @State var isActive:Bool = false
+
     var body : some View {
         VStack {
             if self.isActive {
@@ -24,6 +26,8 @@ struct SplashView : View {
             }
         }
         .onAppear {
+            Analytics.trackEvent("PageView: Splash")
+
             // 6.
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 // 7.
@@ -32,7 +36,6 @@ struct SplashView : View {
                 }
             }
         }
-        
     }
 }
 struct SplashView_Previews : PreviewProvider {

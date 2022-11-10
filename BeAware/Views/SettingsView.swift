@@ -7,6 +7,7 @@
 import SwiftUI
 import MessageUI
 import StoreKit
+import AppCenterAnalytics
 
 struct SettingsView : View {
     @State private var showShareSheet = false
@@ -75,7 +76,11 @@ struct SettingsView : View {
                 }
                 Spacer ()
             }
-        }.navigationTitle("INFO")
+        }
+        .onAppear{
+            Analytics.trackEvent("PageView: Settings")
+        }
+        .navigationTitle("INFO")
             .navigationBarTitleTextColor(Color("SecondaryColor"))
         // TODO: Change this when we are getting rid of iOS 14 support
             .alert(isPresented: $showRateSheet, content: {

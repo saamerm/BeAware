@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct MyTabView: View {
     var body: some View {
@@ -27,6 +28,9 @@ struct MyTabView: View {
                 .tabItem {
                     Label(NSLocalizedString("Emoji Board", comment: "Emoji Board Title"), systemImage: "checkerboard.rectangle")
                 }
+        }
+        .onAppear{
+            Analytics.trackEvent("PageView: TabView")
         }
     }
 }

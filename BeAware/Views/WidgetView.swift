@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct WidgetView: View {
     var body: some View {
@@ -46,6 +47,9 @@ struct WidgetView: View {
                     Spacer()
                 }
                 .padding(.horizontal)
+            }
+            .onAppear{
+                Analytics.trackEvent("PageView: Widget")
             }
             .navigationTitle("WIDGET")
         }

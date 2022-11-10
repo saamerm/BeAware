@@ -9,6 +9,7 @@ import SwiftUI
 import Speech
 import WidgetKit
 import StoreKit
+import AppCenterAnalytics
 
 struct SpeechView : View {
     
@@ -23,7 +24,7 @@ struct SpeechView : View {
     @State private var task: SFSpeechRecognitionTask? = SFSpeechRecognitionTask()
     @State private var audioEngine = AVAudioEngine()
     @State private var request = SFSpeechAudioBufferRecognitionRequest()
-    private var LocaleErrorMessage:String = "Speech recognization is not available in your language"
+    private var LocaleErrorMessage:String = "This functionality for speech recognition is not available in your language"
     private var player: AVPlayer { AVPlayer.sharedDingPlayer }
     
     var body : some View {
@@ -47,6 +48,8 @@ struct SpeechView : View {
                     Button(action: {
                         Task
                         {
+                            Analytics.trackEvent("SelectAction: Transcription")
+
                             isRecording.toggle()
                             ratingTapCounter+=1
                             if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
@@ -132,6 +135,7 @@ struct SpeechView : View {
                                     else {
                                         rotation = 0
                                     }
+                                    Analytics.trackEvent("SelectAction: TranscriptionRotate")
                                     ratingTapCounter+=1
                                     if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
                                     {
@@ -191,7 +195,10 @@ struct SpeechView : View {
             }
         }// clsoing bracket for navigation view
         .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
-        .onAppear{requestPermission()}
+        .onAppear{
+            requestPermission()
+            Analytics.trackEvent("PageView: Speech")
+        }
         // Added this to fix iPad navigation issue
         .navigationViewStyle(StackNavigationViewStyle())
     }

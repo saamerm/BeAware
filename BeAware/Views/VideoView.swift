@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AVKit
+import AppCenterAnalytics
 
 struct VideoView: View {
     var body: some View {
@@ -18,9 +19,11 @@ struct VideoView: View {
                 }
             }
         }
-
-    .navigationTitle("VIDEO")
-    .navigationBarTitleTextColor(Color("SecondaryColor"))
+        .onAppear{
+            Analytics.trackEvent("PageView: Video")
+        }
+        .navigationTitle("VIDEO")
+        .navigationBarTitleTextColor(Color("SecondaryColor"))
     }
 }
 

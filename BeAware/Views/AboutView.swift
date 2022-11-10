@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct AboutView: View {
     var body: some View {
         List(aboutItems) { item in
             AboutRow(aboutItem: item)
-        }.navigationTitle("ABOUT US")
+        }
+        .onAppear{
+            Analytics.trackEvent("PageView: About")
+        }
+        .navigationTitle("ABOUT US")
     }
 }
 

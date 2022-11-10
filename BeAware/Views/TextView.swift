@@ -9,6 +9,7 @@ import CoreHaptics
 import AVFoundation
 import AVFAudio
 import StoreKit
+import AppCenterAnalytics
 
 struct TextView : View {
     @State private var rotation = 0.0
@@ -86,6 +87,7 @@ struct TextView : View {
                                     else {
                                         rotation = 0
                                     }
+                                    Analytics.trackEvent("SelectAction: TextRotate")
                                     ratingTapCounter+=1
                                     if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
                                     {
@@ -133,6 +135,7 @@ struct TextView : View {
                                     .onTapGesture(count: 1) {
                                         writtenText += " \(item)"
                                         complexSuccess()
+                                        Analytics.trackEvent("SelectAction: TextPresetPhrase")
                                         ratingTapCounter+=1
                                         if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
                                         {
@@ -212,9 +215,11 @@ struct TextView : View {
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())
-        .onAppear(perform: prepareHaptics)
-        .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
-
+        .onAppear{
+            prepareHaptics()
+            UIApplication.shared.addTapGestureRecognizer()
+            Analytics.trackEvent("PageView: Text")
+        }
     }
     // Taken from here https://www.hackingwithswift.com/books/ios-swiftui/making-vibrations-with-uinotificationfeedbackgenerator-and-core-haptics
 

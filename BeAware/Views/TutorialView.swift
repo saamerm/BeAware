@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
-
+import AppCenterAnalytics
 struct TutorialView: View {
     private var idiom = UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iPhone"
-    
+
     var body: some View {
         ZStack{
             Color("BrandColor")
@@ -63,6 +63,7 @@ struct TutorialView: View {
                 }
             }
         }
+        .onAppear(){Analytics.trackEvent("PageView: Tutorial")}
         .navigationTitle("TUTORIAL")
         .navigationBarTitleTextColor(Color("SecondaryColor"))
     }

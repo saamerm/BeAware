@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct CriticalAlertsView: View {
     var body: some View {
@@ -48,6 +49,9 @@ struct CriticalAlertsView: View {
                     Spacer()
                 }
                 .padding(.horizontal)
+            }
+            .onAppear{
+                Analytics.trackEvent("PageView: Critical")
             }
             .navigationTitle("CRITICAL ALERTS")
         }

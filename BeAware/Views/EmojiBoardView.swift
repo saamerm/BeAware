@@ -5,6 +5,7 @@
 //  Created by Saamer Mansoor on 2/7/22.
 //
 import SwiftUI
+import AppCenterAnalytics
 
 struct EmojiBoardView : View {
     @State private var showingImagePicker = false
@@ -99,6 +100,9 @@ struct EmojiBoardView : View {
                     }
                 }
             }
+        }
+        .onAppear{
+            Analytics.trackEvent("PageView: Emojiboard")
         }
         .navigationViewStyle(StackNavigationViewStyle())
         .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {

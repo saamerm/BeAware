@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppCenterAnalytics
 
 struct IntroductionView: View {
     @AppStorage("DidShowIntroductionView") var isActive:Bool = false
@@ -94,6 +95,9 @@ struct IntroductionView: View {
                     .padding(.top, 30.0)
                     .padding(.bottom, 30.0)
                 }
+            }
+            .onAppear{
+                Analytics.trackEvent("PageView: Introduction")          
             }
         }
     }

@@ -9,6 +9,7 @@ import UserNotifications
 import AVFoundation
 import WidgetKit
 import StoreKit
+import AppCenterAnalytics
 
 let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 var audioRecorder: AVAudioRecorder?
@@ -80,6 +81,7 @@ struct AlertView : View {
                                 .foregroundColor(Color("SecondaryColor"))
                                 .accessibilityLabel("Start Noise Alert")
                                 .onTapGesture {
+                                    Analytics.trackEvent("SelectAction: Alert")
                                     // Functions to Start recording
                                     ratingTapCounter+=1
                                     if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
@@ -107,6 +109,7 @@ struct AlertView : View {
                                 .foregroundColor(Color(hex: 0xea333c))
                                 .accessibilityLabel("Stop Noise Alert")
                                 .onTapGesture {
+                                    Analytics.trackEvent("SelectAction: Alert")
                                     // Functions to stop recoding
                                     ratingTapCounter+=1
                                     if ratingTapCounter == 10 || ratingTapCounter == 50 || ratingTapCounter == 150 || ratingTapCounter == 350 || ratingTapCounter == 600 || ratingTapCounter == 900
@@ -160,6 +163,9 @@ struct AlertView : View {
                         .padding(.bottom)
                     }
                 }}
+            .onAppear{
+                Analytics.trackEvent("PageView: Alert")
+            }
             .navigationTitle(NSLocalizedString("ALERT", comment: "Alert Navigation Page Title"))
             .navigationBarTitleTextColor(Color("SecondaryColor"))
             .navigationBarTitleDisplayMode(.inline)
